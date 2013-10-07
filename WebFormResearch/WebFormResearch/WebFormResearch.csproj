@@ -79,6 +79,7 @@
     <Content Include="Slideshow\1\images\s720x540_Jku0EImlopNsh65J.JPG" />
     <Content Include="Slideshow\1\images\s720x540_XtDL7D3SY6QJGHzc.JPG" />
     <Content Include="Slideshow\1\js\jquery-1.4.2.min.js" />
+    <Content Include="Slideshow\1\Theme.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
