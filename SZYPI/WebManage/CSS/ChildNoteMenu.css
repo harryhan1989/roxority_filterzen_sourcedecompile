@@ -1,0 +1,9 @@
+.RCPMenuCur{ background:url(../images/menubg.gif); width:73px; height:31px; font-weight:bolder; font-size:12px; cursor:pointer; text-align:center;}
+.RCPMenu{ background:url(../images/menubg1.gif);width:73px; height:31px; font-size:12px; text-align:center;  cursor:pointer; }
+
+
+.Rim{ border-right: solid 1px ; border-left: solid 1px ; border-bottom: solid 1px ; height: 400px; vertical-align: top}
+.UnRim{ height: 400px; vertical-align: top}
+
+.RCPMenu2Cur{ background:url(../images/menubg_2.gif); width:31px; height:73px; font-weight:bolder; font-size:12px; cursor:pointer; text-align:center;}
+.RCPMenu2{ background:url(../images/menubg1_2.gif);width:31px; height:73px; font-size:12px; text-align:center;  cursor:pointer; }

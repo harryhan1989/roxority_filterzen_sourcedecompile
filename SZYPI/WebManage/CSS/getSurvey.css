@@ -1,0 +1,426 @@
+body{
+font-size:12px;
+padding:5px;
+margin-right:5px;
+}
+
+
+.PageContent{
+	clear:both;
+}
+
+
+.ItemStyleBT{
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -113px -8px no-repeat #FFFFEE;
+	cursor:pointer;	
+	width:20px;
+	height:20px;
+	margin-right:5px;
+	border:solid 1px #CCCCCC;
+}
+.RejectBT{
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -285px -7px no-repeat #FFFFEE;
+	cursor:pointer;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;
+}
+
+.EliminateBT{			
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -251px -7px no-repeat #FFFFEE;
+	cursor:pointer;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;
+}
+
+
+.LogicBT{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -197px -7px no-repeat #FFFFEE;
+	cursor:pointer;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;	
+}
+.InsertItemBT{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -42px -5px no-repeat #FFFFEE;
+	cursor:pointer;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;	
+}
+.EditBT{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -85px -6px no-repeat #FFFFEE;
+	cursor:pointer;	
+	width:20px;
+	height:20px;	
+	border:solid 1px #CCCCCC;
+	display:block;
+	margin-right:5px;
+}
+
+.DropListToDropListBT{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -316px -7px no-repeat #FFFFEE;
+	cursor:pointer;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;	
+}
+.LibBT{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -221px -7px no-repeat #FFFFEE;
+	cursor:pointer;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;	
+}
+.DelBT{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -347px -7px no-repeat #FFFFEE;
+	cursor:pointer;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;	
+}
+
+
+.PageBT{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -375px -5px no-repeat #FFFFEE;
+	cursor:pointer;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;	
+}
+
+.PageBT_Gray{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -375px -56px no-repeat #FFFFEE;
+	cursor:pointer;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;	
+}
+
+.ShowBT{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -63px -27px no-repeat #FFFFEE;
+	cursor:pointer;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;
+}
+
+.HiddenBT{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -63px -4px no-repeat #FFFFEE;
+	cursor:pointer;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;
+}
+
+
+.MoveItemUpBT{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -1px -5px no-repeat #FFFFEE;
+	cursor:pointer;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;	
+}
+.MoveItemDownBT{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -22px -4px no-repeat #FFFFEE;
+	cursor:pointer;	
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;
+}
+
+.PointBT{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -172px -8px no-repeat #FFFFEE;
+	cursor:pointer;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;
+}
+.ImageBT{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -143px -7px no-repeat #FFFFEE;
+	cursor:pointer;
+	width:20px;
+	height:20px;
+	margin-right:5px;
+	border:solid 1px #CCCCCC;
+
+}
+
+.RejectBT_Gray{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -285px -56px no-repeat #EEEEEE;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;	
+
+}
+
+.EliminateBT_Gray{
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -250px -56px no-repeat #EEEEEE;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+}
+.LogicBT_Gray{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -197px -56px no-repeat #EEEEEE;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;
+
+}
+.InsertItemBT_Gray{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -42px -59px no-repeat #EEEEEE;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;
+
+}
+.EditBT_Gray{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -85px -55px no-repeat #EEEEEE;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;
+
+}
+
+.DropListToDropListBT_Gray{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -317px -57px no-repeat #EEEEEE;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;	
+
+}
+
+.DelBT_Gray{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -349px -56px no-repeat #EEEEEE;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;
+	
+}
+
+
+.PointBT_Gray{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -172px -56px no-repeat #EEEEEE;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;
+
+}
+.ImageBT_Gray{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -143px -58px no-repeat #EEEEEE;
+	width:20px;
+	height:20px;
+	margin-right:5px;
+	border:solid 1px #CCCCCC;
+
+}
+
+.MoveItemUpBT_Gray{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -1px -5px no-repeat #EEEEEE;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;	
+}
+.MoveItemDownBT_Gray{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -22px -4px no-repeat #EEEEEE;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;
+}
+
+.MoveItemDownBT_Gray{	
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -22px -4px no-repeat #EEEEEE;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;
+}
+
+.IntroductionAnswer{
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -408px -6px no-repeat #EEEEEE;
+	cursor:pointer;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;	
+}
+.IntroductionAnswer_Gray{
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -408px -54px no-repeat #EEEEEE;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;	
+}
+
+
+.ProgressiveAskBT{
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -447px -6px no-repeat #EEEEEE;
+	cursor:pointer;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;	
+}
+.ProgressiveAskBT_Gray{
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -447px -54px no-repeat #EEEEEE;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;	
+}
+
+.ItemBatchSortBT{
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -528px -7px no-repeat #FFE;
+	cursor:pointer;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;	
+}
+.ItemBatchSortBT_Gray{
+	float:right;
+	background:url(../Survey/Images/SurveyEditFace.png) -528px -50px no-repeat #EEEEEE;
+	width:20px;
+	height:20px;	
+	margin-right:5px;
+	border:solid 1px #CCCCCC;	
+}
+
+
+
+.PageContentLine {
+	border: 1px dashed #0000FF;
+	padding:5px;
+	width:98%;
+	clear:both;
+	margin-bottom:5px;
+}
+
+.ItemContentLine {
+	border: 1px dashed #CCCCCC;
+	padding:5px;	
+	margin-bottom:5px;
+	margin-top:2px;
+	width:98%;
+}
+
+.PageHeadLine {
+	border:1px dashed #66FF00;
+	padding:5px;
+	margin-bottom:5px;
+	width:98%;
+}
+
+.PageFootLine {
+	border: 1px dashed #FF00FF;
+	clear:both;
+	padding:5px;
+	width:98%;
+}
+
+
+
+.ItemContent{
+	clear:both;
+
+}
+
+
+
+
+
+.PageNo {
+	float:left;
+	width:50px;
+	text-align:center;
+	border:solid 1px #CCCCCC;
+	background-color:#000000;
+	color:#FFFFFF;	
+	font-size:14px;		
+}
+
+
+
+.ItemNameTitleShow{	
+	visibility:visible;
+	font-size:12px;
+	float:left;
+	font-weight:bold;
+}
+
+.ItemNameTitleHidden{
+	visibility:hidden;
+	font-size:12px;
+	float:left;
+}
+
+
+.P_Option{
+	margin:0px;
+	margin-top:-5px;
+	margin-right:-5px;
+	margin-bottom:5px;
+}
+
+.I_Option{
+	margin-right:-5px;
+	float:right;
+}

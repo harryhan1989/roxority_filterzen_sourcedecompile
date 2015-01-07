@@ -1,0 +1,14 @@
+*{margin:0; padding:0}
+body{font:12px/150% Tahoma,Arial,sans-serif,"ËÎÌו"; color:#000; }
+a:link,a:visited{color:#416AB7; text-decoration:none;}
+a:hover{color:#ff0000;}
+#logoBody {height:90px;  width:100%; text-align:right;}
+#logoStyle{height:90px; top:0px; width:900px; }
+#headMessage{font-weight:bold;  float:left; width:400px; margin-left:170px; color:#FF0000; padding-top:60px;}
+#hlkUserName{font-weight:bold; color:#FF0000;}
+#time{color:#416AB7; font-size:12px;}
+#headMessage a:link,#headMessage a:visited{color:#B9EF08; margin-left:5px; margin-right:5px;}
+#headMessage a:hover{color:#FF0000;}
+#headIcon{ position:absolute; right:30px; top:58px;}
+#headIcon a{display:block; width:30px; height:15px; float:right; margin-left:5px; color:#FF0000}
+

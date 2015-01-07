@@ -1,0 +1,1 @@
+<%@ Page Language="vb" AutoEventWireup="false" Inherits="eWebEditorServer.browse" validateRequest=false aspcompat=true%>

@@ -1,0 +1,580 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FEC20FEF-814A-44A9-ACA2-45C1451AFF91}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Web</RootNamespace>
+    <AssemblyName>Web</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Anthem, Version=1.5.2.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="AntiXssLibrary, Version=3.1.3524.16873, Culture=neutral, PublicKeyToken=d127efab8a9c114f, processorArchitecture=MSIL" />
+    <Reference Include="AntiXssModule, Version=1.0.3524.17039, Culture=neutral, PublicKeyToken=d127efab8a9c114f, processorArchitecture=MSIL" />
+    <Reference Include="Business, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="BusinessLayer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\BusinessLayer\bin\Debug\BusinessLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="DBAccess, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="EntityModel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\BusinessLayer\bin\Debug\EntityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Nandasoft, Version=1.0.0.5, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Nandasoft.BaseModule, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.html" />
+    <Content Include="Dll\Anthem.dll" />
+    <Content Include="Dll\AntiXssLibrary.dll" />
+    <Content Include="Dll\AntiXssModule.dll" />
+    <Content Include="Dll\Aspose.Cells.dll" />
+    <Content Include="Dll\Business.dll" />
+    <Content Include="Dll\DBAccess.dll" />
+    <Content Include="Dll\eWebEditorAdmin.dll" />
+    <Content Include="Dll\eWebEditorControl.dll" />
+    <Content Include="Dll\eWebEditorServer.dll" />
+    <Content Include="Dll\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="Dll\Infragistics2.WebUI.Misc.v7.1.dll" />
+    <Content Include="Dll\Infragistics2.WebUI.WebDataInput.v7.1.dll" />
+    <Content Include="Dll\Infragistics2.WebUI.WebDateChooser.v7.1.dll" />
+    <Content Include="Dll\Infragistics2.WebUI.WebHtmlEditor.v7.1.dll" />
+    <Content Include="Dll\Infragistics2.WebUI.WebNavBar.v7.1.dll" />
+    <Content Include="Dll\Infragistics2.WebUI.WebSchedule.v7.1.dll" />
+    <Content Include="Dll\Infragistics2.WebUI.WebScheduleDataProvider.v7.1.dll" />
+    <Content Include="Dll\Nandasoft.BaseModule.dll" />
+    <Content Include="Dll\Nandasoft.dll" />
+    <Content Include="Dll\Nandasoft.Helper.dll" />
+    <Content Include="Dll\Nandasoft.WebControls.dll" />
+    <Content Include="Dll\Nandasoft.WebControls.NDFileUpload.dll" />
+    <Content Include="Web.config" />
+    <Content Include="Web\CheckCodeGif.aspx" />
+    <Content Include="Web\head.htm" />
+    <Content Include="Web\images\bot_10.jpg" />
+    <Content Include="Web\images\bot_12.jpg" />
+    <Content Include="Web\images\bot_14.jpg" />
+    <Content Include="Web\images\but0_03.jpg" />
+    <Content Include="Web\images\but0_06.jpg" />
+    <Content Include="Web\images\button00.jpg" />
+    <Content Include="Web\images\button_03.jpg" />
+    <Content Include="Web\images\button_07.jpg" />
+    <Content Include="Web\images\button_09.jpg" />
+    <Content Include="Web\images\button_11.jpg" />
+    <Content Include="Web\images\button_13.jpg" />
+    <Content Include="Web\images\calendar.jpg" />
+    <Content Include="Web\images\calendar_next.gif" />
+    <Content Include="Web\images\calendar_nextYear.gif" />
+    <Content Include="Web\images\calendar_prev.gif" />
+    <Content Include="Web\images\calendar_prevYear.gif" />
+    <Content Include="Web\images\close.gif" />
+    <Content Include="Web\images\end.jpg" />
+    <Content Include="Web\images\end0.jpg" />
+    <Content Include="Web\images\home.jpg" />
+    <Content Include="Web\images\home0.jpg" />
+    <Content Include="Web\images\index_17.jpg" />
+    <Content Include="Web\images\index_27.jpg" />
+    <Content Include="Web\images\next.jpg" />
+    <Content Include="Web\images\next0.jpg" />
+    <Content Include="Web\images\qd_03.jpg" />
+    <Content Include="Web\images\qd_06.jpg" />
+    <Content Include="Web\images\search_03.jpg" />
+    <Content Include="Web\images\trip.jpg" />
+    <Content Include="Web\images\up.jpg" />
+    <Content Include="Web\images\up0.jpg" />
+    <Content Include="Web\images\zc_07.jpg" />
+    <Content Include="Web\images\广播影视.jpg" />
+    <Content Include="Web\images\文化交流.jpg" />
+    <Content Include="Web\images\文化产业.jpg" />
+    <Content Include="Web\images\文化人才.jpg" />
+    <Content Include="Web\images\文化市场.jpg" />
+    <Content Include="Web\images\文化民生.jpg" />
+    <Content Include="Web\images\文化研究.jpg" />
+    <Content Include="Web\images\文化遗产.jpg" />
+    <Content Include="Web\images\文艺创作.jpg" />
+    <Content Include="Web\images\新闻出版.jpg" />
+    <Content Include="Web\Index.aspx" />
+    <Content Include="Web\Info.aspx" />
+    <Content Include="Web\InfoDetail.aspx" />
+    <Content Include="Web\InfoList.aspx" />
+    <Content Include="Web\OnlineResearch.aspx" />
+    <Content Include="Web\pixviewer.swf" />
+    <Content Include="Web\SuggestionConsults.aspx" />
+    <Content Include="Web\SuggestionConsults_Add.aspx" />
+    <Content Include="Web\SuggestionConsults_AddMail.aspx" />
+    <Content Include="Web\top.htm" />
+    <Content Include="Web\Usercontrol\bottom.ascx" />
+    <Content Include="Web\Usercontrol\InfoPosition.ascx" />
+    <Content Include="Web\Usercontrol\left.ascx" />
+    <Content Include="Web\Usercontrol\leftlist.ascx" />
+    <Content Include="Web\Usercontrol\main.ascx" />
+    <Content Include="Web\Usercontrol\PublicPosition.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\PageEnum.cs" />
+    <Compile Include="Common\PageHelper.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\SessionState.cs" />
+    <Compile Include="Error\Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error\Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WebReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web\ImgPhoto.aspx.cs">
+      <DependentUpon>ImgPhoto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\ImgPhoto.aspx.designer.cs">
+      <DependentUpon>ImgPhoto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Jggk_Detail.aspx.cs">
+      <DependentUpon>Jggk_Detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Jggk_Detail.aspx.designer.cs">
+      <DependentUpon>Jggk_Detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\SuggestionDetail.aspx.cs">
+      <DependentUpon>SuggestionDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\SuggestionDetail.aspx.designer.cs">
+      <DependentUpon>SuggestionDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CheckCodeGif.aspx.cs">
+      <DependentUpon>CheckCodeGif.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CheckCodeGif.aspx.designer.cs">
+      <DependentUpon>CheckCodeGif.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Info.aspx.cs">
+      <DependentUpon>Info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Info.aspx.designer.cs">
+      <DependentUpon>Info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\InfoDetail.aspx.cs">
+      <DependentUpon>InfoDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\InfoDetail.aspx.designer.cs">
+      <DependentUpon>InfoDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\InfoList.aspx.cs">
+      <DependentUpon>InfoList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\InfoList.aspx.designer.cs">
+      <DependentUpon>InfoList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\OnlineResearch.aspx.cs">
+      <DependentUpon>OnlineResearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\OnlineResearch.aspx.designer.cs">
+      <DependentUpon>OnlineResearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\SuggestionConsults.aspx.cs">
+      <DependentUpon>SuggestionConsults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\SuggestionConsults.aspx.designer.cs">
+      <DependentUpon>SuggestionConsults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\SuggestionConsults_Add.aspx.cs">
+      <DependentUpon>SuggestionConsults_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\SuggestionConsults_Add.aspx.designer.cs">
+      <DependentUpon>SuggestionConsults_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\SuggestionConsults_AddMail.aspx.cs">
+      <DependentUpon>SuggestionConsults_AddMail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\SuggestionConsults_AddMail.aspx.designer.cs">
+      <DependentUpon>SuggestionConsults_AddMail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Usercontrol\bottom.ascx.cs">
+      <DependentUpon>bottom.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Usercontrol\bottom.ascx.designer.cs">
+      <DependentUpon>bottom.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Usercontrol\InfoPosition.ascx.cs">
+      <DependentUpon>InfoPosition.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Usercontrol\InfoPosition.ascx.designer.cs">
+      <DependentUpon>InfoPosition.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Usercontrol\left.ascx.cs">
+      <DependentUpon>left.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Usercontrol\left.ascx.designer.cs">
+      <DependentUpon>left.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Usercontrol\leftlist.ascx.cs">
+      <DependentUpon>leftlist.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Usercontrol\leftlist.ascx.designer.cs">
+      <DependentUpon>leftlist.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Usercontrol\main.ascx.cs">
+      <DependentUpon>main.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Usercontrol\main.ascx.designer.cs">
+      <DependentUpon>main.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Usercontrol\menu.ascx.cs">
+      <DependentUpon>menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Usercontrol\menu.ascx.designer.cs">
+      <DependentUpon>menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Usercontrol\PublicPosition.ascx.cs">
+      <DependentUpon>PublicPosition.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Usercontrol\PublicPosition.ascx.designer.cs">
+      <DependentUpon>PublicPosition.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Usercontrol\ZfgkIframe.ascx.cs">
+      <DependentUpon>ZfgkIframe.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Usercontrol\ZfgkIframe.ascx.designer.cs">
+      <DependentUpon>ZfgkIframe.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Usercontrol\ZfgkPosition.ascx.cs">
+      <DependentUpon>ZfgkPosition.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Usercontrol\ZfgkPosition.ascx.designer.cs">
+      <DependentUpon>ZfgkPosition.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Zfgk_Detail.aspx.cs">
+      <DependentUpon>Zfgk_Detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Zfgk_Detail.aspx.designer.cs">
+      <DependentUpon>Zfgk_Detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Zwgk_Iframe.aspx.cs">
+      <DependentUpon>Zwgk_Iframe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Zwgk_Iframe.aspx.designer.cs">
+      <DependentUpon>Zwgk_Iframe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Zwgk_Info.aspx.cs">
+      <DependentUpon>Zwgk_Info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Zwgk_Info.aspx.designer.cs">
+      <DependentUpon>Zwgk_Info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Zwgk_Left.aspx.cs">
+      <DependentUpon>Zwgk_Left.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Zwgk_Left.aspx.designer.cs">
+      <DependentUpon>Zwgk_Left.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="antixssmodule.config" />
+    <Content Include="App_Themes\Default\images\bggg.jpg" />
+    <Content Include="App_Themes\Default\images\bgtitle.jpg" />
+    <Content Include="App_Themes\Default\images\bgtop_07.jpg" />
+    <Content Include="App_Themes\Default\images\bot_10.jpg" />
+    <Content Include="App_Themes\Default\images\bot_12.jpg" />
+    <Content Include="App_Themes\Default\images\bot_14.jpg" />
+    <Content Include="App_Themes\Default\images\but0_03.jpg" />
+    <Content Include="App_Themes\Default\images\but0_06.jpg" />
+    <Content Include="App_Themes\Default\images\but0_11.jpg" />
+    <Content Include="App_Themes\Default\images\button00.jpg" />
+    <Content Include="App_Themes\Default\images\button_03.jpg" />
+    <Content Include="App_Themes\Default\images\button_07.jpg" />
+    <Content Include="App_Themes\Default\images\button_09.jpg" />
+    <Content Include="App_Themes\Default\images\button_11.jpg" />
+    <Content Include="App_Themes\Default\images\button_13.jpg" />
+    <Content Include="App_Themes\Default\images\circle.gif" />
+    <Content Include="App_Themes\Default\images\dc_33.jpg" />
+    <Content Include="App_Themes\Default\images\end.jpg" />
+    <Content Include="App_Themes\Default\images\errorbg.jpg" />
+    <Content Include="App_Themes\Default\images\gbys.jpg" />
+    <Content Include="App_Themes\Default\images\home.jpg" />
+    <Content Include="App_Themes\Default\images\index_01.jpg" />
+    <Content Include="App_Themes\Default\images\index_02.jpg" />
+    <Content Include="App_Themes\Default\images\index_03.jpg" />
+    <Content Include="App_Themes\Default\images\index_04.jpg" />
+    <Content Include="App_Themes\Default\images\index_05.jpg" />
+    <Content Include="App_Themes\Default\images\index_06.jpg" />
+    <Content Include="App_Themes\Default\images\index_07.jpg" />
+    <Content Include="App_Themes\Default\images\index_08.jpg" />
+    <Content Include="App_Themes\Default\images\index_09.jpg" />
+    <Content Include="App_Themes\Default\images\index_10.jpg" />
+    <Content Include="App_Themes\Default\images\index_11.jpg" />
+    <Content Include="App_Themes\Default\images\index_13.jpg" />
+    <Content Include="App_Themes\Default\images\index_14.jpg" />
+    <Content Include="App_Themes\Default\images\index_15.jpg" />
+    <Content Include="App_Themes\Default\images\index_17.jpg" />
+    <Content Include="App_Themes\Default\images\index_18.jpg" />
+    <Content Include="App_Themes\Default\images\index_18_2.jpg" />
+    <Content Include="App_Themes\Default\images\index_21.jpg" />
+    <Content Include="App_Themes\Default\images\index_22.jpg" />
+    <Content Include="App_Themes\Default\images\index_23.jpg" />
+    <Content Include="App_Themes\Default\images\index_24.jpg" />
+    <Content Include="App_Themes\Default\images\index_25.jpg" />
+    <Content Include="App_Themes\Default\images\index_26.jpg" />
+    <Content Include="App_Themes\Default\images\index_27.jpg" />
+    <Content Include="App_Themes\Default\images\index_29.jpg" />
+    <Content Include="App_Themes\Default\images\index_30.jpg" />
+    <Content Include="App_Themes\Default\images\leftbg_06.jpg" />
+    <Content Include="App_Themes\Default\images\leftbg_09.jpg" />
+    <Content Include="App_Themes\Default\images\left_03.jpg" />
+    <Content Include="App_Themes\Default\images\left_05.jpg" />
+    <Content Include="App_Themes\Default\images\left_06.jpg" />
+    <Content Include="App_Themes\Default\images\link_03.jpg" />
+    <Content Include="App_Themes\Default\images\link_06.jpg" />
+    <Content Include="App_Themes\Default\images\link_07.jpg" />
+    <Content Include="App_Themes\Default\images\link_09.jpg" />
+    <Content Include="App_Themes\Default\images\link_11.jpg" />
+    <Content Include="App_Themes\Default\images\link_14.jpg" />
+    <Content Include="App_Themes\Default\images\menubg.gif" />
+    <Content Include="App_Themes\Default\images\newbg_03.jpg" />
+    <Content Include="App_Themes\Default\images\newbg_07.jpg" />
+    <Content Include="App_Themes\Default\images\newbg_09.jpg" />
+    <Content Include="App_Themes\Default\images\newbg_15.jpg" />
+    <Content Include="App_Themes\Default\images\newbg_18.jpg" />
+    <Content Include="App_Themes\Default\images\newbg_1_11.jpg" />
+    <Content Include="App_Themes\Default\images\newbg_20.jpg" />
+    <Content Include="App_Themes\Default\images\newbg_25.jpg" />
+    <Content Include="App_Themes\Default\images\newbtn_06.jpg" />
+    <Content Include="App_Themes\Default\images\newbtn_08.jpg" />
+    <Content Include="App_Themes\Default\images\newbtn_13.jpg" />
+    <Content Include="App_Themes\Default\images\newbtn_15.jpg" />
+    <Content Include="App_Themes\Default\images\next.jpg" />
+    <Content Include="App_Themes\Default\images\notice.jpg" />
+    <Content Include="App_Themes\Default\images\nybg_07.jpg" />
+    <Content Include="App_Themes\Default\images\nyy_03.jpg" />
+    <Content Include="App_Themes\Default\images\nyy_07.jpg" />
+    <Content Include="App_Themes\Default\images\point.jpg" />
+    <Content Include="App_Themes\Default\images\point0.jpg" />
+    <Content Include="App_Themes\Default\images\point_22.jpg" />
+    <Content Include="App_Themes\Default\images\qd_03.jpg" />
+    <Content Include="App_Themes\Default\images\qd_06.jpg" />
+    <Content Include="App_Themes\Default\images\rili.gif" />
+    <Content Include="App_Themes\Default\images\search_03.jpg" />
+    <Content Include="App_Themes\Default\images\site-error-bg.jpg" />
+    <Content Include="App_Themes\Default\images\trip.jpg" />
+    <Content Include="App_Themes\Default\images\up.jpg" />
+    <Content Include="App_Themes\Default\images\whcy.jpg" />
+    <Content Include="App_Themes\Default\images\whjl.jpg" />
+    <Content Include="App_Themes\Default\images\whms.jpg" />
+    <Content Include="App_Themes\Default\images\whrc.jpg" />
+    <Content Include="App_Themes\Default\images\whsc.jpg" />
+    <Content Include="App_Themes\Default\images\whyc.jpg" />
+    <Content Include="App_Themes\Default\images\whyj.jpg" />
+    <Content Include="App_Themes\Default\images\wycz.jpg" />
+    <Content Include="App_Themes\Default\images\xwzb.jpg" />
+    <Content Include="App_Themes\Default\images\zc_07.jpg" />
+    <Content Include="App_Themes\Default\shell.css" />
+    <Content Include="Dll\Infragistics2.WebUI.UltraWebNavigator.v7.1.dll" />
+    <Content Include="Error\Error.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Js\Adv.js" />
+    <Content Include="Js\Calender.js" />
+    <Content Include="Js\jquery-1.2.3.min.js" />
+    <Content Include="Js\menu.js" />
+    <Content Include="Js\mm_menu.js" />
+    <Content Include="Js\ScrollPic.js" />
+    <Content Include="TreeLineImages\dash.gif" />
+    <Content Include="TreeLineImages\dashminus.gif" />
+    <Content Include="TreeLineImages\dashplus.gif" />
+    <Content Include="TreeLineImages\i.gif" />
+    <Content Include="TreeLineImages\l.gif" />
+    <Content Include="TreeLineImages\lminus.gif" />
+    <Content Include="TreeLineImages\lplus.gif" />
+    <Content Include="TreeLineImages\minus.gif" />
+    <Content Include="TreeLineImages\noexpand.gif" />
+    <Content Include="TreeLineImages\plus.gif" />
+    <Content Include="TreeLineImages\r.gif" />
+    <Content Include="TreeLineImages\rminus.gif" />
+    <Content Include="TreeLineImages\rplus.gif" />
+    <Content Include="TreeLineImages\t.gif" />
+    <Content Include="TreeLineImages\tminus.gif" />
+    <Content Include="TreeLineImages\tplus.gif" />
+    <Content Include="upload\2008511122447bb.gif" />
+    <Content Include="upload\200851112246aa.gif" />
+    <Content Include="upload\2008511122529dd.gif" />
+    <Content Include="upload\2008511122552ee.gif" />
+    <Content Include="upload\200851112258cc.gif" />
+    <Content Include="upload\2008511124551aa.gif" />
+    <Content Include="upload\2008621194401.jpg" />
+    <None Include="Web References\WebReference\nettrans.disco" />
+    <Content Include="Web\images\1.gif" />
+    <Content Include="Web\images\2.gif" />
+    <Content Include="Web\images\but.jpg" />
+    <Content Include="Web\images\collapse.jpg" />
+    <Content Include="Web\images\expand.jpg" />
+    <Content Include="Web\images\leftbg_09.jpg" />
+    <Content Include="Web\images\link_03.jpg" />
+    <Content Include="Web\images\link_06.jpg" />
+    <Content Include="Web\images\newbg_03.jpg" />
+    <Content Include="Web\images\newbg_1_11.jpg" />
+    <Content Include="Web\images\newbtn_06.jpg" />
+    <Content Include="Web\images\newbtn_08.jpg" />
+    <Content Include="Web\images\newbtn_13.jpg" />
+    <Content Include="Web\images\newbtn_15.jpg" />
+    <Content Include="Web\images\point0.jpg" />
+    <Content Include="Web\ImgPhoto.aspx" />
+    <Content Include="Web\Jggk_Detail.aspx" />
+    <Content Include="Web\SuggestionDetail.aspx" />
+    <Content Include="Web\Usercontrol\menu.ascx" />
+    <Content Include="Web\Usercontrol\ZfgkIframe.ascx" />
+    <Content Include="Web\Usercontrol\ZfgkPosition.ascx" />
+    <Content Include="Web\Zfgk_Detail.aspx" />
+    <Content Include="Web\Zwgk_Iframe.aspx" />
+    <Content Include="Web\Zwgk_Info.aspx" />
+    <Content Include="Web\Zwgk_Left.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WebReference\nettrans.wsdl" />
+    <None Include="Web References\WebReference\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://221.224.13.103/nettrans/nettrans.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WebReference\</RelPath>
+      <UpdateFromURL>http://221.224.13.103/nettrans/nettrans.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Web_WebReference_nettrans</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="upload\InformationImg\" />
+    <Folder Include="upload\newsfile\" />
+    <Folder Include="Web\download\" />
+    <Folder Include="Web\InformationImg\" />
+    <Folder Include="Web\newsfile\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>6230</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

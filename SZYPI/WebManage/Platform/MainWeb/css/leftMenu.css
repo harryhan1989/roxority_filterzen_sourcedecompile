@@ -1,0 +1,72 @@
+body
+{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;	
+}
+a:link {
+	color: #01449B;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #01449B;
+}
+a:hover {
+	text-decoration: underline;
+	color: #2C81DB;
+}
+a:active {
+	text-decoration: none;
+	color: #2C81DB;
+}
+a.link2:link {
+   color: #333333;
+   text-decoration: none;
+}
+a.link2:visited {
+  color: #333333;
+  text-decoration: none;
+}
+a.link2:hover {
+  color: #2C81DB;
+  text-decoration: underline;
+}
+a.link2:active {
+  color: #2C81DB;
+}
+a.link3:link {
+   color: #FFFFFF;
+   text-decoration: none;
+}
+a.link3:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+.Font1 
+{CLEAR: left; FONT-WEIGHT: bold; FONT-SIZE: 18px;  COLOR: #000; }
+
+
+.Font2 
+{CLEAR: left; FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #000; }
+
+
+.Font3 
+{CLEAR: left; FONT-WEIGHT: bold; FONT-SIZE: 14px;  COLOR: #000;}
+
+
+.Font4 
+{CLEAR: left; FONT-WEIGHT: bold; FONT-SIZE: 12px;  COLOR: #000; }
+
+.FontBlue16 
+{CLEAR: left; FONT-WEIGHT: bold; FONT-SIZE: 16px;  COLOR:#001999; }
+
+
+
+.hideText{display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+
+
+

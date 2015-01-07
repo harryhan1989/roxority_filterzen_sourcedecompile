@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{37C19675-DFC7-4D56-8EBC-FA06B091B47C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLL</RootNamespace>
+    <AssemblyName>BLL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Anthem, Version=1.5.2.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Business, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\Business.dll</HintPath>
+    </Reference>
+    <Reference Include="DBAccess, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\DBAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="DundasWebChart, Version=4.5.1.1688, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebManage\Dll\DundasWebChart.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.WebUI.Shared.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebManage\Dll\Infragistics2.WebUI.Shared.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.WebUI.UltraWebToolbar.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebManage\Dll\Infragistics2.WebUI.UltraWebToolbar.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.WebUI.WebDataInput.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebManage\Dll\Infragistics2.WebUI.WebDataInput.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.WebUI.WebDateChooser.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebManage\Dll\Infragistics2.WebUI.WebDateChooser.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.WebUI.WebSchedule.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebManage\Dll\Infragistics2.WebUI.WebSchedule.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.MSXML2, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Nandasoft, Version=1.0.0.5, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Nandasoft.BaseModule, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebManage\Dll\Nandasoft.BaseModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Nandasoft.Helper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Nandasoft.WebControls, Version=1.0.0.5, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasePage\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasePage\BasePage1.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasePage\PageHelper.cs" />
+    <Compile Include="BasePage\SessionState.cs" />
+    <Compile Include="Common\CommonEnum.cs" />
+    <Compile Include="Common\CommonHelp.cs" />
+    <Compile Include="Common\FrameworkSecurity.cs" />
+    <Compile Include="Common\RepeaterSelect.cs" />
+    <Compile Include="Common\Security.cs" />
+    <Compile Include="Entity\CodeDetailEntity.cs" />
+    <Compile Include="Entity\CodeEntity.cs" />
+    <Compile Include="Entity\CodeGroupEntity.cs" />
+    <Compile Include="Entity\CountEntity.cs" />
+    <Compile Include="Entity\DiaoChaResultEntity.cs" />
+    <Compile Include="Entity\ExchangeEntity.cs" />
+    <Compile Include="Entity\GiftsEntity.cs" />
+    <Compile Include="Entity\HuiYuanEntity.cs" />
+    <Compile Include="Entity\MenuEntity.cs" />
+    <Compile Include="Entity\MenuFunctionEntity.cs" />
+    <Compile Include="Entity\MenuFunctionGroupRightEntity.cs" />
+    <Compile Include="Entity\MenuFunctionRightEntity.cs" />
+    <Compile Include="Entity\ModelSurvey_ss.cs" />
+    <Compile Include="Entity\OUEntity.cs" />
+    <Compile Include="Entity\PartnerEntity.cs" />
+    <Compile Include="Entity\PicParamEntity.cs" />
+    <Compile Include="Entity\PointEntity.cs" />
+    <Compile Include="Entity\RightEntity.cs" />
+    <Compile Include="Entity\SurveyClassEntity.cs" />
+    <Compile Include="Entity\SurveyTableEntity.cs" />
+    <Compile Include="Entity\SystemParamEntity.cs" />
+    <Compile Include="Entity\TableAddRowEntity.cs" />
+    <Compile Include="Entity\UserEntity.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Query\CodeDetailQuery.cs" />
+    <Compile Include="Query\CodeGroupQuery.cs" />
+    <Compile Include="Query\CodeQuery.cs" />
+    <Compile Include="Query\ExchangeQuery.cs" />
+    <Compile Include="Query\GiftsQuery.cs" />
+    <Compile Include="Query\IndexQuery.cs" />
+    <Compile Include="Query\HuiYuanInfoQuery.cs" />
+    <Compile Include="Query\MenuFunctionGroupRightQuery.cs" />
+    <Compile Include="Query\MenuFunctionQuery.cs" />
+    <Compile Include="Query\MenuFunctionRightQuery.cs" />
+    <Compile Include="Query\MenuQuery.cs" />
+    <Compile Include="Query\OUQuery.cs" />
+    <Compile Include="Query\PartnerQuery.cs" />
+    <Compile Include="Query\PicParamQuery.cs" />
+    <Compile Include="Query\RightQuery.cs" />
+    <Compile Include="Query\SurveyClassQuery.cs" />
+    <Compile Include="Query\SurveyTableQuery.cs" />
+    <Compile Include="Query\SystemParamQuery.cs" />
+    <Compile Include="Query\UserQuery.cs" />
+    <Compile Include="Rule\PartnerRule.cs" />
+    <Compile Include="Rule\_12355WebChart.cs" />
+    <Compile Include="Rule\CodeDetailRule.cs" />
+    <Compile Include="Rule\CodeGroupRule.cs" />
+    <Compile Include="Rule\CodeRule.cs" />
+    <Compile Include="Rule\CountRule.cs" />
+    <Compile Include="Rule\DiaoChaResultRule.cs" />
+    <Compile Include="Rule\ExchangeRule.cs" />
+    <Compile Include="Rule\GiftsRule.cs" />
+    <Compile Include="Rule\HuiYuanRule.cs" />
+    <Compile Include="Rule\MenuFunctionGroupRightRule.cs" />
+    <Compile Include="Rule\MenuFunctionRightRule.cs" />
+    <Compile Include="Rule\MenuFunctionRule.cs" />
+    <Compile Include="Rule\MenuRule.cs" />
+    <Compile Include="Rule\OURule.cs" />
+    <Compile Include="Rule\PicParamRule.cs" />
+    <Compile Include="Rule\PointRule.cs" />
+    <Compile Include="Rule\RightRule.cs" />
+    <Compile Include="Rule\SurveyClassRule.cs" />
+    <Compile Include="Rule\SurveyTableRule.cs" />
+    <Compile Include="Rule\SystemParamRule.cs" />
+    <Compile Include="Rule\UserRule.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Dll\Anthem.dll" />
+    <Content Include="Dll\Business.dll" />
+    <Content Include="Dll\DBAccess.dll" />
+    <Content Include="Dll\Interop.MSXML2.dll" />
+    <Content Include="Dll\Nandasoft.dll" />
+    <Content Include="Dll\Nandasoft.Helper.dll" />
+    <Content Include="Dll\Nandasoft.WebControls.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
+      <Project>{B6599942-E238-4D93-B6AF-7F2B628735E4}</Project>
+      <Name>BusinessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

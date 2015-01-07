@@ -1,0 +1,445 @@
+body{
+font-size:12px;	
+margin:0px;
+}
+.TableHead
+{
+	background-image: url(../survey/images/face/bg3.jpg);
+	height: 25px;
+	font-size: 12px;
+	text-align:left;
+	text-decoration: none;
+	cursor:pointer;
+}
+.ColorPancel{
+	display:none;
+	position:absolute;
+	border:1px solid #000;
+	z-index:4000;
+}
+.CreateTableBox{
+	border:1px solid #666;
+	margin:5px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background:#FFF;
+	width:450px;
+	height:200px;
+	display:none;
+	padding:5px;
+	z-index:2001;
+}
+
+
+.FileManageBox{
+	border:1px solid #666;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background:#FFF;
+	width:700px;
+	height:400px;
+	display:none;
+	z-index:2002;
+}
+
+
+
+#ToolsBar{
+	margin-bottom:4px;
+	margin-top:4px;
+	width:100%;
+	overflow:hidden;
+}
+
+#ToolsBar div{
+	cursor:pointer;
+	overflow:hidden;
+}
+
+
+.MaskLayer{
+	filter:alpha(opacity=30);
+	opacity: 0.5;
+	-moz-opacity:0.2;
+	background-color:#FFF;
+	position:absolute;
+	display:none;
+}
+
+.ToolsBarMaskLayer{
+	filter:alpha(opacity=80);
+	opacity: 0.8;
+	-moz-opacity:0.2;
+	background-color:#FFF;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+
+.BT_Normal{
+	border:1px solid #FFF;
+	background-color:#FFF;
+	float:left;
+	margin-left:5px;
+}
+
+.BT_Over{;
+	border:1px solid #00F;
+	background-color:#D0DBFF;
+	float:left;
+	margin-left:5px;
+}
+
+.TopWin{
+	border:1px solid #666;
+	display:none;
+	position:absolute;
+	top:100px;
+	left:300px;
+	padding:5px;
+	z-index:2000;
+	background:#FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.oqss-source {
+	
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px 0px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-print {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -32px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-Undo {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -48px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-Redo {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -64px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-cut {
+	background:url(default.gif);
+	border:1px solid #FFF;
+	background-position: 0px -80px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-copy {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -96px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-paste {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -112px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-selectall {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -128px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-JustifyLeft {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -144px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-JustifyCenter {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -160px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-JustifyRight {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -176px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-JustifyFull {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -192px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-insertorderedlist {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -208px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-insertunorderedlist {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -224px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-Indent {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -240px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-Outdent {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -256px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-subscript {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -272px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-superscript {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -288px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-title {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -336px;
+	width: 25px;
+	height: 16px;
+}
+
+.oqss-fontname1 {
+	background:url(default.gif);
+border:1px solid #FFF;
+	background-position: 0px -352px;
+	width: 21px;
+	height: 16px;
+}
+.oqss-fontsize1 {
+	background:url(default.gif);
+border:1px solid #FFF;
+	background-position: 0px -368px;
+	width: 23px;
+	height: 16px;
+}
+.oqss-ForeColor {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -384px;
+	width: 20px;
+	height: 16px;
+}
+.oqss-BackColor {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -400px;
+	width: 20px;
+	height: 16px;
+}
+.oqss-bold {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -416px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-italic {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -432px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-underline {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -448px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-strikethrough {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -464px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-removeformat {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -480px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-image {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -496px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-flash {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -512px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-InertFile {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -528px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-AddTable {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -560px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-InsertHorizontalRule {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -592px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-emoticons {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -608px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-createlink {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -624px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-unlink {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -640px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-fullscreen {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -656px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-about {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -672px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-plainpaste {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -704px;
+	width: 16px;
+	height: 16px;
+}
+.oqss-wordpaste {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -720px;
+	width: 16px;
+	height: 16px;
+}
+
+.oqss-blink {
+	background:url(default.gif);
+border:1px solid #FFF;
+background-position: 0px -812px;
+	width: 16px;
+	height: 16px;
+}
+
+.oqss-close{
+display: block;
+	background-position: 0px -688px;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	margin: 5px;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+	background-image: url(default.gif);	
+}
+
+
+
+.ModeEdit{
+	background:url(default.gif);
+	border:1px solid #FFF;
+	background-position: 0px -774px;
+	width: 46px;
+	height: 16px;
+	float:left;
+}
+.ModeCode{
+	background:url(default.gif);
+	border:1px solid #FFF;
+	background-position: 0px -755px;
+	width: 46px;
+	height: 16px;
+}
+
+.TargetWin{
+	width:100%;
+	height:400px;
+	border:1px solid #666;
+	background-color:#FFF;
+}

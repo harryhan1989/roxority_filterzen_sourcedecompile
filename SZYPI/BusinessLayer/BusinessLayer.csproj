@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B6599942-E238-4D93-B6AF-7F2B628735E4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusinessLayer</RootNamespace>
+    <AssemblyName>BusinessLayer</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Business, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="DBAccess, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Nandasoft, Version=1.0.0.5, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chart\WebChart_Layer.cs" />
+    <Compile Include="checkState\checkState_Layer.cs" />
+    <Compile Include="CreateItem\CreateItem_Layer.cs" />
+    <Compile Include="CreateItem\SerialNumber_Layer.cs" />
+    <Compile Include="InitSqlRight\InitRight.cs" />
+    <Compile Include="LoginClass\LanguageClass_Layer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShareClass\SClass.cs" />
+    <Compile Include="Survey\AnswerManager_Layer.cs" />
+    <Compile Include="Survey\CreateSurvey_Layer.cs" />
+    <Compile Include="Survey\HotlineAnalysis_Layer.cs" />
+    <Compile Include="Survey\HotlineData_Layer.cs" />
+    <Compile Include="Survey\SurveyManage_Layer.cs" />
+    <Compile Include="Survey\SurveyReport_Layer.cs" />
+    <Compile Include="Survey\Survey_AddPage_Layer.cs" />
+    <Compile Include="Survey\Survey_AddToLib_Layer.cs" />
+    <Compile Include="Survey\Survey_ApplyTemp_Layer.cs" />
+    <Compile Include="Survey\Survey_ClientPs_Layer.cs" />
+    <Compile Include="Survey\Survey_CreateNewSurvey_Layer.cs" />
+    <Compile Include="Survey\Survey_Default3_Layer.cs" />
+    <Compile Include="Survey\Survey_DelItem_Layer.cs" />
+    <Compile Include="Survey\Survey_DelPage_Layer.cs" />
+    <Compile Include="Survey\Survey_EditItem_Layer.cs" />
+    <Compile Include="Survey\Survey_EditPage_Layer.cs" />
+    <Compile Include="Survey\Survey_EditSurveyHtml_Layer.cs" />
+    <Compile Include="Survey\Survey_GetItem_Layer.cs" />
+    <Compile Include="Survey\Survey_getStyle_Layer.cs" />
+    <Compile Include="Survey\Survey_getSurveyHTML_Layer.cs" />
+    <Compile Include="Survey\Survey_getSurvey_Layer.cs" />
+    <Compile Include="Survey\Survey_ItemBatchSort_Layer.cs" />
+    <Compile Include="Survey\Survey_ItemLib_Layer.cs" />
+    <Compile Include="Survey\Survey_ItemList_Layer.cs" />
+    <Compile Include="Survey\Survey_ModifyItems_Layer.cs" />
+    <Compile Include="Survey\Survey_MoveItem_Layer.cs" />
+    <Compile Include="Survey\Survey_MovePage_Layer.cs" />
+    <Compile Include="Survey\Survey_PageStyleChange_Layer.cs" />
+    <Compile Include="Survey\Survey_PS_Layer.cs" />
+    <Compile Include="Survey\Survey_QueryState_Layer.cs" />
+    <Compile Include="Survey\Survey_SaveHeadOrFoot_Layer.cs" />
+    <Compile Include="Survey\Survey_SaveSetPar_Layer.cs" />
+    <Compile Include="Survey\Survey_SetOptionImage_Layer.cs" />
+    <Compile Include="Survey\Survey_SetPar_Layer.cs" />
+    <Compile Include="Survey\Survey_SetPointStat_Layer.cs" />
+    <Compile Include="Survey\Survey_SetPoint_Layer.cs" />
+    <Compile Include="Survey\Survey_SetStyle_Layer.cs" />
+    <Compile Include="Survey\Survey_SortOutPage_Layer.cs" />
+    <Compile Include="Survey\Survey_ss_Layer.cs" />
+    <Compile Include="Survey\Survey_StatIndex_Layer.cs" />
+    <Compile Include="Survey\Survey_SurveyCode_Layer.cs" />
+    <Compile Include="Survey\Survey_SurveyList1_Layer.cs" />
+    <Compile Include="Survey\Survey_volumeAddPage_Layer.cs" />
+    <Compile Include="Survey\Survey_WriteSurveyFile_Layer.cs" />
+    <Compile Include="Web\Common\CommonEnum.cs" />
+    <Compile Include="Web\Common\Security.cs" />
+    <Compile Include="Web\Rule\MenuRule.cs" />
+    <Compile Include="Web\Rule\MessageRule.cs" />
+    <Compile Include="Web\Rule\UserRule.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Dll\Business.dll" />
+    <Content Include="Dll\DBAccess.dll" />
+    <Content Include="Dll\Nandasoft.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EntityModel\EntityModel.csproj">
+      <Project>{06004397-6D12-4A45-B256-97A6CD0568D1}</Project>
+      <Name>EntityModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

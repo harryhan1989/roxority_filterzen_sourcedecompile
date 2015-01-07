@@ -1,0 +1,6 @@
+*{margin:0; padding:0}
+body{ font-size:12px; font-family:@ËÎÌו; font-variant:inherit; font-weight:200; color:#000000}
+
+.button{ background:url(../Platform/images/button.gif) repeat-x; border:1px solid #ADC3AE; height:22px; padding:1px 5px 1px 5px;}
+.input_text{border:solid 1px #969696}
+

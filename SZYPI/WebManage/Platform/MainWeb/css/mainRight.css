@@ -1,0 +1,5 @@
+*{margin:0; padding:0; border:0;}
+html,body,div{height:100%;}
+body{background:url(../../images/mainRightBack.jpg) repeat-y;}
+#mainRightTop{background:url(../../images/mainRightTop.jpg) no-repeat;}
+#mainRightBottom{background:url(../../images/mainRightBottom.jpg) bottom no-repeat;}

@@ -1,0 +1,83 @@
+html{scrollbar-face-color:#DBE8F0;
+    scrollbar-shadow-color: #fff;
+    scrollbar-highlight-color: #fff; 
+    scrollbar-3dlight-color: #B8C9D3;
+    scrollbar-darkshadow-color: #B8C9D3; 
+    scrollbar-track-color: #EDF8FD;
+    scrollbar-arrow-color: #155084;
+    height:100%;
+}
+
+body{margin:0px;color:#000;font:12px Tahoma,Arial,sans-serif,"宋体"; background:#FDFFFE;}
+textarea{font:12px Tahoma,Arial,sans-serif,"宋体";}
+
+a:link,a:visited{color:#000; text-decoration:none;}
+a:hover{color:#ff0000;}
+
+/************弹出窗口*************/
+.ModalWindowStyleBorder{filter:Shadow(Color=#cccccc,Direction=135,strength=2);}
+.ModalWindowStyle {color:Black;background:#fff; border:1px solid #BEDCEE; padding:1px;}
+.ModalWindowHeadStyle {height:24px; background:url(../../Platform/images/floatHead.jpg) repeat-x;}
+.ModalWindowHeadStyle span {font-size:14px;font-weight: bold; float:left; display:block; margin:6px 0 0 10px;}
+.ModalWindowHeadStyle a {background:url(../../Platform/images/floatClose1.gif) no-repeat; display:block; width:16px; height:20px; float:right; margin:6px 4px 0 0; padding-left:4px;}
+.ModalWindowHeadStyle a:hover {background:url(../../Platform/images/floatClose.gif) no-repeat;}
+
+.ErrModalWindowStyle {}
+.ErrModalWindowHeadStyle {}
+
+
+/************数据表格*************/
+.gridview{border:1px solid #BEDCEE;}
+.gridviewHead{height:26px; background:url(../../Platform/images/gridHead.jpg) repeat-x;}
+.gridviewRow{text-align:center; height:22px;background:#FFFFFF;color:#000000;}
+.gridviewRowSelected{text-align:center; height:22px;background:#DEEDF5;color:#000000;}
+.gridviewRowHover{text-align:center; height:22px;background:#969696; color:#FFFFFF;}
+
+/***********表单通用********************/
+.inputStyText{background:url(../../Platform/images/inputText.jpg) repeat-x; border:1px solid #477CAB; height:17px; }
+.inputStyTextMulSelect{border:0px;}
+
+.inputStySubmit,#htmlBtnClose{ background:url(../../Platform/images/button.gif) repeat-x; border:1px solid #ADC3AE; height:21px; padding:1px 5px 1px 5px; cursor:hand;}
+.inputStySubmit:hover,#htmlBtnClose:hover{background:url(../../Platform/images/btnHover.jpg) repeat-x;}
+.inputStyTextarea,.messageSelect{background:#fff url(../../Platform/images/inputText.jpg) repeat-x; border:1px solid #477CAB;  padding:2px 5px 0 5px;}
+.messageSelect{ overflow:scroll; overflow:hidden; height:60px;}
+.inputStyTextDisable{background:url(../../Platform/images/inputTextDisable.jpg) repeat-x; border:1px solid #797979; height:17px; padding:2px 5px 0 5px;}
+.inputStySubmitDisable{ background:url(../../Platform/images/button.gif) repeat-x; border:1px solid #477CAB; height:21px; padding:2px 5px 0 5px; color:#797979;}
+.inputStyAreaDisable{background:#fff url(../../Platform/images/inputTextDisable.jpg) repeat-x; border:1px solid #797979;  padding:2px 5px 0 5px;}
+
+fieldset{border:1px solid #B8C9D3; padding:0px 2px 2px 2px; margin:1px 2px 2px 2px;}
+
+/***************提示框********************/
+.messageBox{z-index:100; position:absolute; left:100px; top:100px; width:220px; 
+	height:34px;  background:#fff url(../../Platform/images/messageBoxBack.jpg) repeat-x bottom; border:1px solid #B8C9D3;}
+.messageBox div{ height:16px; background:url(../../Platform/images/messageIco.gif) no-repeat; 
+	padding-left:22px; font-weight:bold; margin:8px auto auto 10px;padding-top:2px;}
+	
+	
+/*******操作按钮************/
+.menuBtnSeparator{width:15px; color:#B8C9D3; text-align:left;}
+.menuBtnAdd{ background:url(../../Platform/images/icon/Add.gif) no-repeat; padding-left:20px;width:50px;}
+.menuBtnDelete{ background:url(../../Platform/images/icon/Delete.gif) no-repeat; padding-left:20px; width:50px;}
+.menuBtnMoveup{ background:url(../../Platform/images/icon/Up.gif) no-repeat; padding-left:20px; width:35px;}
+.menuBtnMovedown{ background:url(../../Platform/images/icon/Down.gif) no-repeat; padding-left:20px; width:35px;}
+.menuBtnDeleteall{ background:url(../../Platform/images/icon/DeleteAll.gif) no-repeat; padding-left:20px; width:50px;}
+.menuBtnUpdate{ background:url(../../Platform/images/icon/Update.gif) no-repeat; padding-left:20px; width:35px;}
+.menuBtnSave{ background:url(../../Platform/images/icon/Save.gif) no-repeat; padding-left:20px; width:35px;}
+.menuBtnSetting{ background:url(../../Platform/images/icon/Setting.gif) no-repeat; padding-left:20px; width:35px;}
+.menuBtnOutput{ background:url(../../Platform/images/icon/Output.gif) no-repeat; padding-left:20px; width:50px;}
+.menuBtnQuery{ background:url(../../Platform/images/icon/Search.gif) no-repeat; padding-left:20px; width:50px;}
+
+
+/*******树控件************/
+.treeView td{vertical-align:top; line-height:20px;}
+
+/*******左右选择箭头************/
+.selectAllRight{ background:url(../../Platform/images/icon/selectAllRight.gif) no-repeat; border:none; width:27px; height:27px; cursor:hand;}
+.selectRight{ background:url(../../Platform/images/icon/selectRight.gif) no-repeat; border:none; width:27px; height:27px; cursor:hand;}
+.selectLeft{ background:url(../../Platform/images/icon/selectLeft.gif) no-repeat; border:none; width:27px; height:27px; cursor:hand;}
+.selectALLleft{ background:url(../../Platform/images/icon/selectALLleft.gif) no-repeat; border:none; width:27px; height:27px; cursor:hand;}
+
+.toolBar a img{margin-right:5px;}
+
+.textbox {border:solid 1px #969696} 
+

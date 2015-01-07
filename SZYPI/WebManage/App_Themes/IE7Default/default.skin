@@ -1,0 +1,68 @@
+<%@ Register Assembly="Nandasoft.WebControls" Namespace="Nandasoft.WebControls" TagPrefix="ND" %>
+<%@ Register Assembly="Infragistics2.WebUI.UltraWebTab.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb"
+    Namespace="Infragistics.WebUI.UltraWebTab" TagPrefix="igtab" %>
+<%@ Register Assembly="Infragistics2.WebUI.WebDateChooser.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb"
+    Namespace="Infragistics.WebUI.WebSchedule" TagPrefix="igsch" %>
+<%@ Register Assembly="Infragistics2.WebUI.UltraWebNavigator.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb"
+    Namespace="Infragistics.WebUI.UltraWebNavigator" TagPrefix="ignav" %>
+
+
+
+<asp:GridView runat="server" CssClass="gridview" CellPadding="1" CellSpacing="1" GridLines="None" Font-Size="12px">
+    <RowStyle CssClass="gridviewRow" BorderColor="White" BorderStyle="Solid" BorderWidth="1px" />
+    <SelectedRowStyle CssClass="gridviewSelected" />
+    <HeaderStyle CssClass="gridviewHead" HorizontalAlign="Center" VerticalAlign="Middle" Height="26px" />
+</asp:GridView>
+
+<asp:TreeView runat="server" ShowLines="True" Font-Size="12px" CssClass="treeView">
+    <NodeStyle ForeColor="Black" />
+    <SelectedNodeStyle Font-Bold="True" />
+</asp:TreeView>
+
+<ND:NDToolbar runat="server" CssClass="toolBar">
+</ND:NDToolbar>
+
+<nd:ndTextBox runat="server" CssClass="inputStyText"></nd:ndTextBox>
+<nd:ndchooser runat="server"  CssClass="inputStyText" Height="21px"></nd:ndchooser>
+
+<nd:ndGridView runat="server" CssClass="gridview" CellPadding="1" CellSpacing="1" GridLines="None">
+    <RowStyle CssClass="gridviewRow" BorderColor="White" BorderStyle="Solid" BorderWidth="1px" />
+    <SelectedRowStyle CssClass="gridviewSelected" />
+    <HeaderStyle CssClass="gridviewHead" HorizontalAlign="Center" VerticalAlign="Middle" Height="26px" />
+</nd:ndGridView>
+
+<igsch:WebDateChooser runat="server" NullDateLabel="" CssClass="textbox"></igsch:WebDateChooser>
+
+<igtab:UltraWebTab runat="server" Height="100%"
+    Width="100%" BorderColor="#B8C9D3" BorderStyle="Solid" BorderWidth="1px" ImageDirectory="~/" EnableAppStyling="True">
+            <DefaultTabStyle BackgroundImage="../../Platform/images/tagBack.jpg" ForeColor="#305D7D"  Font-Size="12px">
+                <BorderDetails ColorLeft="184, 201, 211" ColorRight="184, 201, 211" ColorTop="184, 201, 211"
+                    StyleBottom="Solid" StyleLeft="Solid" StyleRight="Solid" StyleTop="Solid" WidthBottom="1px"
+                    WidthLeft="1px" WidthRight="1px" WidthTop="1px" ColorBottom="184, 201, 211" />
+                    <Padding Bottom="4px" Left="9px" Right="7px" Top="6px" />
+            </DefaultTabStyle>
+            <HoverTabStyle BackgroundImage="../../Platform/images/tagActive.jpg" ForeColor="Black" >
+                <BorderDetails StyleBottom="Solid" WidthBottom="1px" StyleLeft="Solid" StyleRight="Solid" StyleTop="Solid" WidthLeft="1px" WidthRight="1px" WidthTop="1px" ColorBottom="White" ColorLeft="184, 201, 211" ColorRight="184, 201, 211" ColorTop="184, 201, 211" />
+                    <Padding Bottom="4px" Left="9px" Right="7px" Top="6px" />
+            </HoverTabStyle>
+            <SelectedTabStyle BackgroundImage="../../Platform/images/tagActive.jpg" Font-Bold="True" ForeColor="Black">
+                <BorderDetails ColorLeft="184, 201, 211" ColorRight="184, 201, 211" ColorTop="184, 201, 211"
+                    StyleBottom="Solid" StyleLeft="Solid" StyleRight="Solid" StyleTop="Solid" WidthBottom="1px"
+                    WidthLeft="1px" WidthRight="1px" WidthTop="1px" ColorBottom="White" />
+                    <Padding Bottom="4px" Left="9px" Right="7px" Top="6px" />
+            </SelectedTabStyle>
+                <DefaultTabSeparatorStyle>
+                    <BorderDetails ColorBottom="184, 201, 211" StyleBottom="Solid" WidthBottom="1px"
+                        WidthTop="0px" StyleTop="None" />
+                    <Padding Bottom="2px" Top="2px" />
+                </DefaultTabSeparatorStyle>
+                <HoverTabStyle Cursor="Hand">
+                </HoverTabStyle>
+</igtab:UltraWebTab>
+
+<ignav:UltraWebTree runat="server"  Indentation="20" WebTreeTarget="ClassicTree" EnableAppStyling="True">
+</ignav:UltraWebTree>
+
+<asp:TextBox  runat="server" CssClass="textbox"  />
+
+        

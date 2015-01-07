@@ -1,0 +1,60 @@
+*{margin:0; padding:0;}
+body{font:12px/150% Tahoma,Arial,sans-serif,"宋体";}
+a:link,a:visited{color:#000; text-decoration:none;}
+a:hover{color:#ff0000;}
+/***********表单通用********************/
+.inputStyText{background:url(../images/inputText.jpg) repeat-x; border:1px solid #477CAB; height:17px; padding:2px 5px 0 5px;}
+.inputStySubmit{ background:url(../images/inputBtn.jpg) repeat-x; border:1px solid #477CAB; height:21px; padding:2px 5px 0 5px;}
+.inputStyTextarea,.messageSelect{background:url(../images/inputText.jpg) repeat-x; border:1px solid #477CAB;  padding:2px 5px 0 5px;}
+fieldset{border:1px solid #B8C9D3; padding:0px 8px 8px 8px; margin:5px 10px 10px 10px;}
+.messageSelect{ overflow:scroll; overflow:hidden; height:60px;}
+
+.inputStyTextDisable{background:url(../images/inputTextDisable.jpg) repeat-x; border:1px solid #797979; height:17px; padding:2px 5px 0 5px;}
+.inputStySubmitDisable{ background:url(../images/inputBtn.jpg) repeat-x; border:1px solid #477CAB; height:21px; padding:2px 5px 0 5px; color:#797979;}
+inputStyAreaDisable{background:url(../images/inputTextDisable.jpg) repeat-x; border:1px solid #797979;  padding:2px 5px 0 5px;}
+
+/********标签**********/
+#tag{border-bottom:1px solid #B8C9D3; clear:both; height:27px;}
+.tagLink{display:block; height:20px; background:url(../images/tagBack.jpg) repeat-x; border-top:1px solid #B8C9D3; border-right:1px solid #B8C9D3; border-left:1px solid #B8C9D3;  float:left; padding:5px 8px 0 8px; margin-right:1px; margin-top:1px;}
+.tagLink:hover{background:url(../images/tagActive.jpg) repeat-x; height:21px;}
+.tagLink a:link,.tagLink a:visited{color:#305D7D;}
+.tagLink a:hover{color:#000;}
+.tagActive{display:block; height:22px; background:url(../images/tagActive.jpg) repeat-x; float:left; padding:5px 8px 0 8px; margin-right:1px; border-top:1px solid #B8C9D3; border-right:1px solid #B8C9D3; border-left:1px solid #B8C9D3; font-weight:bold;}
+/*****功能按钮********/
+#menuBox{height:40px; background:url(../images/rightMenuLine.jpg) bottom repeat-x; border-left:1px solid #B8C9D3; border-right:1px solid #B8C9D3; clear:both; padding-left:10px;}
+#menuBox span{float:left; margin-top:12px;}
+.menuBoxDel,.menuBoxDel2,.menuBoxExp,.menuBoxOpt{display:block; padding-right:6px; padding-left:20px; margin-right:6px; border-right:1px solid #B8C9D3;}
+.menuBoxDel{background:url(../images/menuBoxDelete.jpg) no-repeat;}
+.menuBoxDel2{background:url(../images/menuBoxDelete2.jpg) no-repeat;}
+.menuBoxExp{background:url(../images/menuBoxExp.jpg) no-repeat;}
+.menuBoxOpt{background:url(../images/menuBoxOpt.jpg) no-repeat;}
+/************搜索部分*****************/
+.inputSty{height:30px; padding-top:8px;}
+
+/************表格*************/
+.dataGrid{border:1px solid #B8C9D3;}
+.dataGrid th{height:27px; background:url(../images/tableTH.jpg) repeat-x;}
+.dataGrid td{text-align:center; height:22px;}
+.TRselected{background:#DEEDF5;}
+.dataGrid tr:hover{background:#1060AD; color:#FFFFFF;}
+/***************分页*****************/
+.pagination {line-height: 23px; height: 23px;  margin-top:10px; text-align:right; }
+.pagination a {float: left; border: 1px solid #FFFFFF; background-color: #1060AD; color: #FFFFFF; margin: 1px 1px 0 0; padding: 0 5px 2px 5px; line-height: normal; }
+.pagination a:hover { border: 1px solid #1060AD; background-color: #FFFFFF; color: #1060AD; }
+.pagination .noncepage { color: #1060AD; background-color: #ffffff; border: 1px solid #1060AD; margin-right:3px; }
+.pagination .inputnumber {width: 30px; height:16px; border: 1px solid #1060AD; color: #1060AD; background:#fff;}
+.pagination .inputgo { font-family: Verdana; width: 25px; height: 18px; background-color: #1060AD; border: 1px solid #1060AD; font-size: 11px; font-weight: bold; color: #ffffff; }
+/***************浮动层*****************************/
+#float{filter:Shadow(Color=#cccccc,Direction=135,strength=2);width:500px; z-index:99; position:absolute; left:100px; top:100px; padding:10px;}
+#floatBox{ background:#fff; border:1px solid #B1DAAE; padding:1px; height:350px;}
+#floatBoxHead{height:22px; background:url(../../images/floatHead.gif) repeat-x; padding:5px 10px 0 10px;}
+#floatBoxHead span{display:block; float:left; font-size:14px; font-weight:bold; color:#fff;}
+#floatBoxHead a{background:url(../../images/floatClose1.gif) no-repeat; display:block; width:12px; height:12px; float:right; }
+#floatBoxHead a:hover{background:url(../../images/floatClose.gif) no-repeat;}
+.floatForm{width:60%; float:right;}
+.floatTab{float:left;}
+.floatTab th{height:22px; background:url(../../images/floatGrid.jpg) repeat-x;}
+.floatTab td{height:20px;}
+.floatForm label{float: left;width: 40px;}
+.floatForm br{clear: left;}
+

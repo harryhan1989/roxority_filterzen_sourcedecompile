@@ -1,0 +1,289 @@
+.EditSurveyToolsBarBT_Normal {
+	height: 21px;
+	line-height:21px;
+	cursor: pointer;
+	border: 1px #CCC solid;
+	text-align:center;
+	float:left;
+	overflow:hidden;
+	padding-left:4px;
+	padding-right:4px;
+	width:73px;
+
+}
+#MenuBar div{
+	line-height:25px;
+}
+
+.EditSurveyToolsBarBT_Move {
+	height: 21px;
+	line-height:21px;
+	cursor: pointer;
+	background-color: #E1F1FF;
+	border: 1px solid #333;
+	text-align:center;
+	font-weight:bold;
+	float:left;
+	overflow:hidden;
+	padding-left:4px;
+	padding-right:4px;
+	width:73px;
+}
+
+.Drop_Move{
+
+	height: 21px;
+	line-height:21px;
+	cursor: pointer;
+	background-color: #E1F1FF;
+	border: 1px solid #333;
+	text-align:center;
+	font-weight:bold;
+	float:left;
+	overflow:hidden;
+	padding-left:4px;
+	padding-right:4px;
+	width:73px;
+
+}
+
+.Drop_Normal{
+
+background:url(../Survey/images/SurveyEditFace.png) 0px -242px  no-repeat;
+height: 21px;
+	line-height:21px;
+	cursor: pointer;
+	border: 1px #CCC solid;
+	text-align:center;
+	float:left;
+	overflow:hidden;
+	padding-left:4px;
+	padding-right:4px;
+	width:73px;
+	background:url(../Survey/images/SurveyEditFace.png) 0px -242px  no-repeat ;
+
+}
+
+
+.BgWin{
+	filter:alpha(opacity=30);
+	opacity: 0.5;
+	-moz-opacity:0.2;
+}
+
+
+.PageOptionMenuNormal{
+	background-color:#E1F1FF;
+	display:block;
+	cursor:pointer;
+	width:100%;
+	text-align:center;
+	height:25px;
+	line-height:25px;
+	margin:0px;
+}
+
+.PageOptionMenuMove{
+	background-color:#FFE;
+	display:block;
+	cursor:pointer;
+	width:100%;
+	text-align:center;
+	height:25px;
+	line-height:25px;
+	margin:0px;
+}
+
+
+#Layer1 {	
+	position:absolute;
+	z-index:5;
+	background-color: #FFF;
+	border:#000 1px solid;
+	border-top-style:none;
+	display:none;
+	width:100px;
+}
+
+.MenuBarWord{
+	display:block;
+	margin:0px;
+}
+
+
+#Layer3 {
+	position:absolute;
+	width:100%;
+	display:none;
+	top:20px;
+	height:100px;
+	
+	
+}
+
+.Menu_Bt_00{
+	background:url(../Survey/images/SurveyEditFace.png) 0px -176px  no-repeat ;
+	float:left;
+	margin-top:5px;
+	margin-left:4px;
+	margin-right:-6px;
+	height:16px;
+	width:16px;
+}
+
+
+.Menu_Bt_01{
+	background:url(../Survey/images/SurveyEditFace.png) 0px -198px  no-repeat ;
+	float:left;
+	margin-top:5px;
+	margin-left:0px;
+	margin-right:-2px;
+	height:16px;
+	width:16px;
+}
+
+
+.Menu_Bt_02{
+	background:url(../Survey/images/SurveyEditFace.png) 0px -223px  no-repeat ;
+	float:left;
+	margin-top:6px;
+	margin-left:6px;
+	height:16px;
+	width:16px;
+}
+
+
+.Menu_Bt_03{
+	background:url(../Survey/images/SurveyEditFace.png) 0px -242px  no-repeat ;
+	float:left;
+	margin-top:6px;
+	height:16px;
+	width:16px;
+}
+
+
+
+.Menu_Bt_04{
+	background:url(../Survey/images/SurveyEditFace.png) 0px -262px  no-repeat ;
+	height:16px;
+	width:16px;
+	display:block;
+	float:left;
+	margin-top:2px;
+	margin-left:10px;
+	margin-right:-10px;
+
+}
+
+.Menu_Bt_05{
+	background:url(../Survey/images/SurveyEditFace.png) 0px -290px  no-repeat ;
+	height:16px;
+	width:16px;
+	display:block;
+	float:left;
+	margin-top:2px;
+
+}
+
+.Menu_Bt_06{
+	background:url(../Survey/images/SurveyEditFace.png) 0px -315px  no-repeat ;
+	height:16px;
+	width:16px;
+	display:block;
+	float:left;
+	margin-top:4px;
+
+}
+
+.Menu_Bt_07{
+	background:url(../Survey/images/SurveyEditFace.png) 0px -345px  no-repeat ;
+	height:16px;
+	width:16px;
+	display:block;
+	float:left;
+	margin-top:4px;
+	
+}
+
+.Menu_Bt_08{
+	background:url(../Survey/images/SurveyEditFace.png) 0px -365px  no-repeat ;
+	height:16px;
+	width:16px;
+	display:block;
+	float:left;
+	margin-top:6px;
+
+}
+
+.Menu_Bt_09{
+	background:url(../Survey/images/SurveyEditFace.png) 0px -384px  no-repeat ;
+	height:16px;
+	width:16px;
+	display:block;
+	float:left;
+	margin-top:4px;
+	
+}
+
+.Menu_Bt_10{
+	background:url(../Survey/images/SurveyEditFace.png) 0px -404px  no-repeat ;
+	height:16px;
+	width:16px;
+	display:block;
+	float:left;
+	
+	margin-top:8px;
+
+}
+
+.Menu_Bt_11{
+	background:url(../Survey/images/SurveyEditFace.png) 0px -425px  no-repeat ;
+	height:20px;
+	width:32px;
+	float:left;
+	margin-top:4px;
+
+}
+
+.Menu_Bt_12{
+	background:url(../Survey/images/SurveyEditFace.png) 0px -447px  no-repeat ;
+	height:20px;
+	width:32px;
+	float:left;
+	margin-top:4px;
+	
+}
+
+
+.Menu_Bt_13{
+	background:url(../Survey/images/SurveyEditFace.png) 0px -475px  no-repeat ;
+	height:16px;
+	width:16px;
+	float:right;
+	margin-top:11px;	margin-right:5px; cursor:pointer;
+}
+
+.Menu_Bt_14{
+	background:url(../Survey/images/SurveyEditFace.png) 0px -223px  no-repeat ;
+	height:16px;
+	width:16px;
+	float:right;
+	margin-top:8px;	margin-right:5px; cursor:pointer;
+}
+
+.Menu_Bt_15{
+	background:url(../Survey/images/SurveyEditFace.png) 0px -491px  no-repeat ;
+	height:16px;
+	width:16px;
+	float:right;
+	margin-top:8px;
+	
+}
+
+.Menu_Bt_16{
+	background:url(../Survey/images/SurveyEditFace.png) 0px -512px  no-repeat ;
+	height:16px;
+	width:16px;
+	float:right;
+	margin-top:5px;	margin-right:5px; cursor:pointer;
+}

@@ -1,0 +1,112 @@
+.OptionImgGray1 {
+	background-image: url(../Survey/images/OptionICO01.gray.gif);
+	width:30px;
+	height:30px;
+	background-repeat:no-repeat;
+	text-align:center;
+	vertical-align:middle;cursor:pointer;
+	display:block;
+}
+
+.OptionImgColor1 {
+	background-image: url(../Survey/images/OptionICO01.Color.gif);
+	width:30px;
+	height:30px;
+	background-repeat:no-repeat;
+	text-align:center;
+	vertical-align:middle;cursor:pointer;
+	display:block;
+}
+
+.OptionImgGray2 {
+	background-image: url(../Survey/images/OptionICO02.gray.gif);
+	width:30px;
+	height:30px;
+	background-repeat:no-repeat;
+	text-align:center;
+	vertical-align:middle;cursor:pointer;
+	display:block;
+}
+
+.OptionImgColor2 {
+	background-image: url(../Survey/images/OptionICO02.Color.gif);
+	width:30px;
+	height:30px;
+	background-repeat:no-repeat;
+	text-align:center;
+	vertical-align:middle;cursor:pointer;
+	display:block;
+}
+
+
+.OptionImgGray3 {
+	background-image: url(../Survey/images/OptionICO03.gray.gif);
+	width:30px;
+	height:30px;
+	background-repeat:no-repeat;
+	text-align:center;
+	vertical-align:middle;cursor:pointer;
+	display:block;
+}
+
+.OptionImgColor3 {
+	background-image: url(../Survey/images/OptionICO03.Color.gif);
+	width:30px;
+	height:30px;
+	background-repeat:no-repeat;
+	text-align:center;
+	vertical-align:middle;cursor:pointer;
+	display:block;
+}
+
+
+.OptionImgGray4 {
+	background-image: url(../Survey/images/OptionICO04.gray.gif);
+	width:30px;
+	height:30px;
+	background-repeat:no-repeat;
+	text-align:center;
+	vertical-align:middle;cursor:pointer;
+	display:block;
+}
+
+.OptionImgColor4 {
+	background-image: url(../Survey/images/OptionICO04.Color.gif);
+	width:30px;
+	height:30px;
+	background-repeat:no-repeat;
+	text-align:center;
+	vertical-align:middle;cursor:pointer;
+	display:block;
+}
+
+
+.OptionImgGray5 {
+	background-image: url(../Survey/images/OptionICO05.gray.gif);
+	width:30px;
+	height:30px;
+	background-repeat:no-repeat;
+	text-align:center;
+	vertical-align:middle;cursor:pointer;
+	display:block;
+}
+
+.OptionImgColor5 {
+	background-image: url(../Survey/images/OptionICO05.Color.gif);
+	width:30px;
+	height:30px;
+	background-repeat:no-repeat;
+	text-align:center;
+	vertical-align:middle;cursor:pointer;
+	display:block;
+}
+
+.SerialNumberSortStyle{
+    
+}
+
+.IsRequiredStyle{
+    color:Red;
+    margin-left:5px;
+}
+

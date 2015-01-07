@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="height: 100%">
+<head>
+    <title></title>
+
+    <script language="javascript" type="text/javascript" src="js/showArrow.js"></script>
+
+    <style>
+        .cursorL
+        {
+	        cursor:url(../../Images/move_left.cur);
+	    }
+        .cursorR
+        {
+	        cursor:url(../../Images/move_right.cur);
+	    }
+    </style>
+    
+    <script type="text/javascript">
+    function showMaxindex1()
+    {
+        if(window.parent.frames["mainFrame"].document.getElementById("tbAll") != null)
+        {
+            window.parent.frames["mainFrame"].document.getElementById("tbAll").style.width = '1010px';
+            window.parent.frames["mainFrame"].document.getElementById("tbtoplinebg1").style.width = '480px';
+            window.parent.frames["mainFrame"].document.getElementById("tbtoplinebg2").style.width = '477px';
+            window.parent.frames["mainFrame"].document.getElementById("tdTime").style.width = '180px';
+            window.parent.frames["mainFrame"].document.getElementById("tdbtn1").style.width = '260px';
+            window.parent.frames["mainFrame"].document.getElementById("tdbtn2").style.width = '240px';
+            window.parent.frames["mainFrame"].document.getElementById("tdsize").style.width = '301px';
+            
+            window.parent.frames["mainFrame"].document.getElementById("hidAll").value = '1010px';
+            window.parent.frames["mainFrame"].document.getElementById("hidtoplinebg1").value = '480px';
+            window.parent.frames["mainFrame"].document.getElementById("hidtoplinebg2").value = '477px';
+            window.parent.frames["mainFrame"].document.getElementById("hidTime").value = '180px';
+            window.parent.frames["mainFrame"].document.getElementById("hidbtn1").value = '260px';
+            window.parent.frames["mainFrame"].document.getElementById("hidbtn2").value = '240px';
+            window.parent.frames["mainFrame"].document.getElementById("hidsize").value = '301px';
+        }
+    }
+    
+    function showMinindex1()
+    {
+        if(window.parent.frames["mainFrame"].document.getElementById("tbAll") != null)
+        {
+            window.parent.frames["mainFrame"].document.getElementById("tbAll").style.width = '836px';
+            window.parent.frames["mainFrame"].document.getElementById("tbtoplinebg1").style.width = '368px';
+            window.parent.frames["mainFrame"].document.getElementById("tbtoplinebg2").style.width = '368px';
+            window.parent.frames["mainFrame"].document.getElementById("tdTime").style.width = '178px';
+            window.parent.frames["mainFrame"].document.getElementById("tdbtn1").style.width = '245px';
+            window.parent.frames["mainFrame"].document.getElementById("tdbtn2").style.width = '270px';
+            window.parent.frames["mainFrame"].document.getElementById("tdsize").style.width = '98px';
+            
+            window.parent.frames["mainFrame"].document.getElementById("hidAll").value = '836px';
+            window.parent.frames["mainFrame"].document.getElementById("hidtoplinebg1").value = '368px';
+            window.parent.frames["mainFrame"].document.getElementById("hidtoplinebg2").value = '368px';
+            window.parent.frames["mainFrame"].document.getElementById("hidTime").value = '178px';
+            window.parent.frames["mainFrame"].document.getElementById("hidbtn1").value = '245px';
+            window.parent.frames["mainFrame"].document.getElementById("hidbtn2").value = '270px';
+            window.parent.frames["mainFrame"].document.getElementById("hidsize").value = '98px';
+        }
+    }
+    </script>
+    
+</head>
+<body style="height: 100%; width: 5px; vertical-align: top; margin: 0 0 0 0; padding: 0 0 0 0;"
+    onclick="showMenu();">
+    <table style="height: 100%; width: 100%; background: url(../../Images/Separator_line.gif);"
+        border="0" cellpadding="0" cellspacing="0" id="separator" class="cursorL">
+        <tr>
+            <td style="height: 45%;">
+                &nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 10%;" align="left">
+                <div id="divback" style="background: url(../../images/lefthide.gif); height: 69px;
+                    width: 5px;">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 45%;">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

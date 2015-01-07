@@ -1,0 +1,376 @@
+﻿body 
+{
+	margin: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	background-color: #FFFFFF;
+	font-size:12px;
+}
+
+.Company {
+	color: #FFFFFF;
+	font-size: 32px;
+	font-weight: bold;
+	text-decoration:none;
+}
+.Myform 
+{
+	margin: 0px;
+	padding:0px;
+
+}
+
+.t
+{
+	border-bottom: #EEEEEE 1px solid;
+	height:30px;
+	font-size: 12px;
+}
+
+
+	.SetBT{
+		background:url(../survey/images/ico.gif) no-repeat -1388px -67px;
+		background-repeat:no-repeat;
+		float:left;
+		vertical-align:middle;
+		height:24px;	
+		width:52px;	
+	}
+	
+	.HelpBT{
+		background:url(../survey/images/ico.gif) no-repeat -1430px -67px;
+		background-repeat:no-repeat;
+		float:left;
+		color:#000000;
+		height:20px;	
+		width:25px;	
+	}
+
+
+
+.TableHead
+{
+	/*background-image: url(../survey/images/face/bg3.jpg);*/
+	background-image: url(../survey/images/Ceramics.png);
+	height: 25px;
+	font-size: 12px;
+	text-align:left;
+	text-decoration: none;
+}
+
+.TableHead1
+{
+	height: 25px;
+	
+	font-size: 12px;
+	
+	text-decoration: none;
+}
+
+.Top
+{
+	background-image: url(../survey/images/face/bg6.jpg);
+	background-repeat:repeat-x;
+	height: 25px;
+	font-weight: bold;
+	font-size: 12px;
+	color: buttonhighlight;
+	text-decoration: none;
+}
+
+A
+{
+	color: black;
+}
+
+.BlackFont
+{
+	font-size:12px;
+	color:Black;
+
+}
+.SaveBT {
+	height: 25px;
+	width: 60px;
+	color: #000000;
+	background-color: #EEEEEE;
+}
+.BTDown {
+	background-color: #E1F1FF;
+	border-top: 1px solid #333333;
+	border-right: 1px solid #E1F1FF;
+	border-bottom: 1px solid #333333;
+	border-left: 1px solid #333333;
+	vertical-align:middle;
+}
+.TableTDBT {
+	background-color: #FFFFFF;
+	height: 25px;
+}
+
+.GranFont {
+	font-size: 12px;
+	color: #666666;
+}
+.OptionWin {
+	background-color: #EEEEEE;
+	padding: 5px;
+}
+.SurveyListTop {
+	font-size: 12px;
+	font-weight: lighter;
+	color: #333333;
+	height:25px;
+	background-color:#C2E3FE;
+}
+.mainBG {
+	background-attachment: scroll;
+	background-image: url(../survey/images/mainBG.gif);
+	background-repeat:no-repeat;
+
+	
+	
+	
+}
+
+.statBG {
+	background-attachment: fixed;
+	background-image: url(../survey/images/StatBG.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	
+	
+}
+
+
+
+.DefaultTop {
+	background-attachment: fixed;
+	background-image: url(../survey/images/DefaultTop.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	
+	
+}
+
+
+.BtNormal {
+	text-indent: 20pt;
+	background-color: #FFFFFF;
+	cursor: default;
+	height: 60px;
+	border-top: 1px none #FFFFFF;
+	border-right: 1px none #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	border-left: 1px none #FFFFFF;
+	vertical-align:middle;
+}
+.BtMove {
+	background-image: url(../survey/images/Face/bg6.gif);
+	height: 60px;
+	text-indent: 20pt;
+	cursor: default;
+	border-top: 1px none #CCCCCC;
+	border-right: 1px none #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px none #CCCCCC;
+	vertical-align:middle;
+}
+
+
+.BtDown {
+	background-image: url(../survey/images/Face/bg6.gif);
+	height: 60px;
+	text-indent: 20pt;
+	line-height:50px;	
+	cursor: default;
+	border-top: 1px none #000000;
+	border-right: 1px none #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px none #CCCCCC;
+	font-size: 20px;
+	font-weight: bold;
+
+
+}
+
+.StatResultTable {
+	background-image: url(../survey/images/Face/channelHeader.gif);
+	height: 22px;
+	text-align:left;
+}
+
+.StatResultTable1 {
+	background-image: url(../survey/images/Face/channelHeader.gif);
+	height: 22px;
+	text-align:center;
+}
+
+.RedFont {
+	font-size: 12px;
+	font-style: normal;
+	color: #FF0000;
+}
+.verticalLine {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+	font-weight:bold;
+}
+
+.ShadowEffect{
+	border: 1px solid #999999;
+	filter:progid:DXImageTransform.Microsoft.Shadow (Color=#333333,Direction=120,strength=5);    
+}
+
+.Mask{
+	background-color:#999999;
+	filter:alpha(opacity=30);
+	opacity: 0.5;
+	-moz-opacity:0.2;
+	
+}
+
+
+.InputStyle {
+	vertical-align: middle;
+	width: 250px;
+	padding-left: 6px;
+	font-size:16px;
+	padding-top: 5px;
+	border-top: 1px solid #333;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #aaa;
+	border-left: 1px solid #999;
+	background-image: url(../survey/images/inputBG.gif);
+	background-repeat:repeat-x;
+	margin: 0px;
+	height:21px
+}
+
+.Lamp{
+		background:url(../survey/images/icopool.gif)  -89px -107px;
+		background-repeat:no-repeat;
+		display:block;
+		height:16px;	
+		width:16px;
+		float:left;
+		margin-right:5px;
+}
+		
+.grayBT{
+		 filter:gray
+	}
+	
+.Switch_Open{
+		background:url(../survey/images/icopool.gif)  -365px -315px;
+		background-repeat:no-repeat;
+		display:block;
+		height:16px;	
+		width:16px;
+		float:left;
+		margin-right:5px;
+		cursor:pointer;
+}
+
+.Switch_Close{
+		background:url(../survey/images/icopool.gif)  -411px -315px;
+		background-repeat:no-repeat;
+		display:block;
+		height:16px;	
+		width:16px;
+		float:left;
+		margin-right:5px;
+		cursor:pointer;
+}
+		
+
+	
+	.DataTable{
+	  border:1px solid #666666;
+	  border-collapse:collapse;
+	  width:auto;
+	
+	}
+.Warn{
+	background:url(../survey/images/icopool.gif)  -411px -108px;
+		background-repeat:no-repeat;
+		display:block;
+		height:16px;	
+		width:16px;
+
+	
+}
+
+.Share_Item{
+	background:url(../survey/images/icopool.gif)   -43px -393px;
+		background-repeat:no-repeat;
+		display:block;
+		height:16px;	
+		width:16px;
+}
+
+.Share_Clear{
+	background:url(../survey/images/icopool.gif)   -365px -185px;
+		background-repeat:no-repeat;
+		display:block;
+		height:16px;	
+		width:16px;
+		cursor:pointer;
+}
+
+.Share_Close{
+	background:url(../Survey/images/close1.gif) no-repeat;
+	height:16px;
+	width:16px;
+	display:block;
+}
+
+.Share_BrightBlue{
+		height:37px; 
+		width:100%; 
+		background:url(../survey/images/f2.gif) repeat-x 0px -147px;
+}
+
+
+.RightOptionWin{
+	background:#EFF0FF;
+	font-size:12px;
+}
+
+
+.TitleBar { 
+	height:37px; 
+	width:100%; 
+	background:url(../survey/images/f2.gif) repeat-x 0px -147px;
+	cursor:pointer;
+	line-height:37px;
+	font-weight:bold;
+	padding-left:10px;
+}
+
+.ShareBackup{
+	display:block;
+	float:right;
+	line-height:37px;
+	background:url(../Survey/images/Back.gif);
+	background-repeat:no-repeat;
+	margin-right:10px;
+	width:30px;
+	height:37px;
+	margin-top:3px;
+}
+
+.SerialNumberSortStyle{
+    
+}
+
+.IsRequiredStyle{
+    color:Red;
+    margin-left:5px;
+}
+
+
+

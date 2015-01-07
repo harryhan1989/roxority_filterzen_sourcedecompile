@@ -1,0 +1,5 @@
+*{margin:0; padding:0; border:0;}
+body{background:#004A8B url(../../images/leftTopBack.jpg) repeat-x;}
+#leftTopLeft{background:url(../../images/leftTopLeft.jpg) no-repeat; height:20px;}
+#leftTopRight{background:url(../../images/leftTopRight.jpg) right no-repeat; height:20px;}
+

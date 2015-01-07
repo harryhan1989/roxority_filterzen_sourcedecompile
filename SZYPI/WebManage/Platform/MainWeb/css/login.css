@@ -1,0 +1,26 @@
+/*
+html{scrollbar-face-color:#DBE8F0;
+    scrollbar-shadow-color: #fff;
+    scrollbar-highlight-color: #fff; 
+    scrollbar-3dlight-color: #B8C9D3;
+    scrollbar-darkshadow-color: #B8C9D3; 
+    scrollbar-track-color: #EDF8FD;
+    scrollbar-arrow-color: #155084;
+    height:100%;
+}
+body{font-size:12px;margin:0; padding:0; height:100%; filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr='#0C74AB',endColorStr='#CDE7F4'}
+*/
+
+/* CSS Document */
+body{ margin:0; font-size:12px; font-family:"ËÎÌו"; background:#FFF url(../../images/bodybg_01.jpg) 0 0 repeat-x}
+.wrapper{ width:928px; margin:0 auto; padding-top:100px; padding-bottom:120px}
+.logo{ background:url(../../images/login_03.jpg) 0 0 no-repeat; height:88px; width:398px;}
+.banner{ background:url(../../images/login_05.jpg) 0 0 no-repeat; height:181px; position:relative}
+.logindiv{ background:url(../../images/loginbg_03.gif) 0 0 no-repeat; width:295px;  height:155px; position:absolute; right:0;  top:0; margin-top:-40px; margin-right:7px; padding:55px 5px 5px 35px; color:#606060}
+.logindiv .itemdiv{ padding-bottom:4px}
+.logindiv  .inputName{ background:#FFF url(../../images/name.gif) 7px 3px  no-repeat; border:1px solid #B9BAB5; height:17px; padding:3px 2px 3px 24px; line-height:17px; width:156px}
+.logindiv  .inputPwd{ background:#FFF url(../../images/pwd.gif) 5px 3px  no-repeat; border:1px solid #B9BAB5; height:17px; padding:3px 2px 3px 24px; line-height:17px; width:156px}
+.logindiv  .inputYZ{ border:1px solid #B9BAB5; height:17px; padding:3px 2px 3px 2px; line-height:17px; width:90px; background:#FFF}
+.logindiv .loginbtns{ padding-left:48px; padding-top:8px}
+.logindiv input,.logindiv img{ vertical-align:middle}
+.footer{ background:url(../../images/login_08.jpg) 0 0 repeat-x; text-align:center; color:#969696; padding-top:20px}

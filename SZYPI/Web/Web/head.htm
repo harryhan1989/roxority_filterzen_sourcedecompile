@@ -1,0 +1,70 @@
+<link href="../App_Themes/Default/shell.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+
+sfHover = function() {
+	var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+//--><!]]></script>
+
+<div class="wraper">
+    <div class="top">
+        <div class="topmenu">
+            <ul id="nav">
+                <li id="menu_00"><a href="index.aspx">网站首页</a></li>
+                <li id="menu_01"><a href="Jggk_Detail.aspx?CategoryID=28&InfoCategoryID=1">机构概况</a>
+                   <!-- <ul>
+                        <li><a href="#">机构主要职能</a></li>
+                        <li><a href="#">机构领导及分工</a></li>
+                        <li><a href="#">内设机构 </a></li>
+                        <li><a href="#">直属单位</a></li>
+                        <li><a href="#">市（县）、区文化广电新闻出版部门</a></li>
+                    </ul>-->
+                </li>
+                <li id="menu_02"><a href="Zwgk_Left.aspx?InfoCategoryID=2">政府信息公开</a>
+                   <!-- <ul>
+                        <li><a href="#">政府信息公开指南</a></li>
+                        <li><a href="#">政府信息公开目录</a></li>
+                        <li><a href="#">动态信息 </a></li>
+                        <li><a href="#">政府信息公开制度</a></li>
+                        <li><a href="#">依申请公开</a></li>
+                        <li><a href="#">政府信息公开意见箱</a></li>
+                        <li><a href="#">政府信息公开年度报告</a></li>
+                    </ul>-->
+                </li>
+                <li id="menu_04"><a href="InfoList.aspx?InfoCategoryID=3">便民服务</a></li>
+                <li id="menu_05"><a href="Zwgk_Info.aspx?InfoCategoryID=50&type=1">公告公示</a></li>
+                <li id="menu_06"><a href="InfoList.aspx?InfoCategoryID=0">文化动态</a></li>
+                <li id="menu_07"><a href="InfoList.aspx?InfoCategoryID=5">文化民生</a></li>
+                <li id="menu_08"><a href="InfoList.aspx?InfoCategoryID=6">文化产业</a></li>
+                <li id="menu_09"><a href="InfoList.aspx?InfoCategoryID=7">文化遗产</a></li>
+                <li id="menu_10"><a href="InfoList.aspx?InfoCategoryID=8">广播影视</a></li>
+                <li id="menu_11"><a href="InfoList.aspx?InfoCategoryID=9">新闻出版</a></li>
+                <li id="menu_12"><a href="InfoList.aspx?InfoCategoryID=10">文&nbsp; 化&nbsp; 艺&nbsp; 术</a></li>
+                <li id="menu_13"><a href="InfoList.aspx?InfoCategoryID=11">文化市场</a></li>
+                <li id="menu_14"><a href="InfoList.aspx?InfoCategoryID=12">文化交流</a></li>
+                <li id="menu_15"><a href="InfoList.aspx?InfoCategoryID=13">文化人才</a></li>
+                <li id="menu_16"><a href="InfoList.aspx?InfoCategoryID=14">文化研究</a></li>
+                <li id="menu_17"><a href="InfoList.aspx?InfoCategoryID=15">文化专题</a></li>
+                <li id="menu_18"><a href="SuggestionConsults.aspx">公众监督</a>
+                   <!-- <ul>
+                        <li><a href="SuggestionConsults.aspx?MessageType=1">领导信箱</a></li>
+                        <li><a href="SuggestionConsults.aspx?MessageType=2">在线咨询</a></li>
+                        <li><a href="SuggestionConsults.aspx?MessageType=3">举报投诉 </a></li>
+                        <li><a href="SuggestionConsults.aspx?MessageType=4">意见建议</a></li>
+                    </ul>-->
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

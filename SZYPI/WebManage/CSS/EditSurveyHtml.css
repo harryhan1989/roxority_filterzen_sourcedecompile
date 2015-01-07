@@ -1,0 +1,149 @@
+
+
+.PageImage{
+	border:#AAAAAA solid 1px;
+	list-style:none;
+	margin:5px;
+}
+
+.PageStyleTitle{	
+	margin:5px;
+	display:block;
+}
+
+.PageImageBox{
+	border:#000000 solid 1px;
+	background-color:#FFFFFF;
+	list-style:none;
+	margin:10px;
+	width:250px;
+	margin-top:10px;
+	font-size:12px;	
+}
+
+.PageImageBoxSelect{
+	text-align:center;
+	border:#000000 solid 1px;
+	background-color:#FFFFCC;
+	list-style:none;
+	margin:10px;
+	width:250px;
+	margin-top:10px;
+	font-size:12px;	
+}
+#Layer1 {
+	position:absolute;
+	left:39px;
+	top:95px;
+	width:400px;
+	height:230px;
+	z-index:4;
+	background-color:#FFFFFF;
+	text-align:center;
+	vertical-align:middle;
+	display:none;
+}
+
+#ResultWin{
+	position:absolute;
+	z-index:2;
+	width:540px;
+	height:220px;
+	background-color:#FFFFFF;
+	top:0px;
+	left:0px;
+	font-size:12px;
+	border:#333333 1px solid;
+	padding:5px;
+	display:none;
+}
+
+#OpenWin{
+	position:absolute;
+	z-index:3;
+	width:540px;
+	height:220px;
+	background-color:#FFFFFF;
+	display:block;
+	font-size:12px;
+	border:#333333 1px solid;
+	top:100px;
+	left:100px;
+}
+
+.ToolOptionAreaCSS{
+	width:7px;
+	background:url(../survey/images/Line.gif) repeat-y;
+	cursor:pointer;
+	height:500px;
+}
+
+
+.SwitchOpenDarkBT{
+	display:block;
+	background:url(../survey/images/SurveyEditFace.png) no-repeat  -34px -114px;
+	height:50px;
+	width:7px;
+	
+}
+.SwitchOpenHighBT{
+	display:block;
+	background:url(../survey/images/SurveyEditFace.png) no-repeat  -46px -114px;
+	height:50px;
+	width:7px;
+}
+
+.SwitchCloseDarkBT{
+	display:block;
+	background:url(../survey/images/SurveyEditFace.png) no-repeat  -21px -114px;
+	height:50px;
+	width:7px;
+}
+
+.SwitchCloseHighBT{
+	display:block;
+	background:url(../survey/images/SurveyEditFace.png) no-repeat  -7px -114px;
+	height:50px;
+	width:7px;
+}
+
+body{
+background-color:#EFF3FB;
+}
+
+
+.NormalPageCSS{
+	float:left;
+	width:20px;
+	cursor:pointer;
+	color:#000000;
+
+}
+.CurrPageCSS{
+	float:left;
+	width:20px;
+	cursor:pointer;
+	color:#990000;
+	font-weight:bold;
+}
+.SingleTemplateBox{
+	text-align:center;
+	width:180px;
+	height:110px;
+	cursor:pointer;
+	color:#990000;
+	font-size:12px;
+	margin:2px;
+	border:#999999 1px solid;
+	padding:2px;
+	overflow:hidden;
+
+}
+
+#PageList{
+	margin:2px;
+	border:#CCCCCC 1px solid;
+	padding:2px;
+	clear:both;
+	overflow:visible;
+}

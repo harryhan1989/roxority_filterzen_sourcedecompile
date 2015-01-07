@@ -1,0 +1,6 @@
+*{margin:0; padding:0; border:0;}
+body{background:url(../../images/leftBottomBack.jpg) repeat-x;}
+#leftBottomLeft,#leftBottomRight{height:17px; width:24px; display: block; position:absolute; top:0px;}
+#leftBottomLeft{background:url(../../images/leftBottomLeft.jpg) no-repeat; left:0;}
+#leftBottomRight{background:url(../../images/leftBottomRight.jpg) right no-repeat; right:0px; }
+

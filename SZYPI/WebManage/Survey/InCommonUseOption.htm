@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="../css/SurveyList.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.EditSurveyToolsBarBT_Normal {
+	height: 21px;
+	cursor: pointer;
+	font-size:12px;
+	width:20%;
+	color:#0033CC;
+	border: 1px solid;
+}
+
+.EditSurveyToolsBarBT_Move {
+	height: 21px;
+	cursor: pointer;
+	color:#FFFFFF;
+	font-weight:bold;
+	background-color:#0033FF;
+	font-size:12px;
+	width:20%;
+	border: 1px solid #333333;
+}
+</style>
+</head>
+<script language="javascript" type="text/javascript">
+var arrOption = new Array(10);
+arrOption[0] = "男\r\n女";//性别
+arrOption[1] = "18岁以下\r\n30岁以下\r\n40岁以下\r\n50岁以下\r\n50岁以上";//年龄
+arrOption[2] = "北京\r\n上海\r\n天津\r\n重庆\r\n河北\r\n山西\r\n内蒙古\r\n辽宁\r\n吉林\r\n黑龙江\r\n江苏\r\n浙江\r\n安徽\r\n福建\r\n江西\r\n山东\r\n河南\r\n湖北\r\n湖南\r\n广东\r\n广西\r\n海南\r\n四川\r\n贵州\r\n云南\r\n西藏\r\n陕西\r\n甘肃\r\n宁夏\r\n青海\r\n新疆\r\n香港 \r\n澳门\r\n台湾";//省份
+arrOption[3] = "东城\r\n西城\r\n崇文\r\n宣武\r\n朝阳\r\n丰台\r\n石景山\r\n海淀\r\n门头沟\r\n房山\r\n通州\r\n顺义\r\n昌平\r\n大兴\r\n平谷\r\n怀柔\r\n密云\r\n延庆\r\n黄浦\r\n卢湾\r\n徐汇\r\n长宁\r\n静安\r\n普陀\r\n闸北\r\n虹口\r\n杨浦\r\n闵行\r\n宝山\r\n嘉定\r\n浦东\r\n金山\r\n松江\r\n青浦\r\n南汇\r\n奉贤\r\n崇明\r\n和平\r\n东丽\r\n河东\r\n西青\r\n河西\r\n津南\r\n南开\r\n北辰\r\n河北\r\n武清\r\n红挢\r\n塘沽\r\n汉沽\r\n大港\r\n宁河\r\n静海\r\n宝坻\r\n蓟县\r\n万州\r\n涪陵\r\n渝中\r\n大渡口\r\n江北\r\n沙坪坝\r\n九龙坡\r\n南岸\r\n北碚\r\n万盛\r\n双挢\r\n渝北\r\n巴南\r\n黔江\r\n长寿\r\n綦江\r\n潼南\r\n铜梁\r\n大足\r\n荣昌\r\n壁山\r\n梁平\r\n城口\r\n丰都\r\n垫江\r\n武隆\r\n忠县\r\n开县\r\n云阳\r\n奉节\r\n巫山\r\n巫溪\r\n石柱\r\n秀山\r\n酉阳\r\n彭水\r\n江津\r\n合川\r\n永川\r\n南川\r\n石家庄\r\n邯郸\r\n邢台\r\n保定\r\n张家口\r\n承德\r\n廊坊\r\n唐山\r\n秦皇岛\r\n沧州\r\n衡水择\r\n太原\r\n大同\r\n阳泉\r\n长治\r\n晋城\r\n朔州\r\n吕梁\r\n忻州\r\n晋中\r\n临汾\r\n运城\r\n呼和浩特\r\n包头\r\n乌海\r\n赤峰\r\n呼伦贝尔盟\r\n阿拉善盟\r\n哲里木盟\r\n兴安盟\r\n乌兰察布盟\r\n锡林郭勒盟\r\n巴彦淖尔盟\r\n伊克昭盟\r\n沈阳\r\n大连\r\n鞍山\r\n抚顺\r\n本溪\r\n丹东\r\n锦州\r\n营口\r\n阜新\r\n辽阳\r\n盘锦\r\n铁岭\r\n朝阳\r\n葫芦岛\r\n长春\r\n吉林\r\n四平\r\n辽源\r\n通化\r\n白山\r\n松原\r\n白城\r\n延边\r\n哈尔滨\r\n齐齐哈尔\r\n牡丹江\r\n佳木斯\r\n大庆\r\n绥化\r\n鹤岗\r\n鸡西\r\n黑河\r\n双鸭山\r\n伊春\r\n七台河\r\n大兴安岭\r\n南京\r\n镇江\r\n苏州\r\n南通\r\n扬州\r\n盐城\r\n徐州\r\n连云港\r\n常州\r\n无锡\r\n宿迁\r\n泰州\r\n淮安\r\n杭州\r\n宁波\r\n温州\r\n嘉兴\r\n湖州\r\n绍兴\r\n金华\r\n衢州\r\n舟山\r\n台州\r\n丽水\r\n合肥\r\n芜湖\r\n蚌埠\r\n马鞍山\r\n淮北\r\n铜陵\r\n安庆\r\n黄山\r\n滁州\r\n宿州\r\n池州\r\n淮南\r\n巢湖\r\n阜阳\r\n六安\r\n宣城\r\n亳州\r\n福州\r\n厦门\r\n莆田\r\n三明\r\n泉州\r\n漳州\r\n南平\r\n龙岩\r\n宁德\r\n南昌市\r\n景德镇\r\n九江\r\n鹰潭\r\n萍乡\r\n新馀\r\n赣州\r\n吉安\r\n宜春\r\n抚州\r\n上饶\r\n济南\r\n青岛\r\n淄博\r\n枣庄\r\n东营\r\n烟台\r\n潍坊\r\n济宁\r\n泰安\r\n威海\r\n日照\r\n莱芜\r\n临沂\r\n德州\r\n聊城\r\n滨州\r\n菏泽\r\n郑州\r\n开封\r\n洛阳\r\n平顶山\r\n安阳\r\n鹤壁\r\n新乡\r\n焦作\r\n濮阳\r\n许昌\r\n漯河\r\n三门峡\r\n南阳\r\n商丘\r\n信阳\r\n周口\r\n驻马店\r\n济源\r\n武汉\r\n宜昌\r\n荆州\r\n襄樊\r\n黄石\r\n荆门\r\n黄冈\r\n十堰\r\n恩施\r\n潜江\r\n天门\r\n仙桃\r\n随州\r\n咸宁\r\n孝感\r\n鄂州\r\n长沙\r\n常德\r\n株洲\r\n湘潭\r\n衡阳\r\n岳阳\r\n邵阳\r\n益阳\r\n娄底\r\n怀化\r\n郴州\r\n永州\r\n湘西\r\n张家界\r\n广州\r\n深圳\r\n珠海\r\n汕头\r\n东莞\r\n中山\r\n佛山\r\n韶关\r\n江门\r\n湛江\r\n茂名\r\n肇庆\r\n惠州\r\n梅州\r\n汕尾\r\n河源\r\n阳江\r\n清远\r\n潮州\r\n揭阳\r\n云浮\r\n南宁\r\n柳州\r\n桂林\r\n梧州\r\n北海\r\n防城港\r\n钦州\r\n贵港\r\n玉林\r\n南宁地区\r\n柳州地区\r\n贺州\r\n百色\r\n河池\r\n海口\r\n三亚\r\n成都\r\n绵阳\r\n德阳\r\n自贡\r\n攀枝花\r\n广元\r\n内江\r\n乐山\r\n南充\r\n宜宾\r\n广安\r\n达川\r\n雅安\r\n眉山\r\n甘孜\r\n凉山\r\n泸州\r\n贵阳\r\n六盘水\r\n遵义\r\n安顺\r\n铜仁\r\n黔西南\r\n毕节\r\n黔东南\r\n黔南\r\n昆明\r\n大理\r\n曲靖\r\n玉溪\r\n昭通\r\n楚雄\r\n红河\r\n文山\r\n思茅\r\n西双版纳\r\n保山\r\n德宏\r\n丽江\r\n怒江\r\n迪庆\r\n临沧\r\n拉萨\r\n日喀则\r\n山南\r\n林芝\r\n昌都\r\n阿里\r\n那曲\r\n西安\r\n宝鸡\r\n咸阳\r\n铜川\r\n渭南\r\n延安\r\n榆林\r\n汉中\r\n安康\r\n商洛\r\n兰州\r\n嘉峪关\r\n金昌\r\n白银\r\n天水\r\n酒泉\r\n张掖\r\n武威\r\n定西\r\n陇南\r\n平凉\r\n庆阳\r\n临夏\r\n甘南\r\n银川\r\n石嘴山\r\n吴忠\r\n固原\r\n西宁\r\n海东\r\n海南\r\n海北\r\n黄南\r\n玉树\r\n果洛\r\n海西\r\n乌鲁木齐\r\n石河子\r\n克拉玛依\r\n伊犁\r\n巴音郭勒\r\n昌吉\r\n克孜勒苏柯尔克孜\r\n博尔塔拉\r\n吐鲁番\r\n哈密\r\n喀什\r\n和田\r\n阿克苏\r\n香港\r\n澳门\r\n台北\r\n高雄\r\n台中\r\n台南\r\n屏东\r\n南投\r\n云林\r\n新竹\r\n彰化\r\n苗栗\r\n嘉义\r\n花莲\r\n桃园\r\n宜兰\r\n基隆\r\n台东\r\n金门\r\n马祖\r\n澎湖";//城市
+arrOption[4] = "计算机·网络·技术类\r\n行政·后勤类\r\n电子·电器·通信技术类\r\n翻译类\r\n销售类\r\n客户服务类\r\n市场·公关·媒介类\r\n咨询·顾问类\r\n财务·审计·统计类\r\n项目管理类\r\n人力资源类\r\n教育·培训类\r\n经营管理类\r\n质量管理类\r\n美术·设计·创意类\r\n技工类\r\n金融类\r\n保险类\r\n贸易·物流·采购·运输类\r\n商业零售类\r\n建筑·房地产·装饰装修·物业管理类\r\n法律类\r\n酒店·餐饮·旅游·服务类\r\n生物·制药·化工·环保类\r\n文体·影视·写作·媒体类\r\n在校学生类\r\n机械·仪器仪表类\r\n科研类\r\n工厂生产类\r\n公务员类\r\n医疗卫生·美容保健类\r\n培训生类\r\n电气·能源·动力类\r\n其他类";//职业
+arrOption[5] = "文盲\r\n小学\r\n初中\r\n高中\r\n中技\r\n中专\r\n大专\r\n本科\r\n硕士\r\nMBA\r\n博士";//学历
+arrOption[6] = "计算机软件\r\n计算机硬件·网络设备\r\nIT服务·系统集成\r\n互联网·电子商务\r\n网络游戏\r\n电子·微电子\r\n通信\r\n广告·会展·公关\r\n房地产开发·建筑与工程\r\n房地产服务\r\n家居·室内设计·装潢\r\n中介服务\r\n专业服务\r\n检验·检测·认证\r\n银行\r\n保险\r\n基金·证券·期货·投资\r\n贸易·进出口\r\n媒体·出版·文化传播\r\n印刷·包装·造纸\r\n快速消费品\r\n耐用消费品\r\n家电业\r\n办公设备·用品\r\n旅游·酒店·餐饮服务\r\n批发·零售\r\n交通·运输·物流\r\n娱乐·运动·休闲\r\n制药·生物工程\r\n医疗·保健·美容·卫生服务\r\n医疗设备·器械\r\n环保\r\n化工\r\n采掘·冶炼\r\n能源·水利\r\n仪器·仪表·工业自动化·电气\r\n汽车·摩托车\r\n机械制造·机电·重工\r\n原材料及加工\r\n教育·培训·科研·院校\r\n政府·非营利机构\r\n其他";//行业
+arrOption[7] = "东北\r\n西北\r\n东南\r\n西南";//区域
+arrOption[8] = "1000元以下\r\n1000到2000元\r\n2000到3000元\r\n3000到4000元\r\n4000到5000元\r\n5000到8000元\r\n8000取10000元\r\n10000元以上";//收入
+arrOption[9] = "已婚\r\n未婚\r\n再婚";//婚姻
+arrOption[10] = "音乐\r\n体育\r\n户外\r\n阅读\r\n上网\r\n学习\r\n社交\r\n购物\r\n艺术";//爱好
+arrOption[11] = "很好\r\n好\r\n一般\r\n差\r\n很差";//健康
+arrOption[12] = "天文学\r\n地质学\r\n地理科学\r\n地球物理学\r\n大气科学\r\n海洋科学\r\n环境科学\r\n生态学\r\n石油工程\r\n资源勘查工程\r\n热能与动力工程\r\n水利水电工程\r\n基础医学\r\n预防医学\r\n临床医学\r\n医学检验\r\n口腔医学\r\n中医学\r\n护理学\r\n药学\r\n信息管理与信息系统\r\n工业工程\r\n工程管理\r\n工商管理\r\n市场营销\r\n会计学\r\n财务管理\r\n人力资源管理\r\n旅游管理\r\n行政管理\r\n公共事业管理\r\n劳动与社会保障\r\n土地资源管理\r\n农业经济管理\r\n图书档案学类\r\n物流管理\r\n数学与应用数学\r\n物理学类\r\n化学类\r\n理论与应用力学\r\n统计学\r\n微电子学\r\n光信息科学与技术\r\n电气工程及其自动化\r\n自动化\r\n电子信息工程\r\n通信工程\r\n计算机科学与技术\r\n建筑学\r\n城市规划\r\n土木工程\r\n测绘工程\r\n环境工程\r\n材料科学类\r\n冶金工程\r\n工业设计\r\n机械设计制造及其自动化\r\n测控技术与仪器\r\n航空航天类\r\n武器类\r\n船舶与海洋工程\r\n化学工程与工艺\r\n食品科学与工程\r\n服装设计与工程\r\n印刷工程\r\n轻化工程\r\n包装工程\r\n纺织工程\r\n交通运输类\r\n农业工程类\r\n车辆工程\r\n经济学\r\n国际经济与贸易\r\n财政学\r\n金融学\r\n保险\r\n法学\r\n社会学\r\n政治学与行政学\r\n国际政治\r\n公安学类\r\n教育学\r\n学前教育学\r\n特殊教育学\r\n教育技术学\r\n体育学类\r\n心理学\r\n中国语言文学类\r\n外国语言文学类\r\n新闻学\r\n广告学\r\n编辑出版学\r\n美术学(绘画、雕塑)\r\n艺术设计\r\n导演\r\n哲学\r\n历史学\r\n考古学\r\n生物科学\r\n生物工程\r\n农学\r\n园艺\r\n林学\r\n动物科学\r\n动物医学\r\n水产养殖学";//专业
+arrOption[13] = "很不满意\r\n不满意\r\n中立\r\n满意\r\n很满意";//满意度
+arrOption[14] = "非常认可\r\n认可\r\n中立\r\n不认可\r\n非常不认可";//认可度
+arrOption[15] = "5分\r\n4分\r\n3分\r\n2分\r\n1分";//打分
+arrOption[16] = "很深\r\n深\r\n一般\r\n浅\r\n很浅";//程度
+arrOption[17] = "诺基亚NOKIA\r\n索爱\r\n三星\r\n摩托罗拉MOTO\r\n夏普\r\nLG\r\n飞利浦\r\n天语\r\n金立\r\n多普达\r\n联想\r\n夏新\r\n纽曼\r\n海尔\r\nCECT\r\n其它";//手机品牌
+arrOption[18] = "Dell戴尔\r\nHP惠普\r\nIBM\r\n联想\r\n宏基\r\n神洲\r\n新蓝\r\n方正\r\n同方\r\n紫光\r\n长城\r\n新实达";//电脑品牌
+arrOption[19] = "QQ\r\nMSN\r\n泡泡\r\n新浪的UC\r\nSkype\r\nICO\r\n飞信\r\n阿里旺旺\r\n百度Hi\r\n雅虎通";//聊天工具
+arrOption[20] = "强\r\n一般\r\n弱";//消费能力
+arrOption[21] = "百度\r\nGoogle谷歌\r\nLive Search微软\r\nYahoo.com\r\n网易有道\r\n搜狐搜狗\r\nQQ搜索\r\n一搜\r\n中搜\r\n英文雅虎\r\nYahoo.cn中文雅虎";//搜索引擎
+arrOption[22] = "百度\r\nGoogle谷歌\r\n新浪\r\n网易\r\n搜狐\r\nQQ.COM\r\nCCTV\r\n凤凰卫视ifeng.com\r\n新华网\r\n天涯社区\r\n皮皮电影PiPi.cn";//常用网站
+arrOption[23] = "每天1小时\r\n每天2小时\r\n每天3小时\r\n每天4小时\r\n每天5小时\r\n每天6小时\r\n每天7小时\r\n每天8小时\r\n每天8至12小时\r\n第天12小时以上";//上网时间
+arrOption[24] = "子鼠\r\n丑牛\r\n寅虎\r\n卯兔\r\n辰龙\r\n巳蛇\r\n午马\r\n未羊\r\n申猴\r\n酉鸡\r\n戌狗\r\n亥猪";//生肖
+arrOption[25] = "白羊座\r\n金牛座\r\n双子座\r\n巨蟹座\r\n狮子座\r\n室女座\r\n天秤座\r\n天蝎座\r\n人马座\r\n摩羯座\r\n宝瓶座\r\n双鱼座";//星座
+arrOption[26] = "1人\r\n2人\r\n3人\r\n4人\r\n5人\r\n6人\r\n6人以上";//家庭成员
+arrOption[27] = "是\r\n否";//
+arrOption[28] = "";//
+arrOption[29] = "";//
+
+function insert(v){
+	window.parent.document.getElementById("BackSelect").value = arrOption[v];
+	window.parent.document.getElementById("Layer1").style.display = "none";
+}
+
+</script>
+
+<body>
+<table width="100%">
+  <tr>
+    <td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(0)" class="EditSurveyToolsBarBT_Normal">性别</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(1)" class="EditSurveyToolsBarBT_Normal">年龄</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(2)" class="EditSurveyToolsBarBT_Normal">省份</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(3)" class="EditSurveyToolsBarBT_Normal">城市</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(4)" class="EditSurveyToolsBarBT_Normal">职业</td>
+  </tr>
+  <tr>
+    <td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(5)" class="EditSurveyToolsBarBT_Normal">学历</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(6)" class="EditSurveyToolsBarBT_Normal">行业</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(7)" class="EditSurveyToolsBarBT_Normal">区域</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(8)" class="EditSurveyToolsBarBT_Normal">收入</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(9)" class="EditSurveyToolsBarBT_Normal">婚姻</td>
+  </tr>
+  <tr>
+    <td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(10)" class="EditSurveyToolsBarBT_Normal">爱好</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(11)" class="EditSurveyToolsBarBT_Normal">健康</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(12)" class="EditSurveyToolsBarBT_Normal">专业</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(13)" class="EditSurveyToolsBarBT_Normal">满意度</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(14)" class="EditSurveyToolsBarBT_Normal">认可度</td>
+  </tr>
+  <tr>
+    <td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(15)" class="EditSurveyToolsBarBT_Normal">打分</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(16)" class="EditSurveyToolsBarBT_Normal">程度</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(17)" class="EditSurveyToolsBarBT_Normal">手机品牌</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(18)" class="EditSurveyToolsBarBT_Normal">电脑品牌</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(19)" class="EditSurveyToolsBarBT_Normal">聊天工具</td>
+  </tr>
+  <tr>
+    <td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(20)" class="EditSurveyToolsBarBT_Normal">消费能力</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(21)" class="EditSurveyToolsBarBT_Normal">搜索引擎</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(22)" class="EditSurveyToolsBarBT_Normal">常用网站</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(23)" class="EditSurveyToolsBarBT_Normal">上网时间</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(24)" class="EditSurveyToolsBarBT_Normal">生肖</td>
+  </tr>
+  <tr>
+    <td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(25)" class="EditSurveyToolsBarBT_Normal">星座</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(26)" class="EditSurveyToolsBarBT_Normal">家庭成员</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(27)" class="EditSurveyToolsBarBT_Normal">是否</td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(28)" class="EditSurveyToolsBarBT_Normal"></td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(29)" class="EditSurveyToolsBarBT_Normal"></td>
+  </tr>
+  <tr>
+    <td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(30)" class="EditSurveyToolsBarBT_Normal"></td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(31)" class="EditSurveyToolsBarBT_Normal"></td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(32)" class="EditSurveyToolsBarBT_Normal"></td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(33)" class="EditSurveyToolsBarBT_Normal"></td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(34)" class="EditSurveyToolsBarBT_Normal"></td>
+  </tr>
+  <tr>
+    <td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(35)" class="EditSurveyToolsBarBT_Normal"></td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(36)" class="EditSurveyToolsBarBT_Normal"></td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(37)" class="EditSurveyToolsBarBT_Normal"></td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(38)" class="EditSurveyToolsBarBT_Normal"></td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(39)" class="EditSurveyToolsBarBT_Normal"></td>
+  </tr>
+  <tr>
+    <td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(40)" class="EditSurveyToolsBarBT_Normal"></td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(41)" class="EditSurveyToolsBarBT_Normal"></td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(42)" class="EditSurveyToolsBarBT_Normal"></td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(43)" class="EditSurveyToolsBarBT_Normal"></td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(44)" class="EditSurveyToolsBarBT_Normal"></td>
+  </tr>
+  <tr>
+    <td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(45)" class="EditSurveyToolsBarBT_Normal"></td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(46)" class="EditSurveyToolsBarBT_Normal"></td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(47)" class="EditSurveyToolsBarBT_Normal"></td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(48)" class="EditSurveyToolsBarBT_Normal"></td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(49)" class="EditSurveyToolsBarBT_Normal"></td>
+  </tr>
+  <tr>
+    <td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(0)" class="EditSurveyToolsBarBT_Normal"></td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(0)" class="EditSurveyToolsBarBT_Normal"></td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(0)" class="EditSurveyToolsBarBT_Normal"></td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(0)" class="EditSurveyToolsBarBT_Normal"></td>
+	<td  onmousemove="this.className='EditSurveyToolsBarBT_Move'" onmouseout="this.className='EditSurveyToolsBarBT_Normal'" onclick="insert(0)" class="EditSurveyToolsBarBT_Normal"></td>
+  </tr>
+</table>
+</body>
+</html>

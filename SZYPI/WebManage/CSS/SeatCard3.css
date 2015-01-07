@@ -1,0 +1,21 @@
+.table
+{
+    width:640px;
+    height:970px;
+}
+.td
+{
+    border-bottom:dashed 1px black;
+}
+.fontCh
+{
+	font-size:90pt;
+	font-family:Ώ¬Με_GB2312;
+	mso-ascii-font-family:"Times New Roman";
+}
+.fontEn
+{
+	font-size:60pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:Ώ¬Με_GB2312;
+}

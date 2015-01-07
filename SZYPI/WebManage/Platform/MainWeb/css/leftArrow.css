@@ -1,0 +1,10 @@
+*{margin:0; padding:0; border:0;}
+html,body,div{height:100%;}
+body{background:url(../../images/leftArrowBack.jpg) repeat-y;}
+#arrowTop{background:url(../../images/leftArrowTop.jpg) no-repeat;}
+#arrowBottom{background:url(../../images/leftArrowBottom.jpg) bottom no-repeat;}
+.leftArrow,.leftArrow2{display:block; height:27px; width:6px; position:absolute; left:0; top:200px;}
+a.leftArrow:link,a.leftArrow:visited{background:url(../../images/leftArrow.jpg) no-repeat;}
+a.leftArrow:hover{background:url(../../images/leftArrowHov.jpg) no-repeat;}
+a.leftArrow2:link,a.leftArrow2:visited{background:url(../../images/leftArrow2.jpg) no-repeat;}
+a.leftArrow2:hover{background:url(../../images/leftArrow2Hov.jpg) no-repeat;}

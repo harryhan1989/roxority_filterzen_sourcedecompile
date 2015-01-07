@@ -1,0 +1,82 @@
+.NormalBT
+{
+	background-color: #FFFFFF;
+	font-weight: normal;
+	border: none;
+	border-bottom: #000000 1px solid;
+	float: left;
+	width: 100px;
+	text-align: center;
+	cursor: pointer;
+	padding: 5px;
+	height: 22px;
+	display: block;
+}
+
+.MoveBT
+{
+	background-color: #FFFFEE;
+	font-weight: normal;
+	border: #000000 1px solid;
+	border-bottom-style: none;
+	float: left;
+	width: 100px;
+	text-align: center;
+	cursor: pointer;
+	padding: 5px;
+	height: 22px;
+}
+
+.BTText
+{
+	display: block;
+}
+
+.BTExpand
+{
+	background-color: #FFFFFF;
+	border: none;
+	border-bottom: #000000 1px solid;
+	height: 22px;
+	padding: 5px;
+	float: left;
+}
+
+#DelPageWin
+{
+	width: 100%;
+	float: left;
+}
+
+#AddPageWin
+{
+	float: left;
+	width: 100%;
+}
+
+#ItemToPageWin
+{
+	width: 100%;
+	float: left;
+}
+
+
+#Card00
+{
+	width: 20px;
+}
+#Card41
+{
+	width: 200px;
+}
+
+#BG
+{
+	float: left;
+}
+
+body
+{
+	margin: 5px;
+}
+

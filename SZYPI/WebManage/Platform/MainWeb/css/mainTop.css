@@ -1,0 +1,16 @@
+*{margin:0; padding:0; border:0;}
+body{background:url(../../images/mainTopBack.jpg) repeat-x;}
+
+.arrowLine,.upArrow2{display:block; width:27px; height:8px; position:absolute; top:0; right:30px;}
+a.arrowLine:link,a.arrowLine:visited{background:url(../../images/upArrow.jpg) no-repeat;}
+a.arrowLine:hover{background:url(../../images/upArrowHov.jpg) no-repeat;}
+a.upArrow2:link,a.upArrow2:visited{background:url(../../images/upArrow2.jpg) no-repeat;}
+a.upArrow2:hover{background:url(../../images/upArrow2Hov.jpg) no-repeat;}
+
+.hideArrow,.showArrow{display:block; width:27px; height:8px; position:absolute; top:0; right:57px;}
+a.hideArrow:link,a.hideArrow:visited{background:url(../images/hideLink.jpg) no-repeat;}
+a.hideArrow:hover{background:url(../../images/hideHover.jpg) no-repeat;}
+a.showArrow:link,a.showArrow:visited{background:url(../../images/showLink.jpg) no-repeat;}
+a.showArrow:hover{background:url(../../images/showHover.jpg) no-repeat;}
+
+
