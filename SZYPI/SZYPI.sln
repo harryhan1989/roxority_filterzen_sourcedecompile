@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{B6599942-E238-4D93-B6AF-7F2B628735E4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityModel", "EntityModel\EntityModel.csproj", "{06004397-6D12-4A45-B256-97A6CD0568D1}"
@@ -14,6 +16,30 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_SubCode", "Web_SubCode\Web_SubCode.csproj", "{69B4CC7A-8613-4613-AA4C-C5434467AAB1}"
 EndProject
 Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs13
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BusinessLayer\\BusinessLayer.csproj
+		SccProjectName1 = BusinessLayer
+		SccLocalPath1 = BusinessLayer
+		SccProjectUniqueName2 = EntityModel\\EntityModel.csproj
+		SccProjectName2 = EntityModel
+		SccLocalPath2 = EntityModel
+		SccProjectUniqueName3 = BLL\\BLL.csproj
+		SccProjectName3 = BLL
+		SccLocalPath3 = BLL
+		SccProjectUniqueName4 = WebManage\\WebManage.csproj
+		SccProjectName4 = WebManage
+		SccLocalPath4 = WebManage
+		SccProjectUniqueName5 = Web_Survey\\Web_Survey.csproj
+		SccProjectName5 = Web_Survey
+		SccLocalPath5 = Web_Survey
+		SccProjectUniqueName6 = Web_SubCode\\Web_SubCode.csproj
+		SccProjectName6 = Web_SubCode
+		SccLocalPath6 = Web_SubCode
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
