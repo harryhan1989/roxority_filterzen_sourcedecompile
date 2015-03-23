@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Tool_ExportActions_TitleSingular" xml:space="preserve">
+    <value>Export Action</value>
+  </data>
+  <data name="PC_ExportActions_filter" xml:space="preserve">
+    <value>Respect currently applied filters (FilterZen only)</value>
+  </data>
+  <data name="PD_ExportActions_filter" xml:space="preserve">
+    <value>If ticked, this export action only ever exports items included in the filtering currently applied to the applicable List View (&lt;b&gt;only&lt;/b&gt; supports filters supplied by a currently connected &lt;a target="_blank" href="http://roxority.com/filterzen/"&gt;FilterZen Filter Web Part&lt;/a&gt;).</value>
+  </data>
+  <data name="PC_ExportActions_nf" xml:space="preserve">
+    <value>Exclude the header row with column names</value>
+  </data>
+  <data name="Tool_ExportActions_Desc" xml:space="preserve">
+    <value>Use this tool to define your ExportZen List data exports. Each export action specifies which columns to export and lets you customize various export-related options.</value>
+  </data>
+  <data name="Tool_ExportActions_Icon" xml:space="preserve">
+    <value>/_layouts/images/delcell.gif</value>
+  </data>
+  <data name="__MenuActionIconSmall" xml:space="preserve">
+    <value>/_layouts/images/roxority_ExportZen/icon16.png</value>
+  </data>
+  <data name="_HelpTopics" xml:space="preserve">
+    <value>intro,setup,itemref_ExportActions,scheduling_sharepoint_list_data_csv_exports,farm_site_config,release_notes,eula</value>
+  </data>
+  <data name="HelpTopic_farm_site_config" xml:space="preserve">
+    <value>Configuration Settings</value>
+  </data>
+  <data name="DefaultEncoding" xml:space="preserve">
+    <value>Server-side default encoding [ {0} ]</value>
+  </data>
+  <data name="_ProductID" xml:space="preserve">
+    <value>6, 2, 0, 0, 0, 164, 0, 0, 82, 83, 65, 49, 0, 4, 0, 0, 1, 0, 1, 0, 191, 110, 41, 34, 52, 162, 132, 114, 98, 89, 127, 99, 38, 32, 0, 75, 155, 165, 4, 215, 182, 237, 1, 70, 86, 242, 248, 67, 193, 185, 124, 162, 14, 91, 84, 52, 223, 228, 64, 235, 203, 153, 16, 252, 202, 159, 119, 225, 45, 154, 96, 202, 200, 198, 14, 65, 255, 205, 174, 233, 194, 127, 125, 236, 82, 96, 92, 128, 159, 147, 32, 57, 226, 124, 128, 20, 197, 229, 111, 156, 243, 191, 23, 35, 232, 6, 29, 0, 158, 254, 85, 36, 23, 253, 243, 195, 229, 119, 91, 32, 160, 247, 158, 108, 143, 181, 55, 213, 154, 62, 50, 142, 238, 221, 38, 192, 210, 219, 162, 8, 45, 74, 10, 214, 83, 65, 154, 189</value>
+  </data>
+  <data name="Old_NoFilterZenEnt" xml:space="preserve">
+    <value>A FilterZen Basic license is required for the 'Respect Currently Applied Filters' feature.</value>
+  </data>
+  <data name="_WhiteLabelAddress" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_WhiteLabelTitle" xml:space="preserve">
+    <value>ROXORITY Ltd.</value>
+  </data>
+  <data name="_WhiteLabelEmail" xml:space="preserve">
+    <value>support@roxority.com</value>
+  </data>
+  <data name="_WhiteLabel" xml:space="preserve">
+    <value>roxority_</value>
+  </data>
+  <data name="_WssItems" xml:space="preserve">
+    <value>SiteFeature:65a0b7a9-080a-4bf7-8fed-5dc9de3654a1</value>
+  </data>
+  <data name="Tool_Transfer_Export_Extra" xml:space="preserve">
+    <value>and &lt;i&gt;Export Actions&lt;/i&gt;</value>
+  </data>
+  <data name="LocaleSystem" xml:space="preserve">
+    <value>Server-side installation locale -- [ {0} ]</value>
+  </data>
+  <data name="Tool_ExportActions_DefTitle" xml:space="preserve">
+    <value>Export to CSV</value>
+  </data>
+  <data name="_ProductName" xml:space="preserve">
+    <value>roxority_ExportZen</value>
+  </data>
+  <data name="_Tools" xml:space="preserve">
+    <value>Tool_ExportActions,Tool_SiteUsers,Tool_Localizer,Tool_Transfer</value>
+  </data>
+  <data name="PL_ExportActions_0" xml:space="preserve">
+    <value>name,title,cols,loc,enc,bom</value>
+  </data>
+  <data name="PL_ExportActions_4" xml:space="preserve">
+    <value>vhcol,vhrows,view,nopg,notb</value>
+  </data>
+  <data name="HelpTopic_scheduling_sharepoint_list_data_csv_exports" xml:space="preserve">
+    <value>Scheduled Automatic Background Exports</value>
+  </data>
+  <data name="PC_ExportActions_show" xml:space="preserve">
+    <value>Show ExportZen menu item in the following Lists</value>
+  </data>
+  <data name="PC_ExportActions_unix" xml:space="preserve">
+    <value>Apply UNIX-style escaping</value>
+  </data>
+  <data name="PC_ExportActions_view" xml:space="preserve">
+    <value>Export current View</value>
+  </data>
+  <data name="PC_ExportActions_notb" xml:space="preserve">
+    <value>Ignore quick-filter tabs in PeopleZen exports</value>
+  </data>
+  <data name="PC_ExportActions_nopg" xml:space="preserve">
+    <value>Ignore paging in PeopleZen exports</value>
+  </data>
+  <data name="PC_ExportActions_cols" xml:space="preserve">
+    <value>Export columns</value>
+  </data>
+  <data name="PC_ExportActions_desc" xml:space="preserve">
+    <value>ExportZen menu item description</value>
+  </data>
+  <data name="LocaleUser" xml:space="preserve">
+    <value>User account locale ('My Settings / My Regional Settings')</value>
+  </data>
+  <data name="_Copyright" xml:space="preserve">
+    <value>Copyright &amp;copy; 2008-2011 ROXORITY Ltd. All rights reserved.</value>
+  </data>
+  <data name="_ProductTitle" xml:space="preserve">
+    <value>ExportZen</value>
+  </data>
+  <data name="CfgSettingChoice_HideAction_auto" xml:space="preserve">
+    <value>Only if CSV export actions exist (requires activated Site Collection feature)</value>
+  </data>
+  <data name="_HomeHelpTopics" xml:space="preserve">
+    <value>intro,setup,itemref_ExportActions,scheduling_sharepoint_list_data_csv_exports,farm_site_config</value>
+  </data>
+  <data name="PC_ExportActions_sep_c" xml:space="preserve">
+    <value>Comma</value>
+  </data>
+  <data name="PC_ExportActions_sep_t" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="PC_ExportActions_sep_s" xml:space="preserve">
+    <value>Semicolon</value>
+  </data>
+  <data name="PC_ExportActions_title" xml:space="preserve">
+    <value>ExportZen menu item caption</value>
+  </data>
+  <data name="PC_ExportActions_vhcol" xml:space="preserve">
+    <value>Export all item version history in separate column</value>
+  </data>
+  <data name="CfgSettingTitle_MultiSep" xml:space="preserve">
+    <value>Separator for exported multi-valued Column data</value>
+  </data>
+  <data name="PC_ExportActions_excel" xml:space="preserve">
+    <value>Use semicolons instead of commas</value>
+  </data>
+  <data name="_Settings" xml:space="preserve">
+    <value>HideAction:[never|auto|always];MultiSep:string;NoDefaultInst:bool</value>
+  </data>
+  <data name="PD_ExportActions_vhcol" xml:space="preserve">
+    <value>Optional: if you'd like ExportZen to append an additional column recording all version history per item (only for the Columns specified above, in a simple plain-text format), specify your preferred name for this CSV column here. Leave blank to not append a version history column.&lt;br/&gt;&lt;br/&gt;Not applicable to &lt;a target="_blank" href="http://SharePoint-Tools.net/PeopleZen/"&gt;User Profile exports via PeopleZen&lt;/a&gt;.</value>
+  </data>
+  <data name="PD_ExportActions_title" xml:space="preserve">
+    <value>Specify the caption for this CSV export action to be shown in the export menu item for the Lists specified above. (If you do not specify a caption, the above name for this export action will be used, or if blank, its internal ID.)</value>
+  </data>
+  <data name="PD_ExportActions_sep_c" xml:space="preserve">
+    <value>recommended default separator for most CSV-consuming apps</value>
+  </data>
+  <data name="PD_ExportActions_sep_s" xml:space="preserve">
+    <value>alternative CSV format required by some international Excel versions</value>
+  </data>
+  <data name="PD_ExportActions_sep_t" xml:space="preserve">
+    <value>some CSV-consuming apps actually require TSV (tab-separated values)</value>
+  </data>
+  <data name="PD_ExportActions_excel" xml:space="preserve">
+    <value>Not recommended unless you and your users intend to only ever open these CSV exports in Microsoft Office Excel &lt;b&gt;AND&lt;/b&gt; Excel displays all comma-separated column values in a single cell (some internationalized Excel versions do that, some don't).</value>
+  </data>
+  <data name="Old_NoExportList" xml:space="preserve">
+    <value>The List specified in the 'exportlist' URL parameter could not be found.</value>
+  </data>
+  <data name="_hasjquery" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="LocaleBrowser" xml:space="preserve">
+    <value>User agent (browser) locale (potentially unreliable / inconsistent settings!)</value>
+  </data>
+  <data name="CfgSettingTitle_HideAction" xml:space="preserve">
+    <value>Hide (2007) or disable (2010) SharePoint's out-of-box "Export to Excel" command</value>
+  </data>
+  <data name="HelpTopic_intro" xml:space="preserve">
+    <value>CSV Data Exports for SharePoint Lists</value>
+  </data>
+  <data name="HelpTopic_setup" xml:space="preserve">
+    <value>Solution Installation</value>
+  </data>
+  <data name="CfgSettingDef_MultiSep" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="HelpTopic_release_notes" xml:space="preserve">
+    <value>Release Notes</value>
+  </data>
+  <data name="__MenuActionIcon" xml:space="preserve">
+    <value>/_layouts/images/roxority_ExportZen/ewr052.gif</value>
+  </data>
+  <data name="_MappingKey" xml:space="preserve">
+    <value>SyncLock</value>
+  </data>
+  <data name="_WhiteLabelUrlContact" xml:space="preserve">
+    <value>contact#down</value>
+  </data>
+  <data name="LocaleWeb" xml:space="preserve">
+    <value>Web site locale ('Site Settings / Regional Settings') -- [ {0} ]</value>
+  </data>
+  <data name="CfgSettingDesc_MultiSep" xml:space="preserve">
+    <value>This specifies the text used to combine the export value representations of List Columns containing multiple values, such as multi-Choice and multi-Lookup Columns.</value>
+  </data>
+  <data name="_AdminHelpTopics" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PC_ExportActions_sep" xml:space="preserve">
+    <value>Column value separator</value>
+  </data>
+  <data name="PC_ExportActions_loc" xml:space="preserve">
+    <value>Export locale</value>
+  </data>
+  <data name="PC_ExportActions_enc" xml:space="preserve">
+    <value>Export encoding</value>
+  </data>
+  <data name="PC_ExportActions_bom" xml:space="preserve">
+    <value>Prepend UTF-8 byte order mark</value>
+  </data>
+  <data name="_Editions" xml:space="preserve">
+    <value>Lite,Basic,Ultimate</value>
+  </data>
+  <data name="PD_ExportActions_nf" xml:space="preserve">
+    <value>By default, ExportZen exports always begin with a header row denoting all column names. Tick this check-box option to skip this header row in your exports and instead only include raw data records.</value>
+  </data>
+  <data name="CfgSettingChoice_HideAction_never" xml:space="preserve">
+    <value>Never</value>
+  </data>
+  <data name="PT_ExportActions_a" xml:space="preserve">
+    <value>Menu Item and Integration</value>
+  </data>
+  <data name="PT_ExportActions_c" xml:space="preserve">
+    <value>Column Layout and Export Contents</value>
+  </data>
+  <data name="PT_ExportActions_f" xml:space="preserve">
+    <value>Formatting Options</value>
+  </data>
+  <data name="HelpTopic_eula" xml:space="preserve">
+    <value>End-User License Agreement (EULA)</value>
+  </data>
+  <data name="Old_NoRuleItem" xml:space="preserve">
+    <value>The specified CSV Export Action Definition '{0}' could not be found ({1} actions scanned) --- fully refresh the previous page, and/or review your ExportZen action definitions under Site Settings / ExportZen Studio / Export Actions. User: {2}, lang: [{3}].</value>
+  </data>
+  <data name="_WhiteLabelUrl" xml:space="preserve">
+    <value>http://roxority.com/</value>
+  </data>
+  <data name="__MenuActionDefaultSchema" xml:space="preserve">
+    <value>ExportActions</value>
+  </data>
+  <data name="LocaleCurrent" xml:space="preserve">
+    <value>Server-side 'current' locale -- [ {0} ]</value>
+  </data>
+  <data name="CfgSettingDesc_HideAction" xml:space="preserve">
+    <value>By default, your ExportZen action commands co-exist together with the built-in, out-of-box 'Export to Excel' command. If you intend to fully replace that functionality with ExportZen, you can set whether and when to show (2007) / enable (2010) the built-in, out-of-box 'Export to Excel' command (affects both both the SharePoint 2007 List Actions tool-bar menu item and the ribbon button in the SharePoint 2010 'Connect and Export' section of the List Tools ribbon tab).</value>
+  </data>
+  <data name="PC_ExportActions_vhrows" xml:space="preserve">
+    <value>Export item version history in separate rows, one per version</value>
+  </data>
+  <data name="HelpTopic_itemref_ExportActions" xml:space="preserve">
+    <value>Settings for Export Actions</value>
+  </data>
+  <data name="CfgSettingChoice_HideAction_always" xml:space="preserve">
+    <value>Always (requires activated Site Collection feature)</value>
+  </data>
+  <data name="PD_ExportActions_view" xml:space="preserve">
+    <value>If ticked, this export action only ever exports items included in the currently displayed List View, applying the View-defined default sort orders and filters (but &lt;b&gt;not&lt;/b&gt; currently user-applied live sort order, filters or paging); otherwise, all List items are exported, unfiltered and in their original sort order.&lt;br/&gt;&lt;br/&gt;Not applicable to &lt;a target="_blank" href="http://SharePoint-Tools.net/PeopleZen/"&gt;User Profile exports via PeopleZen&lt;/a&gt;.</value>
+  </data>
+  <data name="PD_ExportActions_unix" xml:space="preserve">
+    <value>If un-ticked, ExportZen generates CSV data files using escaping patterns (for critical characters such as commas, line-breaks and quotes) that software written for Windows or Office is more likely to read flawlessly. Tick this check box to generate CSV data files using UNIX-style escaping patterns instead (only recommended if you get errors while feeding your exported CSV data files to other, non-Office software).</value>
+  </data>
+  <data name="PD_ExportActions_show" xml:space="preserve">
+    <value>Select in which Lists this export action will be offered as a menu item to end users (in the SharePoint 2007 "Actions" toolbar menu and in the SharePoint 2010 "Connect and Export" ribbon group (both only if the "ExportZen List Integration" Site Collection feature is activated too and for List Views, only with their Toolbar Type property set to Full or Show, not Summary or None).</value>
+  </data>
+  <data name="PD_ExportActions_nopg" xml:space="preserve">
+    <value>Even if the PeopleZen Web Part to be exported is paged, if this check-box option is ticked then all user profiles belonging to the Web Part are exported, instead of just those included in the currently shown page.</value>
+  </data>
+  <data name="PD_ExportActions_notb" xml:space="preserve">
+    <value>Even if the PeopleZen Web Part to be exported is tabbed, if this check-box option is ticked then all user profiles belonging to the Web Part are exported, instead of just those included in the currently shown tab.</value>
+  </data>
+  <data name="PD_ExportActions_desc" xml:space="preserve">
+    <value>Specify the description for this CSV export action to be shown in the export menu item for the Lists specified above.</value>
+  </data>
+  <data name="PD_ExportActions_cols" xml:space="preserve">
+    <value>Specify the List Columns (one per line) to include in that order in output CSV data files generated by this export action. (To rename a Column in the exported CSV, enter the List Column name, followed by a colon (:) and the CSV column name.) Be sure those Columns will be available in the exported List, otherwise the CSV column will remain empty.&lt;br/&gt;&lt;br/&gt;If you clear this setting and keep it blank, the export will include &lt;b&gt;all&lt;/b&gt; available View Columns shown.</value>
+  </data>
+  <data name="PD_ExportActions_vhrows" xml:space="preserve">
+    <value>Instead of keeping all version history in a single column, you can export each version in the history to its own row. These versions will appear underneath the data item row, in descending sort order, and in this case you'll need a separate CSV column to denote the version number of each history record. You &lt;b&gt;need&lt;/b&gt; to enter this CSV column name (for example 'Version') above this check-box option if ticked.&lt;br/&gt;&lt;br/&gt;Not applicable to &lt;a target="_blank" href="http://SharePoint-Tools.net/PeopleZen/"&gt;User Profile exports via PeopleZen&lt;/a&gt;.</value>
+  </data>
+  <data name="PD_ExportActions_sep" xml:space="preserve">
+    <value>Change to semicolon if your users intend to only ever open these CSV exports in Microsoft Office Excel &lt;b&gt;AND&lt;/b&gt; their Excel version displays all comma-separated column values in a single cell (some internationalized Excel versions do that, some don't).</value>
+  </data>
+  <data name="PD_ExportActions_loc" xml:space="preserve">
+    <value>This setting controls how numbers and dates are represented in this export. For example, dates may be stored in an US format (due to your SharePoint installation) but your export consumers may use a different-locale version of Excel (such as for example German), which would then mis-read and mis-represent factually-correct, but US-formatted date values. Keep the default choice to start with and experiment as needed if results do not meet expectations.</value>
+  </data>
+  <data name="PD_ExportActions_bom" xml:space="preserve">
+    <value>&lt;b&gt;ONLY&lt;/b&gt; tick this option if you selected the UTF-8 encoding above &lt;b&gt;AND&lt;/b&gt; your exported contents are not decoded correctly by the external software that needs to consume this export in production. Recommended for opening UTF-8 exports in Excel.</value>
+  </data>
+  <data name="PD_ExportActions_enc" xml:space="preserve">
+    <value>Only if your exports contain international characters that don't look as expected in external software importing this export should you start experimenting with different export encodings. The Unicode / UTF encodings are the recommended choices to test before trying other encodings. Keep this set to Default &lt;b&gt;UNLESS&lt;/b&gt; your exported contents are not decoded correctly by external software that needs to consume this export in production.</value>
+  </data>
+  <data name="Tool_ExportActions_Title" xml:space="preserve">
+    <value>Export Actions</value>
+  </data>
+</root>

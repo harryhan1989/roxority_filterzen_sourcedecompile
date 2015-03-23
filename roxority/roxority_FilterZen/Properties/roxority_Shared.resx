@@ -1,0 +1,2228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Tool_ItemEditor_Saved" xml:space="preserve">
+    <value>Your changes have been saved.</value>
+  </data>
+  <data name="PD_SearchScope_Subtree" xml:space="preserve">
+    <value>Searches the whole subtree, including the base object and all its child objects.</value>
+  </data>
+  <data name="PD_DataSources_s_b" xml:space="preserve">
+    <value>recommended</value>
+  </data>
+  <data name="PD_DataSources_s_e" xml:space="preserve">
+    <value>runs under the credentials and privileges of the current IIS application pool identity</value>
+  </data>
+  <data name="PD_DataSources_s_i" xml:space="preserve">
+    <value>runs under the credentials and privileges of a specified user name</value>
+  </data>
+  <data name="PD_DataSources_s_u" xml:space="preserve">
+    <value>runs under the credentials and privileges of the calling user</value>
+  </data>
+  <data name="Studio5" xml:space="preserve">
+    <value>&lt;a href="?cfg=cfg"&gt;configure settings&lt;/a&gt; on the farm or site collection level</value>
+  </data>
+  <data name="Studio4" xml:space="preserve">
+    <value>view or manage your &lt;a href="?cfg=lic"&gt;product license(s)&lt;/a&gt;</value>
+  </data>
+  <data name="Studio7" xml:space="preserve">
+    <value>perform additional management tasks with &lt;a href="?cfg=tools"&gt;built-in, specialized tools&lt;/a&gt;</value>
+  </data>
+  <data name="Studio6" xml:space="preserve">
+    <value>get insight into this software product's &lt;a href="?cfg=wss"&gt;SharePoint features &amp;amp; artifacts&lt;/a&gt; and their usage</value>
+  </data>
+  <data name="Studio1" xml:space="preserve">
+    <value>This is the &lt;span style="color: #ffffff"&gt;{0}&lt;/span&gt;.</value>
+  </data>
+  <data name="Studio3" xml:space="preserve">
+    <value>access the &lt;a href="?doc={0}"&gt;product documentation&lt;/a&gt;</value>
+  </data>
+  <data name="Studio2" xml:space="preserve">
+    <value>Use this special, light-weight site available throughout your SharePoint server farm to:</value>
+  </data>
+  <data name="Studio8" xml:space="preserve">
+    <value>{0} is a special, light-weight site that runs inside your SharePoint environment, but it is not a full-fledged SharePoint web site and therefore does not consume additional content database or SharePoint resources.</value>
+  </data>
+  <data name="LicUpdateInfo" xml:space="preserve">
+    <value>If, after adding or removing licenses on this page, you'd like your changes to be propagated &lt;b&gt;immediately&lt;/b&gt; across ALL Web Applications in this server farm, restart IIS on all web front-end servers.</value>
+  </data>
+  <data name="LicUpdateHtml" xml:space="preserve">
+    <value>&lt;input style="width: 150px;" class="ms-ButtonHeightWidth" id="roxsavebutton" type="submit" value="Save License"/&gt;</value>
+  </data>
+  <data name="Tool_Transfer_Title" xml:space="preserve">
+    <value>Transfer Wizard</value>
+  </data>
+  <data name="LicRemoveFastPrompt" xml:space="preserve">
+    <value>Are you sure you want to remove this license from the license store?</value>
+  </data>
+  <data name="Tool_ItemEditor_Unsaved" xml:space="preserve">
+    <value>Unsaved changes:</value>
+  </data>
+  <data name="CfgSettingCaption_FilterTabShowAll" xml:space="preserve">
+    <value>Always show the [All] quick-filter tab</value>
+  </data>
+  <data name="PD_DataFieldFormats_t" xml:space="preserve">
+    <value>Specify the content for this template. You can use placeholders in [square brackets] for referencing other data field values. Use [1], [2], [3] .. [n] to reference data values passed to this template.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Note:&lt;/b&gt; in caching-enabled Data Sources using this Data Field Template, changes made to this setting will not be reflected immediately but delayed as configured on the Data Source's Caching tab.</value>
+  </data>
+  <data name="PD_DataFieldFormats_m" xml:space="preserve">
+    <value>Keep this set to &lt;b&gt;Plain&lt;/b&gt; if you are only providing textual content with or without placeholders. Set this to &lt;b&gt;HTML&lt;/b&gt; if you need to provide additional imagery, custom formattings, hyperlinks etc. Both modes support [placeholders in square brackets].&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Note:&lt;/b&gt; in caching-enabled Data Sources using this Data Field Template, changes made to this setting will not be reflected immediately but delayed as configured on the Data Source's Caching tab.</value>
+  </data>
+  <data name="CfgSettingCaption_AjaxFirst" xml:space="preserve">
+    <value>AJAX-based lazy loading of records after page render (please read setting description first!)</value>
+  </data>
+  <data name="CfgSettingTitle_DataProviders" xml:space="preserve">
+    <value>ADO.NET Database Connection Providers for SQL Data Access</value>
+  </data>
+  <data name="CfgSettingChoice_Compare_OrdinalIgnoreCase" xml:space="preserve">
+    <value>Ordinal</value>
+  </data>
+  <data name="LicFrame" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="PC_DataFieldFormats_m_h" xml:space="preserve">
+    <value>HTML source code</value>
+  </data>
+  <data name="PC_DataFieldFormats_m_p" xml:space="preserve">
+    <value>Plain text</value>
+  </data>
+  <data name="LicOther" xml:space="preserve">
+    <value>Other Licenses:</value>
+  </data>
+  <data name="Tool_Transfer_UncheckAll" xml:space="preserve">
+    <value>Uncheck all</value>
+  </data>
+  <data name="ConfigHelp_ItemTypeDataProvider" xml:space="preserve">
+    <value>Data source connection provider picker</value>
+  </data>
+  <data name="LicUsers" xml:space="preserve">
+    <value>Specify the maximum number of users (SharePoint user accounts) you are licensing this software product for:</value>
+  </data>
+  <data name="AllowView" xml:space="preserve">
+    <value>Allow interactive view switching</value>
+  </data>
+  <data name="AllowSort" xml:space="preserve">
+    <value>Allow interactive ad-hoc sorting</value>
+  </data>
+  <data name="LicTrial" xml:space="preserve">
+    <value>Ultimate Edition</value>
+  </data>
+  <data name="CfgSettingDesc_DoNormalize" xml:space="preserve">
+    <value>Experiment with this setting if the values used in your quick-filter tabs use non-ASCII international characters and your quick-filter tabs look unexpected or non-usable.</value>
+  </data>
+  <data name="Tool_Localizer_Templates" xml:space="preserve">
+    <value>{0} Templates</value>
+  </data>
+  <data name="WebPart_DefaultTitle" xml:space="preserve">
+    <value>{PROD} Web Part [ROXORITY™]</value>
+  </data>
+  <data name="StyleClassic" xml:space="preserve">
+    <value>Tiles View (multiple badges per row)</value>
+  </data>
+  <data name="LicTargetSiteID" xml:space="preserve">
+    <value>ID of this SharePoint site collection:&lt;br/&gt;(&lt;b&gt;{0}&lt;/b&gt; at {1})</value>
+  </data>
+  <data name="Tool_Localizer_StartInfo" xml:space="preserve">
+    <value>To get started, select a &lt;i&gt;target&lt;/i&gt; language above.</value>
+  </data>
+  <data name="T_Prop11R" xml:space="preserve">
+    <value>Data Record Fields</value>
+  </data>
+  <data name="Tool_ItemEditor_ListSet_ExceptListName" xml:space="preserve">
+    <value>...or Lists with the following names or IDs:</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_ExceptTemplate" xml:space="preserve">
+    <value>...or Web Sites based on the following site definitions:</value>
+  </data>
+  <data name="CfgSettingChoice_PagingAlign_top" xml:space="preserve">
+    <value>Top (but below quick-filter tabs)</value>
+  </data>
+  <data name="Anim_b" xml:space="preserve">
+    <value>(None)</value>
+  </data>
+  <data name="Anim_k" xml:space="preserve">
+    <value>Progress Bar</value>
+  </data>
+  <data name="Anim_l" xml:space="preserve">
+    <value>Spinner</value>
+  </data>
+  <data name="Disp_roxSiteGroups" xml:space="preserve">
+    <value>Site User Group Memberships</value>
+  </data>
+  <data name="CfgSettingDesc_FilterTabShowAll" xml:space="preserve">
+    <value>When using quick-filter tabs, by default the first quick-filter tab will be initially selected and there is no way for end users to show "all data records, unfiltered". Tick this check box to always add an [All] quick-filter tab that shows all data records unfiltered (and to always make this the initially-selected tab, too).</value>
+  </data>
+  <data name="ConfigHelp_Choice" xml:space="preserve">
+    <value>&lt;p&gt;&lt;strong&gt;You can pick one of the following options&lt;/strong&gt; on the &lt;i&gt;Configuration&lt;/i&gt; page in the &lt;i&gt;{0} Studio&lt;/i&gt;:&lt;/p&gt;</value>
+  </data>
+  <data name="PD_SearchScope_Base" xml:space="preserve">
+    <value>Limits the search to the base object. The result contains a maximum of one object.</value>
+  </data>
+  <data name="SiteTitle" xml:space="preserve">
+    <value>{0} Studio</value>
+  </data>
+  <data name="Jquery_2" xml:space="preserve">
+    <value>No, never (not recommended)</value>
+  </data>
+  <data name="Jquery_0" xml:space="preserve">
+    <value>Automatic (per configuration setting)</value>
+  </data>
+  <data name="Jquery_1" xml:space="preserve">
+    <value>Yes, always</value>
+  </data>
+  <data name="NotEnabledSuccess" xml:space="preserve">
+    <value>You have successfully enabled {0} throughout this server farm. PERFORM AN IISRESET on all farm servers to propagate this to all Web Applications.</value>
+  </data>
+  <data name="CfgSettingTitle_EmbedFilters" xml:space="preserve">
+    <value>Embedding of connected FilterZen Web Parts</value>
+  </data>
+  <data name="ExportAction" xml:space="preserve">
+    <value>Offer the following CSV/Excel export in the Web Part menu:
+&lt;br/&gt; (to create one, install &lt;a target="_blank" href="http://SharePoint-Tools.net/ExportZen-Download/"&gt;ExportZen&lt;/a&gt;)</value>
+  </data>
+  <data name="NavFeedback" xml:space="preserve">
+    <value>Feedback &amp;amp; Support</value>
+  </data>
+  <data name="CfgSettingCaption_DoNormalize" xml:space="preserve">
+    <value>Normalize international characters in quick-filter tabs</value>
+  </data>
+  <data name="Disp_AccountName" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <data name="CfgSettingTitle_AltNameCaption" xml:space="preserve">
+    <value>Column caption for 'Name' special Data Source field</value>
+  </data>
+  <data name="PC_SearchScope_Base" xml:space="preserve">
+    <value>Base</value>
+  </data>
+  <data name="LicRemoveFast" xml:space="preserve">
+    <value>Remove License</value>
+  </data>
+  <data name="CfgSettingDesc_KnownPropFormat" xml:space="preserve">
+    <value>The HTML to be generated by the {PROD} Web Part (in Tiles view) for each data field that has a value. Valid placeholders: {0} for the field display name, {1} for the field value, {2} for the field internal name, {3} for { and {4} for }.</value>
+  </data>
+  <data name="Tool_Localizer_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Tool_ItemEditor_Prompt" xml:space="preserve">
+    <value>Changes made to {0} on this page have not yet been saved and will get LOST if you proceed now.</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>{0} Studio</value>
+  </data>
+  <data name="Tool_ItemEditor_Add" xml:space="preserve">
+    <value>Add a New {0}</value>
+  </data>
+  <data name="Tool_Transfer_FarmSchema" xml:space="preserve">
+    <value>Farm-level custom-defined elements:</value>
+  </data>
+  <data name="CfgSettingDesc_FilterTabHideEmpty" xml:space="preserve">
+    <value>By default, a quick-filter tab will be added to show data records without a value for the quick-filter field (but only if such records exist). Tick this check box to never show that quick-filter tab.</value>
+  </data>
+  <data name="Tool_DataSources_UnFormat" xml:space="preserve">
+    <value>Data Field Template "{0}" not found.</value>
+  </data>
+  <data name="CfgSettingDesc_FilterTabReverse" xml:space="preserve">
+    <value>Tick this check box to sort quick-filter tabs descending rather than ascending.</value>
+  </data>
+  <data name="AdminHelpTopic" xml:space="preserve">
+    <value>[To see administrative topics, sign in]</value>
+  </data>
+  <data name="Tool_Transfer_Success" xml:space="preserve">
+    <value>Successfully imported.</value>
+  </data>
+  <data name="WorkEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="LicExpiry" xml:space="preserve">
+    <value>Software License Now Required.</value>
+  </data>
+  <data name="CfgSettingDef_KnownPropFormat" xml:space="preserve">
+    <value>{0}: &lt;span&gt;{1}&lt;/span&gt;</value>
+  </data>
+  <data name="PD_DataSources_t_Hybrid" xml:space="preserve">
+    <value>aggregates and merges the results of multiple Data Sources into a single data set</value>
+  </data>
+  <data name="Tool_DataSources_Icon" xml:space="preserve">
+    <value>/_layouts/images/lg_icodcc.gif</value>
+  </data>
+  <data name="Tool_DataSources_Desc" xml:space="preserve">
+    <value>{0} is capable of accessing and using information from a variety of sources. Use this tool to set up and manage data connection templates reusable across sites and products.</value>
+  </data>
+  <data name="LicFullAdminHtml" xml:space="preserve">
+    <value>To add or remove licenses, switch to the high-privileged &lt;a href="{0}"&gt;Central Administration&lt;/a&gt; Web Application.</value>
+  </data>
+  <data name="LicFarmAdminHtml" xml:space="preserve">
+    <value>To add or remove licenses, &lt;a href="{0}/_layouts/AccessDenied.aspx?loginasanotheruser=true&amp;Source={1}&amp;ReturnUrl={1}"&gt;sign in as a farm administrator&lt;/a&gt;.</value>
+  </data>
+  <data name="PageMode_2" xml:space="preserve">
+    <value>(Page) x of y</value>
+  </data>
+  <data name="PageMode_3" xml:space="preserve">
+    <value>(Page) ... | x | y | z | ...</value>
+  </data>
+  <data name="PageMode_0" xml:space="preserve">
+    <value>(No)</value>
+  </data>
+  <data name="PageMode_1" xml:space="preserve">
+    <value>(Records) x - y of z</value>
+  </data>
+  <data name="ConfigHelp_ItemConfigChoice" xml:space="preserve">
+    <value>The drop-down menu provides a set of choices that can be customized on the Configuration page of the {PROD} Studio.</value>
+  </data>
+  <data name="FilterLive" xml:space="preserve">
+    <value>For interactive FilterZen filters, use Ajax-based &lt;b&gt;live filtering&lt;/b&gt; (instead of page-reloading post-backs; &lt;i&gt;recommended&lt;/i&gt; unless your FilterZen Web Part also contains non-interactive (hidden background) filters or is also connected to other non-{PROD} Web Parts)</value>
+  </data>
+  <data name="NopeEd" xml:space="preserve">
+    <value>The feature '{0}' requires the '{1}' license.</value>
+  </data>
+  <data name="NoSite" xml:space="preserve">
+    <value>This web application does not contain any site collections. Type a URL such as http://site/collection/url/_layouts/{0}/default.aspx (but replace 'http://site/collection/url/' with any full, valid SharePoint web site URL) to open the {1} Studio.</value>
+  </data>
+  <data name="LicTargetFarms" xml:space="preserve">
+    <value>Unlimited SharePoint server farms</value>
+  </data>
+  <data name="Tool_Localizer_Runtime_Desc" xml:space="preserve">
+    <value>Product-specific messages, captions and descriptions loaded dynamically by {0} code</value>
+  </data>
+  <data name="CfgSettingTitle_NoDefaultInst" xml:space="preserve">
+    <value>No default instances of {PROD} configurables on the Site Collection level (NOT recommended!)</value>
+  </data>
+  <data name="ConfigHelp_ItemTypeEncodingChoice" xml:space="preserve">
+    <value>Encoding picker</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_SPSMSITEHOST" xml:space="preserve">
+    <value>My Site Host</value>
+  </data>
+  <data name="ConfigHelp_ItemIntro" xml:space="preserve">
+    <value>&lt;p&gt;The following settings can be customized for each {2} by administrative users on the &lt;b&gt;{1}&lt;/b&gt; page in your &lt;i&gt;{0} Studio&lt;/i&gt;, accessible via Site Settings / {0} Studio / {1}:&lt;/p&gt;</value>
+  </data>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>We hope you will get the most out of this software product &amp;mdash; if you miss anything in it to fully meet your requirements, or if you have trouble getting it to do what you need, please let us know in the &lt;a href="http://roxority.com/{1}-forum/"&gt;{0} discussion forum&lt;/a&gt; or by &lt;a href="http://roxority.com/contact#down"&gt;writing us directly&lt;/a&gt;. We're happy to help!</value>
+  </data>
+  <data name="LicSiteHtml" xml:space="preserve">
+    <value>&lt;span style="background: #bbffbb;"&gt;IS THIS the Site Collection to be licensed?&lt;/span&gt; If not, select it from the drop-down lists &lt;a href="#"&gt;at the top&lt;/a&gt;.</value>
+  </data>
+  <data name="FarmAdminError" xml:space="preserve">
+    <value>Even though you are technically a farm administrator, SQL Server refused to update the SharePoint Configuration Database:&lt;br/&gt;&lt;i&gt;{0}&lt;/i&gt;&lt;br/&gt;If this sounds like a user permissions issue, review the current IIS application pool identity's Windows group or database role memberships and its appropriate security properties in the aforementioned SQL Server database.&lt;br/&gt;Note that even though your changes have not been persisted, they may remain in memory for this Web Application on this farm server up until the next IIS reset.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;A simpler work-around that usually works well&lt;/b&gt; is to retry your modifications after first selecting the &lt;i&gt;Central Administration&lt;/i&gt; Web Application at the top (or any other one run from a high-privileged IIS application pool).</value>
+  </data>
+  <data name="Tool_ItemEditor_ListSet_Except" xml:space="preserve">
+    <value>except... ({0})</value>
+  </data>
+  <data name="CfgSettingDesc_UnknownPropFormat" xml:space="preserve">
+    <value>The HTML to be generated by the {PROD} Web Part (in Tiles view) for each data field that has no value. Valid placeholders: {0} for the field display name, {1} for the localized word 'unknown', {2} for the field internal name, {3} for { and {4} for }.</value>
+  </data>
+  <data name="LicNoSiteIfFarm" xml:space="preserve">
+    <value>The license store already contains a valid farm-wide license that covers all site collections in this SharePoint server farm. Individual site-collection licenses will not be accepted into the license store as long as the entire server farm is already fully licensed.</value>
+  </data>
+  <data name="HomeHelpTopics" xml:space="preserve">
+    <value>...plus {0} more topics</value>
+  </data>
+  <data name="LicStatusDowned" xml:space="preserve">
+    <value>(downgraded)&lt;div style="text-align: right; white-space: nowrap;"&gt;&amp;mdash; user limit exceeded&lt;/div&gt;</value>
+  </data>
+  <data name="ConfigHelp_Default" xml:space="preserve">
+    <value>&lt;p&gt;After you have customized this setting, you can click the &lt;b&gt;{0}&lt;/b&gt; link on the &lt;i&gt;Configuration&lt;/i&gt; page in the &lt;i&gt;{1} Studio&lt;/i&gt; to restore the following default value:&lt;/p&gt;</value>
+  </data>
+  <data name="Jquery" xml:space="preserve">
+    <value>Include jQuery library v1.8.1:</value>
+  </data>
+  <data name="LicExpiryVague" xml:space="preserve">
+    <value>over {0}</value>
+  </data>
+  <data name="LicExpiryUsers" xml:space="preserve">
+    <value>License User Limit Exceeded</value>
+  </data>
+  <data name="GroupSortInfoR" xml:space="preserve">
+    <value>Unless specified otherwise below, sorting will default to &amp;quot;ascending by primary field (Name/Title or ID)&amp;quot;.</value>
+  </data>
+  <data name="WssInfoType_SiteColumns" xml:space="preserve">
+    <value>Site Columns</value>
+  </data>
+  <data name="Tool_ItemEditor_ListSet_Views" xml:space="preserve">
+    <value>Views</value>
+  </data>
+  <data name="T_Prop10" xml:space="preserve">
+    <value>Ignore year when filtering by date range fields (such as hire date or birthday) for annually recurring dates</value>
+  </data>
+  <data name="CfgSettingChoice_PagingAlign_bottom" xml:space="preserve">
+    <value>Bottom</value>
+  </data>
+  <data name="Tool_DataSources_UnField" xml:space="preserve">
+    <value>No field "{0}" defined for "{1}".</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_PROFILES" xml:space="preserve">
+    <value>Business Data Profiles</value>
+  </data>
+  <data name="Tool_ItemEditor_DefaultDesc2" xml:space="preserve">
+    <value>Farm or Site Collection </value>
+  </data>
+  <data name="WssInfoWebFeature" xml:space="preserve">
+    <value>In {0} this feature is</value>
+  </data>
+  <data name="Tool_DataFieldFormats_Icon" xml:space="preserve">
+    <value>/_layouts/images/lg_icodcc.gif</value>
+  </data>
+  <data name="Tool_DataFieldFormats_Desc" xml:space="preserve">
+    <value>{0} can display data fields using special formattings customizable to your individual requirements. Use this tool to set up and manage your custom data field templates.</value>
+  </data>
+  <data name="NoAdmin" xml:space="preserve">
+    <value>Only farm and site collection administrators can make changes.</value>
+  </data>
+  <data name="CfgSettingTitle_SspName" xml:space="preserve">
+    <value>Preferred SSP name for 'Farm User Profiles' Data Sources (MOSS 2007 only; best left blank)</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_CMSPUBLISHING" xml:space="preserve">
+    <value>Publishing Site</value>
+  </data>
+  <data name="CfgSettingTitle_AltEnum" xml:space="preserve">
+    <value>Experimental option (MOSS 2007 only) -- do not tick unless so instructed by ROXORITY</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_BLANKINTERNETCONTAINER" xml:space="preserve">
+    <value>Internet Presence</value>
+  </data>
+  <data name="GroupSort" xml:space="preserve">
+    <value>Sorting and Grouping</value>
+  </data>
+  <data name="LicTargetFarmID" xml:space="preserve">
+    <value>ID of this SharePoint server farm:</value>
+  </data>
+  <data name="LicStatusBroken" xml:space="preserve">
+    <value>[Error!]</value>
+  </data>
+  <data name="WebApp" xml:space="preserve">
+    <value>in:</value>
+  </data>
+  <data name="Tool_Localizer_Prompt" xml:space="preserve">
+    <value>You have UNSAVED {0} user interface translations on this page that will get LOST if you proceed now.</value>
+  </data>
+  <data name="NopeExpired" xml:space="preserve">
+    <value>The capability "{0}" is only available during the product evaluation period or with a fully validated product license.</value>
+  </data>
+  <data name="GroupSortDesc" xml:space="preserve">
+    <value>Descending</value>
+  </data>
+  <data name="LicRemove" xml:space="preserve">
+    <value>Remove this license from the license store (Caution: you will &lt;b&gt;not&lt;/b&gt; be prompted to confirm this action!)</value>
+  </data>
+  <data name="Old_NoFilterZenEnt" xml:space="preserve">
+    <value>You need a FilterZen Basic license to enable this Web Part Connection.</value>
+  </data>
+  <data name="ConfigHelp_ItemLocaleChoice" xml:space="preserve">
+    <value>The drop-down menu provides all standard-defined regions. You can also choose from the following "dynamic" cultures:
+&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;Server-side 'current' locale &amp;mdash; the culture currently set to use by default for the Windows and/or ASP.NET installation on the server&lt;/li&gt;
+&lt;li&gt;Web site locale &amp;mdash; the culture selected under Site Settings / Regional Settings&lt;/li&gt;
+&lt;li&gt;User account locale &amp;mdash; the culture selected for the current end user account unter My Settings / Regional Settings&lt;/li&gt;
+&lt;li&gt;Server-side installation locale &amp;mdash; the culture of the Windows installation on the server&lt;/li&gt;
+&lt;li&gt;User agent (browser) locale &amp;mdash; the browser-supplied 'preferred culture' hint&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The default choice is: &lt;i&gt;Server-side 'current' locale&lt;/i&gt;.</value>
+  </data>
+  <data name="Tool_Transfer_Results" xml:space="preserve">
+    <value>Results of Your Import:</value>
+  </data>
+  <data name="LicStatus" xml:space="preserve">
+    <value>Licensing Status:</value>
+  </data>
+  <data name="LicStudio" xml:space="preserve">
+    <value>Open the {0} Studio to manage your free or commercial license(s).</value>
+  </data>
+  <data name="NoServerContext" xml:space="preserve">
+    <value>A SharePoint Server Context object could not be acquired. This usually means that no default Shared Service Provider has been set up in Central Administration for storing and managing User Profiles.</value>
+  </data>
+  <data name="PC_DataSources_t_Directory" xml:space="preserve">
+    <value>Active Directory</value>
+  </data>
+  <data name="LicSerial" xml:space="preserve">
+    <value>License File:</value>
+  </data>
+  <data name="CfgSettingTitle_FilterTabReverse" xml:space="preserve">
+    <value>Always reverse the sort order of quick-filter tabs</value>
+  </data>
+  <data name="StyleListCaption" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="StepMode" xml:space="preserve">
+    <value>Prev/Next links:</value>
+  </data>
+  <data name="WssItem_WebFeature" xml:space="preserve">
+    <value>Web Site Feature</value>
+  </data>
+  <data name="PD_DataSources_cc_c" xml:space="preserve">
+    <value>reading from a (possibly outdated) in-memory copy of the COMPLETE set of backend data</value>
+  </data>
+  <data name="PD_DataSources_cc_n" xml:space="preserve">
+    <value>every rendering request will connect to the backing store of this Data Source</value>
+  </data>
+  <data name="PD_DataSources_desc" xml:space="preserve">
+    <value>Optionally specify a description for this Data Source.</value>
+  </data>
+  <data name="PD_DataSources_du_c" xml:space="preserve">
+    <value>Unless you specify a static set of data records below, this data source always returns the specified number of semi-randomly generated "dummy" records for testing purposes. (For an ever-changing random number of records, specify a number lower than or equal to 1.)</value>
+  </data>
+  <data name="PD_DataSources_du_f" xml:space="preserve">
+    <value>Specify the names of the fields that each record in the data set of this data source should contain (one field per line).</value>
+  </data>
+  <data name="PD_DataSources_du_r" xml:space="preserve">
+    <value>Unless you specify a static set of data records here, this data source always returns the above-specified number of semi-randomly generated "dummy" records for testing purposes. To pre-define your data set here instead, use JSON syntax -- always specify an [array], even if there is only 1 record -- ie. for 3 static pre-defined records:&lt;br/&gt;&lt;br/&gt;&lt;pre&gt;[ { "YourField1": "ID 1", "YourField2": "Title 1" }, { "YourField1": "ID 2", "YourField2": "Title 2" }, { "YourField1": "ID 3", "YourField2": "Title 3" } ]&lt;/pre&gt;Do not attempt to introduce additional fields here that you have not defined above under &lt;i&gt;Data fields&lt;/i&gt; &amp;mdash; only defined fields will be shown in Data Source consumers.</value>
+  </data>
+  <data name="Disp_roxUserPersonalUrl" xml:space="preserve">
+    <value>Personal User Profile Page</value>
+  </data>
+  <data name="PD_DataSources_ua_g" xml:space="preserve">
+    <value>Select which user group collection to enumerate, if any.</value>
+  </data>
+  <data name="PD_DataSources_ua_u" xml:space="preserve">
+    <value>Select which user account collection to enumerate, if any.</value>
+  </data>
+  <data name="Tool_Localizer_Templates_Desc" xml:space="preserve">
+    <value>SharePoint artifacts (Features, List Templates, Column Types, Content Types, Web Part Templates...)</value>
+  </data>
+  <data name="PD_DataFieldFormats_m_h" xml:space="preserve">
+    <value>will be rendered directly by the browser</value>
+  </data>
+  <data name="PD_DataFieldFormats_m_p" xml:space="preserve">
+    <value>content will be HTML-encoded</value>
+  </data>
+  <data name="WelcomeTitle" xml:space="preserve">
+    <value>Welcome to {0} {1}!</value>
+  </data>
+  <data name="ConfigHelp_ItemTypeListSet" xml:space="preserve">
+    <value>Descriptor for a set of SharePoint Lists and Views</value>
+  </data>
+  <data name="GroupBy" xml:space="preserve">
+    <value>Group by:</value>
+  </data>
+  <data name="LicUpdate" xml:space="preserve">
+    <value>License Update:</value>
+  </data>
+  <data name="LicUsers1" xml:space="preserve">
+    <value>up to {0} users per Site Collection (here &lt;a href="?cfg=tools&amp;tool=Tool_SiteUsers"&gt;currently {1}&lt;/a&gt;)</value>
+  </data>
+  <data name="LicUsers0" xml:space="preserve">
+    <value>unlimited &lt;a href="?cfg=tools&amp;tool=Tool_SiteUsers"&gt;users&lt;/a&gt;</value>
+  </data>
+  <data name="SortBy" xml:space="preserve">
+    <value>Sort by {0}</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Sign in as different user...</value>
+  </data>
+  <data name="ShowAs" xml:space="preserve">
+    <value>Show as:</value>
+  </data>
+  <data name="SignInfo" xml:space="preserve">
+    <value>Some features are only available to &lt;a target="_blank" href="{0}/_layouts/mngsiteadmin.aspx"&gt;Site Collection administrators&lt;/a&gt; or &lt;a target="_blank" href="{1}/_layouts/people.aspx?MembershipGroupId=3"&gt;farm administrators&lt;/a&gt;.</value>
+  </data>
+  <data name="Tool_Localizer_Select" xml:space="preserve">
+    <value>Select a language to translate into:</value>
+  </data>
+  <data name="CfgSettingTitle_NoAjax" xml:space="preserve">
+    <value>Disable AJAX-based handling (not recommended)</value>
+  </data>
+  <data name="Recommended" xml:space="preserve">
+    <value>(recommended in IE!)</value>
+  </data>
+  <data name="CfgSettingCaption_FilterTabHideEmpty" xml:space="preserve">
+    <value>Always hide the [Empty] quick-filter tab</value>
+  </data>
+  <data name="CfgSettingDesc_NoDefaultInst" xml:space="preserve">
+    <value>Configurables are lists of items for defining and customizing the behaviors of this software (such as Export Actions in ExportZen, Data Sources and Data Field Templates in PeopleZen, Print Views and Print Launchers in PrintZen, Upload Actions in UploadZen). By default, each Site Collection has its own non-removable default instance that can be customized and to which additional instances can be added. In extensive farm setups (1000s of Site Collections), these default instances may be a hindrance and using only custom farm-level instances may be preferable. Tick this option to never provide the default instance on the Site Collection level.</value>
+  </data>
+  <data name="PD_AuthenticationTypes_Encryption" xml:space="preserve">
+    <value>a cryptographic signature that identifies the sender</value>
+  </data>
+  <data name="PD_DataSources_t_ListRemote" xml:space="preserve">
+    <value>in another server farm</value>
+  </data>
+  <data name="Tool_Localizer_Studio" xml:space="preserve">
+    <value>Studio &amp; Shared Resources</value>
+  </data>
+  <data name="Tool_ItemEditor_DelPrompt" xml:space="preserve">
+    <value>Are you sure you want to delete this {0}? This cannot be undone.</value>
+  </data>
+  <data name="NotEnabled" xml:space="preserve">
+    <value>{1} has been successfully installed. Now, before you can start using it, a farm administrator needs to explicitly &lt;a href="{0}"&gt;&amp;quot;enable&amp;quot; it&lt;/a&gt; just once.</value>
+  </data>
+  <data name="CfgHelp" xml:space="preserve">
+    <value>To learn more about a configuration setting, simply select its row.</value>
+  </data>
+  <data name="CfgInfo" xml:space="preserve">
+    <value>The following farm-wide settings apply to all web applications and site collections throughout this server farm, unless overridden at the site collection level:</value>
+  </data>
+  <data name="CfgSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="CfgPage" xml:space="preserve">
+    <value>Configuration page</value>
+  </data>
+  <data name="LicTargetIDs" xml:space="preserve">
+    <value>These IDs are for the &lt;b&gt;{0}&lt;/b&gt; Site Collection. If you need to send us IDs for a different Site Collection, select it at the top. (For farm-wide licensing, ignore this note.)</value>
+  </data>
+  <data name="Tool_Transfer_Importing" xml:space="preserve">
+    <value>(contains {0})</value>
+  </data>
+  <data name="Tool_ItemEditor_DataPreview_PageSize" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="LicTrialHtml_White" xml:space="preserve">
+    <value>&lt;div style="text-align: center;"&gt;On {0}, your current evaluation license will expire.&lt;/div&gt;&lt;br/&gt;&lt;div style="text-align: center; font-size: 11px;"&gt;&lt;a href="#noop" onclick="roxGoLicense();"&gt;Learn about our &lt;b&gt;licensing offerings&lt;/b&gt; (online)&lt;/a&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="Old_NoFilterZen" xml:space="preserve">
+    <value>{PROD} (Basic edition) only supports incoming Web Part Connections from &lt;a target="_blank" href="http://roxority.com/filterzen-download/"&gt;FilterZen (Basic edition) Filter Web Parts&lt;/a&gt; (and &lt;b&gt;only via&lt;/b&gt; the Connection Type &lt;i&gt;'Send values as filters to'&lt;/i&gt;). Disconnect from the current provider Web Part.</value>
+  </data>
+  <data name="Tool_Transfer_Export_Extra" xml:space="preserve">
+    <value>&lt;i&gt;Data Sources&lt;/i&gt; and &lt;i&gt;Data Field Templates&lt;/i&gt;</value>
+  </data>
+  <data name="Tool_ItemEditor_DataFields_ButtonAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="PD_AuthenticationTypes_Anonymous" xml:space="preserve">
+    <value>no authentication is performed</value>
+  </data>
+  <data name="ReleaseLinkText" xml:space="preserve">
+    <value>Release Notes</value>
+  </data>
+  <data name="WssItem_FarmFeature" xml:space="preserve">
+    <value>Farm Feature</value>
+  </data>
+  <data name="NotEnabledPrompt" xml:space="preserve">
+    <value>Would you like to go there now?</value>
+  </data>
+  <data name="xtoyofz" xml:space="preserve">
+    <value>{0} - {1} of {2}</value>
+  </data>
+  <data name="ListItemValueRequired" xml:space="preserve">
+    <value>Please specify a value for this required Column.</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>unknown</value>
+  </data>
+  <data name="CfgSettingDesc_LinkTarget" xml:space="preserve">
+    <value>Data record "Name/Title" links produced by the {PROD} Web Part can target an HTML window of your choice. Use &lt;i&gt;_self&lt;/i&gt; for these links to open in the current browser window, &lt;i&gt;_blank&lt;/i&gt; for them to open in a new window, &lt;i&gt;_modal&lt;/i&gt; for them to open in a modal pop-up dialog window, &lt;i&gt;_popup&lt;/i&gt; for a SharePoint 2010 "modal" in-page popup, or the name of an IFRAME or FRAME element residing in your Web Part Page.</value>
+  </data>
+  <data name="ConfigHelp_ItemEncodingChoice" xml:space="preserve">
+    <value>The drop-down menu provides all standard-defined text encodings. The default choice is: &lt;i&gt;Server-side default encoding&lt;/i&gt;, meaning the default encoding defined for the Windows and/or ASP.NET installation on the server.</value>
+  </data>
+  <data name="ConfigHelp_ItemTypeLibSet" xml:space="preserve">
+    <value>Descriptor for a set of SharePoint Document Libraries and Views</value>
+  </data>
+  <data name="Tool_Transfer_Export2" xml:space="preserve">
+    <value>All current farm-level &lt;a href="{0}"&gt;Configuration&lt;/a&gt; settings {1}</value>
+  </data>
+  <data name="Tool_Transfer_Export3" xml:space="preserve">
+    <value>Any configuration settings {1} customized at the &lt;b&gt;{0}&lt;/b&gt; Site Collection level</value>
+  </data>
+  <data name="Tool_Transfer_Export1" xml:space="preserve">
+    <value>All your &lt;a href="{0}"&gt;DIY User Interface Localizations&lt;/a&gt; (if any)</value>
+  </data>
+  <data name="Tool_Transfer_Export4" xml:space="preserve">
+    <value>In this step, you can &lt;i&gt;only&lt;/i&gt; export &amp;quot;everything&amp;quot; (as defined above) all at once &amp;mdash; but you can choose to apply or skip individual settings or translations when you later use the resulting exported file during your &lt;i&gt;Import&lt;/i&gt;:</value>
+  </data>
+  <data name="PD_SearchScope_OneLevel" xml:space="preserve">
+    <value>Searches the immediate child objects of the base object, excluding the base object.</value>
+  </data>
+  <data name="CfgSettingDesc_VcardPropFormat" xml:space="preserve">
+    <value>The HTML to be generated by the {PROD} Web Part for vCard export links. Valid placeholders: {0} for the vCard export URL, {1} for { and {2} for }.</value>
+  </data>
+  <data name="Tool_ItemEditor_LibSet_Sel" xml:space="preserve">
+    <value>Libraries</value>
+  </data>
+  <data name="Tool_Localizer_InfoHint" xml:space="preserve">
+    <value>Translating &lt;i&gt;every&lt;/i&gt; single resource might be overkill for your project requirements. With a separate browser tab open, you can locate in the {0} user interfaces the text fragments you &lt;i&gt;really&lt;/i&gt; need to translate, then use your browser's Page Search feature to find those somewhere below:</value>
+  </data>
+  <data name="PC_DataSources_t_UserProfiles" xml:space="preserve">
+    <value>Farm User Profiles</value>
+  </data>
+  <data name="PD_AuthenticationTypes_Delegation" xml:space="preserve">
+    <value>delegates the user's security context</value>
+  </data>
+  <data name="Tool_SiteUsers_Title" xml:space="preserve">
+    <value>Site Accounts for Licensing</value>
+  </data>
+  <data name="Tool_ItemEditor_NewDesc" xml:space="preserve">
+    <value>This new {0} has not yet been saved. Before saving it, also change this description to avoid confusion later on.</value>
+  </data>
+  <data name="Tool_ItemEditor_NewName" xml:space="preserve">
+    <value>(New {0})</value>
+  </data>
+  <data name="Tool_ItemEditor_ListSet_ExceptTemplateType" xml:space="preserve">
+    <value>...or Lists of the following template type:</value>
+  </data>
+  <data name="CfgSettingDef_FilterTabThreshold" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="LicTarget" xml:space="preserve">
+    <value>License Range:</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_PPSMASite" xml:space="preserve">
+    <value>PerformancePoint Services</value>
+  </data>
+  <data name="Tool_SiteUsers_Desc" xml:space="preserve">
+    <value>If you licensed this software based on user numbers, use this tool to view all Site Collection accounts (including individuals, service accounts, admins) that are counted.</value>
+  </data>
+  <data name="Tool_SiteUsers_Info" xml:space="preserve">
+    <value>Total number of user accounts licensed / to be licensed: &lt;b&gt;{0}&lt;/b&gt;&lt;div class="roxsub"&gt;This is for the &lt;b style="color: #000;"&gt;{1}&lt;/b&gt; Site Collection &lt;i&gt;only&lt;/i&gt;. Cross-check &lt;i&gt;all&lt;/i&gt; Site Collections ultimately using this software for conclusive licensing findings. You can select other Web Applications and Site Collections from the drop-downs at the top of this page.&lt;br/&gt;&lt;br/&gt;If you want to remove a user account, it is not sufficient to just "un-permission" the user at the Website level; to fully delete the account from the Site Collection, simply click through to its info page from its link below.&lt;/div&gt;</value>
+  </data>
+  <data name="Tool_SiteUsers_Icon" xml:space="preserve">
+    <value>/_layouts/images/allusr.gif</value>
+  </data>
+  <data name="CfgSettingDesc_AjaxFirst" xml:space="preserve">
+    <value>Unless disabled below, all interactive end user re-adjustments of information shown in a {PROD} Web Part refresh its display asynchronously (without reloading the page) via AJAX; however, when the page is first rendered, the initial display of the {PROD} Web Part is by default already loaded and pre-populated at render time. Unless this significantly (!) slows down the rendering time of the entire page, this is the preferable and more end user-friendly approach. Tick this check box to never load and show data records at render time and instead lazy-load them via AJAX once the full page is ready and fully loaded client-side.</value>
+  </data>
+  <data name="ConfigHelp_ItemListSet" xml:space="preserve">
+    <value>To define the set of Lists, first select either &lt;b&gt;Show in all Lists&lt;/b&gt; or &lt;b&gt;Show in no Lists&lt;/b&gt;, then click the &lt;b&gt;except...&lt;/b&gt; link to describe which Lists to exclude from that selection. You can exclude:
+&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;Lists of the selected base types&lt;/li&gt;
+&lt;li&gt;Lists of the selected template types&lt;/li&gt;
+&lt;li&gt;Lists of the selected base templates&lt;/li&gt;
+&lt;li&gt;or Lists with the specified names or IDs.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+To define the set of Views, first select either &lt;b&gt;Show in all Views&lt;/b&gt; or &lt;b&gt;Show in no Views&lt;/b&gt;, then click the &lt;b&gt;except...&lt;/b&gt; link to describe which Views to exclude from that selection. You can exclude:
+&lt;ul&gt;
+&lt;li&gt;the default View&lt;/li&gt;
+&lt;li&gt;hidden Views&lt;/li&gt;
+&lt;li&gt;personal Views&lt;/li&gt;
+&lt;li&gt;or Views with the specified names or IDs.&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="CfgSettingDesc_AltEnum" xml:space="preserve">
+    <value>Experimental option (MOSS 2007 only) -- do not tick unless so instructed by ROXORITY technical support.</value>
+  </data>
+  <data name="CfgSettingTitle_AjaxFirst" xml:space="preserve">
+    <value>AJAX-based lazy loading of data records after page render (typically not preferable)</value>
+  </data>
+  <data name="LicEditions" xml:space="preserve">
+    <value>License Scope:</value>
+  </data>
+  <data name="WssItem_ContentType" xml:space="preserve">
+    <value>Content Type</value>
+  </data>
+  <data name="NoLiteConfig" xml:space="preserve">
+    <value>This product configuration setting is not available in the &lt;i&gt;Lite&lt;/i&gt; edition.</value>
+  </data>
+  <data name="Customize" xml:space="preserve">
+    <value>Customize {0}</value>
+  </data>
+  <data name="ConfigHelp_ItemTypeDataFields" xml:space="preserve">
+    <value>Data fields picker</value>
+  </data>
+  <data name="PD_AuthenticationTypes_Secure" xml:space="preserve">
+    <value>requests secure authentication using NTLM or Kerberos</value>
+  </data>
+  <data name="ConfigHelp_Intro" xml:space="preserve">
+    <value>&lt;p&gt;The following configuration settings are available to administrative users on the &lt;span id="roxconfiglink"&gt;&lt;i&gt;Configuration&lt;/i&gt; page in your &lt;i&gt;{0} Studio&lt;/i&gt;, which you can access via Site Settings / {0} Studio / Configuration Settings&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;Each setting has a global value scoped to the SharePoint server farm, and this value can optionally be overridden on the Site Collection level. The following settings are available:&lt;/p&gt;</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_SPSNHOME" xml:space="preserve">
+    <value>News Home</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_SPSMSITE" xml:space="preserve">
+    <value>Personalization Site</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_All" xml:space="preserve">
+    <value>Available in all {0} Web Sites (recommended)</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_SPSSITES" xml:space="preserve">
+    <value>Site Directory</value>
+  </data>
+  <data name="PD_ItemEditor_name" xml:space="preserve">
+    <value>This name will typically not be visible on content pages to end users, but helps you stay organized.</value>
+  </data>
+  <data name="PD_ItemEditor_webs" xml:space="preserve">
+    <value>Optionally select in which web sites this {0} will be available. By default, it will be available in all web sites and this usually does not need to be changed during your first explorations within this software. Only perform changes if you are familiar with the terminology presented in the above property editor. Should your changes not result in the expected outcome, you can always easily set this back to "all web sites, no exceptions" and then resume experimenting incrementally with your exceptions.</value>
+  </data>
+  <data name="CfgSettingChoice_Compare_InvariantCultureIgnoreCase" xml:space="preserve">
+    <value>"Invariant" (neutral) locale</value>
+  </data>
+  <data name="CfgSettingTitle_SkipUnknownProps" xml:space="preserve">
+    <value>Exclude all record fields without values (in Tiles view)</value>
+  </data>
+  <data name="CfgSettingTitle_DoNormalize" xml:space="preserve">
+    <value>Normalize international characters in quick-filter tabs</value>
+  </data>
+  <data name="CfgSettingDef_MultiPropJoin" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="WssItem_FieldType" xml:space="preserve">
+    <value>Column Type</value>
+  </data>
+  <data name="Tool_Localizer_SaveNow" xml:space="preserve">
+    <value>Save Now</value>
+  </data>
+  <data name="LicEvalExpired" xml:space="preserve">
+    <value>The &lt;b&gt;Ultimate&lt;/b&gt; edition license originally installed reverted to the free &lt;b&gt;Lite&lt;/b&gt; edition on &lt;b&gt;{0}&lt;/b&gt;. You can keep it if this suffices &amp;mdash; otherwise, &lt;a href="http://roxority.com/free-licenses"&gt;request an extension&lt;/a&gt; or &lt;a href="#noop" onclick="roxGoLicense();"&gt;compare the editions and explore your free and commercial &lt;b&gt;licensing options&lt;/b&gt;&lt;/a&gt; (online).</value>
+  </data>
+  <data name="LicEvalExpires" xml:space="preserve">
+    <value>This temporary &lt;b&gt;Ultimate&lt;/b&gt; edition license will convert to the free &lt;b&gt;Lite&lt;/b&gt; edition on &lt;b&gt;{0}&lt;/b&gt;. You can then choose to keep it that way if this suffices, &lt;a href="http://roxority.com/free-licenses"&gt;request an extension&lt;/a&gt; or &lt;a href="#noop" onclick="roxGoLicense();"&gt;compare the editions and explore your free and commercial &lt;b&gt;licensing options&lt;/b&gt;&lt;/a&gt; (online).</value>
+  </data>
+  <data name="CfgSettingCaption_NoAjax" xml:space="preserve">
+    <value>Disable AJAX-based handling (not recommended)</value>
+  </data>
+  <data name="NopeTrial" xml:space="preserve">
+    <value>The capability "{0}" is only available with a fully validated product license.</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_AccSvr" xml:space="preserve">
+    <value>Access Services</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_None" xml:space="preserve">
+    <value>Available in no {0} Web Sites</value>
+  </data>
+  <data name="CfgSettingDesc_SspName" xml:space="preserve">
+    <value>We recommend to leave this blank in order to use the runtime-default Shared Service Provider.</value>
+  </data>
+  <data name="HomeInfo" xml:space="preserve">
+    <value>Use the following resources to get started with {0}:</value>
+  </data>
+  <data name="Tool_Transfer_ImpHead2" xml:space="preserve">
+    <value>Current Value</value>
+  </data>
+  <data name="Tool_Transfer_ImpHead3" xml:space="preserve">
+    <value>New Value</value>
+  </data>
+  <data name="Tool_Transfer_ImpHead1" xml:space="preserve">
+    <value>Import?</value>
+  </data>
+  <data name="PC_DataSources_t_Dummy" xml:space="preserve">
+    <value>Sample Data</value>
+  </data>
+  <data name="D_Prop5" xml:space="preserve">
+    <value>Basic filtering options below &amp;mdash; for additional filtering, connect this Web Part to a &lt;a target="_blank" href="http://roxority.com/filterzen-download/"&gt;Filter Web Part&lt;/a&gt;.</value>
+  </data>
+  <data name="D_Prop4" xml:space="preserve">
+    <value>Specify the maximum number of records per page, or 0 to disable paging and display all records at once.</value>
+  </data>
+  <data name="CfgSettingGroup_Filters" xml:space="preserve">
+    <value>Filtering</value>
+  </data>
+  <data name="Tool_ItemEditor_DataPreview_TabBy" xml:space="preserve">
+    <value>Tabbed by:</value>
+  </data>
+  <data name="CfgSettingTitle_FilterTabShowAll" xml:space="preserve">
+    <value>Always show the [All] quick-filter tab</value>
+  </data>
+  <data name="LicInfoLinkText" xml:space="preserve">
+    <value>End-User License Agreement (EULA)</value>
+  </data>
+  <data name="Tool_ItemEditor_ListSet_ExceptDefaultView" xml:space="preserve">
+    <value>the default View</value>
+  </data>
+  <data name="CfgSettingChoice_Compare_CurrentCultureIgnoreCase" xml:space="preserve">
+    <value>Current locale</value>
+  </data>
+  <data name="Tool_DataFieldFormats_Title" xml:space="preserve">
+    <value>Data Field Templates</value>
+  </data>
+  <data name="GroupInteractiveDir" xml:space="preserve">
+    <value>Allow interactive ad-hoc change of grouping direction (ascending / descending)</value>
+  </data>
+  <data name="WssInfoAttached" xml:space="preserve">
+    <value>This Content Type is currently attached to the following {0} Lists:</value>
+  </data>
+  <data name="PT_DataSources_y" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="PT_DataSources_w" xml:space="preserve">
+    <value>Data Fields</value>
+  </data>
+  <data name="PT_DataSources_u" xml:space="preserve">
+    <value>Caching</value>
+  </data>
+  <data name="PT_DataSources_a" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="HomeFrame" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_OFFILE" xml:space="preserve">
+    <value>Records Center</value>
+  </data>
+  <data name="FarmAdminErrorNoServer" xml:space="preserve">
+    <value>&lt;br/&gt;This problem typically occurs mostly in fresh SharePoint setups on non-server operating systems (such as using Vista or Windows 7 instead of Windows 2003 or 2008 Server for hosting SharePoint), or in heavily re-configured environments.</value>
+  </data>
+  <data name="Tool_ItemEditor_ListSet_ExceptViewWebPart" xml:space="preserve">
+    <value>Views without a title</value>
+  </data>
+  <data name="StyleDesc" xml:space="preserve">
+    <value>Choose the default view:</value>
+  </data>
+  <data name="StyleList" xml:space="preserve">
+    <value>List View (one record per row)</value>
+  </data>
+  <data name="CfgSettingTitle_Compare" xml:space="preserve">
+    <value>Local text comparison mode for certain Data Source connection providers</value>
+  </data>
+  <data name="LicExpiryHtml" xml:space="preserve">
+    <value>Thank you for using ROXORITY software! You are free to continue your usage, but as it's been {0} days now, we'd just like to ask you to install a valid free or commercial license file.&lt;br/&gt;&lt;br/&gt;If you already have a license file, scroll down a bit &amp;mdash; otherwise, you can:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://roxority.com/free-sharepoint-web-parts"&gt;get your freeware &lt;b&gt;Lite&lt;/b&gt; edition license file&lt;/a&gt; (no site, user or time limits; no strings attached),&lt;/li&gt;
+&lt;li&gt;&lt;a href="#noop" onclick="roxGoLicense();"&gt;order a commercial &lt;b&gt;Basic&lt;/b&gt; or &lt;b&gt;Ultimate&lt;/b&gt; edition license,&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;or &lt;a href="http://roxority.com/free-sharepoint-web-parts"&gt;request a free extension license to continue your &lt;b&gt;Ultimate&lt;/b&gt; edition evaluation&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="ConfigHelp_ItemTypeChoice" xml:space="preserve">
+    <value>Drop-down menu to pick from a set of choices</value>
+  </data>
+  <data name="LicExpiryHtml_White" xml:space="preserve">
+    <value>Thank you for evaluating this software product! It's been {0} days now, and we'd just like to ask you to install a valid license file.&lt;br/&gt;&lt;br/&gt;If you already have a license file, scroll down a bit &amp;mdash; otherwise, you can:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#noop" onclick="roxGoLicense();"&gt;review our commercial licensing offers or place an order online,&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;or &lt;a href="http://SharePoint-GreenBox.com/extend-license"&gt;request an extension license to continue your software evaluation&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="PT_DataFieldFormats_a" xml:space="preserve">
+    <value>Custom Data Field Template</value>
+  </data>
+  <data name="GroupShowCounts" xml:space="preserve">
+    <value>Show counts in group headers</value>
+  </data>
+  <data name="PageMode" xml:space="preserve">
+    <value>Show current position:</value>
+  </data>
+  <data name="PC_DataSources_mf" xml:space="preserve">
+    <value>Additional "unknown" (but in fact existing) Data Fields</value>
+  </data>
+  <data name="PC_DataSources_ed" xml:space="preserve">
+    <value>Always exclude domain from names displayed in the Name/Title special field</value>
+  </data>
+  <data name="PC_DataSources_ex" xml:space="preserve">
+    <value>Exclude User Names</value>
+  </data>
+  <data name="PC_DataSources_cn" xml:space="preserve">
+    <value>Always refresh cached records currently being rendered</value>
+  </data>
+  <data name="PC_DataSources_cl" xml:space="preserve">
+    <value>Clear the cache next time I click "Save All"</value>
+  </data>
+  <data name="PC_DataSources_cc" xml:space="preserve">
+    <value>In-memory Data Source caching</value>
+  </data>
+  <data name="PC_DataSources_cr" xml:space="preserve">
+    <value>Cache Refresh Rate</value>
+  </data>
+  <data name="PC_DataSources_pp" xml:space="preserve">
+    <value>Picture data field/s</value>
+  </data>
+  <data name="PC_DataSources_pt" xml:space="preserve">
+    <value>Name/Title data field/s</value>
+  </data>
+  <data name="PC_DataSources_pu" xml:space="preserve">
+    <value>Link URL data field/s</value>
+  </data>
+  <data name="PC_DataSources_pl" xml:space="preserve">
+    <value>Logon name data field/s</value>
+  </data>
+  <data name="PC_DataSources_pm" xml:space="preserve">
+    <value>Presence email address data field/s</value>
+  </data>
+  <data name="PC_DataSources_pd" xml:space="preserve">
+    <value>Default data fields (for Preview and new Data Source consumers)</value>
+  </data>
+  <data name="PC_DataSources_s2" xml:space="preserve">
+    <value>Secondary sort-by field name</value>
+  </data>
+  <data name="PC_DataSources_sp" xml:space="preserve">
+    <value>Password for impersonated user</value>
+  </data>
+  <data name="PC_DataSources_su" xml:space="preserve">
+    <value>Impersonate the following user</value>
+  </data>
+  <data name="PC_DataSources_rc" xml:space="preserve">
+    <value>Periodically rebuild cache fully</value>
+  </data>
+  <data name="PC_DataSources_vc" xml:space="preserve">
+    <value>Field mappings for Outlook (vCard 3.0) export</value>
+  </data>
+  <data name="Tool_Transfer_Fallback2" xml:space="preserve">
+    <value>(Not set, fall back to default value)</value>
+  </data>
+  <data name="Tool_Transfer_Fallback3" xml:space="preserve">
+    <value>(Clear and fall back to default value)</value>
+  </data>
+  <data name="Tool_Transfer_Fallback1" xml:space="preserve">
+    <value>(Remove and fall back to default resource)</value>
+  </data>
+  <data name="Tool_Localizer_SelectHint" xml:space="preserve">
+    <value>Sorted by number of translated resources [shown in square brackets].</value>
+  </data>
+  <data name="ConfigHelp_ItemTypeBoolean" xml:space="preserve">
+    <value>Check box option</value>
+  </data>
+  <data name="UrlSettings" xml:space="preserve">
+    <value>Override Web Part settings from URL parameters</value>
+  </data>
+  <data name="StepMode_2" xml:space="preserve">
+    <value>Arrow Icons</value>
+  </data>
+  <data name="StepMode_1" xml:space="preserve">
+    <value>Text Links</value>
+  </data>
+  <data name="StepMode_0" xml:space="preserve">
+    <value>(None)</value>
+  </data>
+  <data name="StyleClassicCaption" xml:space="preserve">
+    <value>Tiles</value>
+  </data>
+  <data name="LicExpiryOn" xml:space="preserve">
+    <value>Software License Now Required.</value>
+  </data>
+  <data name="Tool_ItemEditor_ListSet_ExceptBaseTemplate" xml:space="preserve">
+    <value>...or Lists of the following base template:</value>
+  </data>
+  <data name="LicInfoText" xml:space="preserve">
+    <value>This software product is licensed, not sold. Using this software implies acceptance of the &lt;a href="?doc=eula"&gt;end-user license agreement (EULA)&lt;/a&gt;. If you do not accept the license, do not use the software.</value>
+  </data>
+  <data name="SPElevator_Error" xml:space="preserve">
+    <value>Delegated user logon for '{0}' failed. (Error Number: {1})</value>
+  </data>
+  <data name="CfgSettingDesc_AltNameCaption" xml:space="preserve">
+    <value>Specifies the default column caption for the 'Name' special Data Field in the tabular "List View" style. To show NO column caption, instead of clearing this field use three underscores: ___</value>
+  </data>
+  <data name="Tool_Transfer_CheckAll" xml:space="preserve">
+    <value>Check all</value>
+  </data>
+  <data name="LicLiteHere" xml:space="preserve">
+    <value>&lt;b&gt;Lite&lt;/b&gt; in this Site Collection ({0} users)</value>
+  </data>
+  <data name="CfgSettingDef_VcardPropFormat" xml:space="preserve">
+    <value>&lt;a href="{0}"&gt;&lt;img src="/_layouts/images/outl.gif"/&gt;&lt;/a&gt;</value>
+  </data>
+  <data name="PC_SearchScope_OneLevel" xml:space="preserve">
+    <value>One level</value>
+  </data>
+  <data name="Tool_Localizer_Unsaved" xml:space="preserve">
+    <value>You have unsaved changes.</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_ENTERWIKI" xml:space="preserve">
+    <value>Enterprise Wiki</value>
+  </data>
+  <data name="CfgSettingDesc_DataProviders" xml:space="preserve">
+    <value>Specify the ADO.NET database connection providers that your Database/SQL Data Sources should support (one per line, using the pattern "Provider display name: full provider IDbConnection Type name, full assembly name").</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_SPSPORTAL" xml:space="preserve">
+    <value>Portal Site</value>
+  </data>
+  <data name="PC_DataFieldFormats_t" xml:space="preserve">
+    <value>Template content</value>
+  </data>
+  <data name="PC_DataFieldFormats_m" xml:space="preserve">
+    <value>Content mode</value>
+  </data>
+  <data name="SkipMode" xml:space="preserve">
+    <value>First/Last links:</value>
+  </data>
+  <data name="PC_DataSources_desc" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="PC_DataSources_du_f" xml:space="preserve">
+    <value>Data fields</value>
+  </data>
+  <data name="PC_DataSources_du_c" xml:space="preserve">
+    <value>Number of dynamically generated records</value>
+  </data>
+  <data name="PC_DataSources_du_r" xml:space="preserve">
+    <value>Static data set of pre-defined records</value>
+  </data>
+  <data name="PC_DataSources_cc_c" xml:space="preserve">
+    <value>Full caching</value>
+  </data>
+  <data name="PC_DataSources_cc_n" xml:space="preserve">
+    <value>No caching (recommended)</value>
+  </data>
+  <data name="PC_DataSources_ua_g" xml:space="preserve">
+    <value>Return user groups</value>
+  </data>
+  <data name="PC_DataSources_ua_u" xml:space="preserve">
+    <value>Return user accounts</value>
+  </data>
+  <data name="Tool_ItemEditor_ReadOnly" xml:space="preserve">
+    <value>This setting cannot be changed from its default value in this context, by design.</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_SPSREPORTCENTER" xml:space="preserve">
+    <value>Report Center</value>
+  </data>
+  <data name="Tool_DataFieldFormats_TitleSingular" xml:space="preserve">
+    <value>Data Field Template</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>(All)</value>
+  </data>
+  <data name="Css" xml:space="preserve">
+    <value>&lt;br/&gt;&lt;div&gt;&lt;a target="_blank" href="/_layouts/{0}.aspx?doc=ref_css"&gt;Use CSS for further visual customization (heights and widths, colors, fonts etc.)&lt;/a&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="IE6" xml:space="preserve">
+    <value>Your browser was released about {0} years ago, so this page looks a bit disfigured &amp;mdash; but we made sure it still works.</value>
+  </data>
+  <data name="Ref" xml:space="preserve">
+    <value>Settings for {0}</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_BICenterSite" xml:space="preserve">
+    <value>Business Intelligence Center</value>
+  </data>
+  <data name="StudioLink" xml:space="preserve">
+    <value>What's the {0} Studio?</value>
+  </data>
+  <data name="First" xml:space="preserve">
+    <value>First</value>
+  </data>
+  <data name="LicTo" xml:space="preserve">
+    <value> &amp;mdash; &lt;b&gt;{0}&lt;/b&gt;</value>
+  </data>
+  <data name="NoProfiles" xml:space="preserve">
+    <value>The &lt;a href="{0}/_layouts/{1}"&gt;Service Application&lt;/a&gt; does not contain any User Profiles yet.</value>
+  </data>
+  <data name="TabBy" xml:space="preserve">
+    <value>Show tabs to quickly filter by:</value>
+  </data>
+  <data name="Retab" xml:space="preserve">
+    <value>Allow interactive ad-hoc change of that field</value>
+  </data>
+  <data name="Style" xml:space="preserve">
+    <value>Display Style</value>
+  </data>
+  <data name="Sort2" xml:space="preserve">
+    <value>Then sort by:</value>
+  </data>
+  <data name="PC_DataSources_s_e" xml:space="preserve">
+    <value>Elevate ONLY</value>
+  </data>
+  <data name="PC_DataSources_s_b" xml:space="preserve">
+    <value>Current user BUT fall back to Elevate if "Access Denied"</value>
+  </data>
+  <data name="PC_DataSources_s_i" xml:space="preserve">
+    <value>Impersonate</value>
+  </data>
+  <data name="PC_DataSources_s_u" xml:space="preserve">
+    <value>Current user ONLY</value>
+  </data>
+  <data name="LicOtherHtml" xml:space="preserve">
+    <value>No license was found for the &lt;b&gt;{0}&lt;/b&gt; Site Collection &amp;mdash; &lt;b&gt;BUT&lt;/b&gt; &lt;span style="background: #bbffbb;"&gt;you have fully licensed&lt;/span&gt; this software product for the following other Site Collections in this SharePoint server farm:</value>
+  </data>
+  <data name="NavSupport" xml:space="preserve">
+    <value>Submit an issue or request support</value>
+  </data>
+  <data name="NavUpdates_NewVersion" xml:space="preserve">
+    <value>Now available: version {0}</value>
+  </data>
+  <data name="CfgSettingTitle_UnknownPropFormat" xml:space="preserve">
+    <value>HTML template for record field without value</value>
+  </data>
+  <data name="Tool_ItemEditor_ListSet_ExceptViewName" xml:space="preserve">
+    <value>...or Views with the following names or IDs:</value>
+  </data>
+  <data name="RowSize2" xml:space="preserve">
+    <value>(0 to not enforce rows)</value>
+  </data>
+  <data name="RowSize3" xml:space="preserve">
+    <value>Hint: changing the row size does not change or affect the Paging (scroll down a bit for Paging settings). &lt;a href="#noop" onclick="jQuery('#roxrowsizeinfo').hide();"&gt;OK&lt;/a&gt;</value>
+  </data>
+  <data name="RowSize1" xml:space="preserve">
+    <value>In rows of</value>
+  </data>
+  <data name="NameMode_2" xml:space="preserve">
+    <value>Yes, but do not link</value>
+  </data>
+  <data name="NameMode_0" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NameMode_1" xml:space="preserve">
+    <value>Yes, linked (to value of "Link URL" special field)</value>
+  </data>
+  <data name="IsNoAdminSite" xml:space="preserve">
+    <value>To perform this action, you'll first need to switch to the Central Administration Web Application (use the drop-downs at the top of this page).</value>
+  </data>
+  <data name="WssItem_AppFeature" xml:space="preserve">
+    <value>Web Application Feature</value>
+  </data>
+  <data name="ConfigHelp_ItemTypeWebSet" xml:space="preserve">
+    <value>Descriptor for a set of SharePoint Web Sites</value>
+  </data>
+  <data name="ToolsInfo" xml:space="preserve">
+    <value>Use the following tools for {0} management tasks:</value>
+  </data>
+  <data name="CfgFrame" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="ConfigHelp_ItemTypeConfigChoice" xml:space="preserve">
+    <value>Drop-down menu to pick from a configurable set of choices</value>
+  </data>
+  <data name="LicStatusExpired" xml:space="preserve">
+    <value>(downgraded)&lt;div style="text-align: right; white-space: nowrap;"&gt;&amp;mdash; &lt;i&gt;{1}&lt;/i&gt; expired {0} day(s) ago&lt;/div&gt;</value>
+  </data>
+  <data name="LicStatusExpires" xml:space="preserve">
+    <value>&lt;div style="display: none; text-align: right; white-space: nowrap;"&gt;&amp;mdash; converts to &lt;i&gt;Lite&lt;/i&gt; in {0} day(s)&lt;/div&gt;</value>
+  </data>
+  <data name="CfgInfo2" xml:space="preserve">
+    <value>Customize various aspects of {0} with &lt;a href="?cfg=cfg"&gt;{1} configuration settings&lt;/a&gt; &amp;mdash; either for this Site Collection only, or for your entire server farm.</value>
+  </data>
+  <data name="CfgReset" xml:space="preserve">
+    <value>Reset to Default Value</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_CENTRALADMIN" xml:space="preserve">
+    <value>Central Administration</value>
+  </data>
+  <data name="CfgSettingTitle__lang" xml:space="preserve">
+    <value>User Interface Language</value>
+  </data>
+  <data name="ConfigHelp_ItemWebSet" xml:space="preserve">
+    <value>To define the set of Web Sites, first select either &lt;b&gt;Available in all Web Sites&lt;/b&gt; or &lt;b&gt;Available in no Web Sites&lt;/b&gt;, then click the &lt;b&gt;except...&lt;/b&gt; link to describe which web sites to exclude from that selection. You can exclude:
+&lt;ul&gt;
+&lt;li&gt;the root Web Site (of the respectively-current Site Collection)&lt;/li&gt;
+&lt;li&gt;Web Sites based on the selected site definitions&lt;/li&gt;
+&lt;li&gt;or Web Sites with the specified titles, URL path fragments or IDs.&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="CfgSettingGroup_Sys" xml:space="preserve">
+    <value>AJAX &amp; Internals</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_ExceptRootWeb" xml:space="preserve">
+    <value>the root Web Site</value>
+  </data>
+  <data name="CfgFarmSetting" xml:space="preserve">
+    <value>Farm setting:</value>
+  </data>
+  <data name="FilterNoOobOrZen" xml:space="preserve">
+    <value>The connected filter provider Web Part is not supported. Please remove the Web Part connection and consult the Filtering documentation topic for further information.</value>
+  </data>
+  <data name="ConfigHelp_ItemTypeString" xml:space="preserve">
+    <value>Text box</value>
+  </data>
+  <data name="CfgSettingDef_MailPropFormat" xml:space="preserve">
+    <value>&lt;a href="mailto:{0}"&gt;{0}&lt;/a&gt;</value>
+  </data>
+  <data name="WssItem_SiteFeatures" xml:space="preserve">
+    <value>Site Collection Features</value>
+  </data>
+  <data name="CfgSettingChoice_PagingAlign_both" xml:space="preserve">
+    <value>Both top and bottom</value>
+  </data>
+  <data name="Tool_ItemEditor_ListSet_None" xml:space="preserve">
+    <value>Show in no {0}</value>
+  </data>
+  <data name="PC_DataSources_p" xml:space="preserve">
+    <value>Preview this Data Source</value>
+  </data>
+  <data name="PC_DataSources_s" xml:space="preserve">
+    <value>Security context for Data Source consumers</value>
+  </data>
+  <data name="PC_DataSources_t" xml:space="preserve">
+    <value>Connection provider</value>
+  </data>
+  <data name="NavUpdates" xml:space="preserve">
+    <value>Product Update</value>
+  </data>
+  <data name="CfgSettingTitle_FilterTabHideEmpty" xml:space="preserve">
+    <value>Always hide the [Empty] quick-filter tab</value>
+  </data>
+  <data name="PD_DataSources_mf" xml:space="preserve">
+    <value>Typically your Data Source connection provider is able to determine all Data Fields known to the Data Source (see the above Data Field selection drop-downs to see this in action). With some Data Sources; however, not all fields that in fact exist at the Data Source backing store are retrieved. Specify those here (using the internal field name rather than display name, title, caption etc.), one per line.</value>
+  </data>
+  <data name="PD_DataSources_cl" xml:space="preserve">
+    <value>This clears the cache (on the receiving WFE server only) for this Data Source to reflect recent changes in the backend data or your Data Field Templates immediately.</value>
+  </data>
+  <data name="PD_DataSources_cn" xml:space="preserve">
+    <value>Refreshes the data records currently being displayed (just before displaying them BUT *after* filtering / grouping / sorting!), whenever they are fetched from an end user. This may incur a significant performance penalty with a high paging size.</value>
+  </data>
+  <data name="PD_DataSources_cc" xml:space="preserve">
+    <value>If caching is enabled, {PROD} always creates a full cache of all data records in memory the first time a rendering request consuming this Data Source is served after a web front-end server has been reset.&lt;br/&gt;&lt;br/&gt;
+&lt;b&gt;Caution:&lt;/b&gt; enabling caching will sometimes show stale data. Changes to records in your Data Source will not be reflected in real-time but &lt;b&gt;delayed&lt;/b&gt; (see &lt;i&gt;Cache Refresh Rate&lt;/i&gt; below when caching is enabled). Completely new records added after the cache was last built up will go completely unnoticed until the next server reset unless you tick the &lt;i&gt;Periodically rebuild cache fully&lt;/i&gt; check-box option, visible below when caching is enabled.&lt;br/&gt;&lt;br/&gt;
+If this is a &lt;b&gt;Database&lt;/b&gt; Data Source and you just enabled Caching for it, you &lt;i&gt;need to review&lt;/i&gt; the instructions for the &lt;b&gt;ADO.NET data query&lt;/b&gt; setting on the &lt;b&gt;Database&lt;/b&gt; tab (and its current value!) carefully to ensure a consistent result set sort order is at all times guaranteed by your query.</value>
+  </data>
+  <data name="PD_DataSources_cr" xml:space="preserve">
+    <value>After a web front-end server has been reset, {PROD} always creates a full cache of all records in memory the first time a rendering request consuming this Data Source is served.&lt;br/&gt;&lt;br/&gt;
+Afterwards, {PROD} resynchronizes only a certain number of cached records during each request to adequately balance performance with accuracy of the information displayed.&lt;br/&gt;&lt;br/&gt;
+Specify the number of records to refresh during each {PROD} rendering request. A higher number (40 or more) reflects recent data changes much sooner but slows down {PROD} rendering significantly, and vice versa a lower number reflects recent data changes much later at a substantially better rendering performance.&lt;br/&gt;&lt;br/&gt;
+Specify 0 to never refresh cached data records during rendering. If you don't specify a valid integer number greater than or equal to 0, the default value of 10 will be used.</value>
+  </data>
+  <data name="PD_DataSources_ed" xml:space="preserve">
+    <value>User names are usually displayed based on your &lt;b&gt;Name/Title data field/s&lt;/b&gt; setting (on the &lt;i&gt;Data Fields&lt;/i&gt; tab). Some of the users returned by this Data Source may not have a preferred name (such as first and last name combined) set and might show a fully-qualified domain account name (ie. &lt;b&gt;companydomain\user123&lt;/b&gt;). Tick this option to always suppress the domain part of the user name when displayed in the Name/Title special field.</value>
+  </data>
+  <data name="PD_DataSources_ex" xml:space="preserve">
+    <value>You can optionally specify the patterns of user names (one per line) that should always be excluded from all {PROD} Web Parts (for example, service accounts). You may include an asterisk (*) only at the beginning ("ends with"), at the end ("begins with") or both ("contains"). This setting is not case-sensitive.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Important:&lt;/b&gt; the patterns in this setting are matched against the field denoted as the &lt;b&gt;Logon name data field&lt;/b&gt; (on the &lt;i&gt;Data Fields&lt;/i&gt; tab).</value>
+  </data>
+  <data name="PD_DataSources_vc" xml:space="preserve">
+    <value>&lt;b&gt;Advanced users only!&lt;/b&gt; When customizing, seek assistance in our software support forums.&lt;br/&gt;&lt;br/&gt;Contains the full template for the entire vCard 3.0 export of a user profile (excluding the BEGIN, VERSION, REV and END lines). Placeholders in [square brackets] denote Data Source field names and will be replaced with their respective field values at export time.&lt;br/&gt;&lt;br/&gt;In your [square bracket placeholders], you can specify &lt;b&gt;any&lt;/b&gt; data field name supported by this Data Source &lt;b&gt;as well as&lt;/b&gt; any of the following Special Field names:&lt;br/&gt;&lt;br/&gt;
+&lt;b&gt;[rox___pt]&lt;/b&gt; &amp;mdash; Name/Title data field/s specified above&lt;br/&gt;
+&lt;b&gt;[rox___pp]&lt;/b&gt; &amp;mdash; Picture data field/s specified above&lt;br/&gt;
+&lt;b&gt;[rox___pu]&lt;/b&gt; &amp;mdash; Link URL data field/s specified above&lt;br/&gt;
+&lt;b&gt;[rox___pm]&lt;/b&gt; &amp;mdash; Presence email address data field/s specified above&lt;br/&gt;
+&lt;b&gt;[rox___pl]&lt;/b&gt; &amp;mdash; Logon name data field/s specified above</value>
+  </data>
+  <data name="PD_DataSources_rc" xml:space="preserve">
+    <value>&lt;b&gt;Typically neither required nor recommended for production systems, except when "many" (&amp;gt;1x a day) data record additions or deletions are expected at the backing store of this Data Source.&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;After a web front-end server has been reset, {PROD} always creates a full cache of all records in memory the first time a rendering request consuming this Data Source is served.&lt;br/&gt;&lt;br/&gt;
+Those cached records are periodically refreshed at the rate specified above; however, completely new data records go unnoticed until the next server reset.&lt;br/&gt;&lt;br/&gt;
+Tick this check box for {PROD} to completely rebuild the cache periodically every n&lt;sup&gt;th&lt;/sup&gt; {PROD} rendering request, which as a consequence may significantly slow down every n&lt;sup&gt;th&lt;/sup&gt; request but captures new records added since the cache was last re-created (n = number of user profiles divided by the cache request rate specified above).</value>
+  </data>
+  <data name="PD_DataSources_su" xml:space="preserve">
+    <value>Specify a fully-qualified Windows logon name (in the yourdomain\user123 format) for impersonation.</value>
+  </data>
+  <data name="PD_DataSources_sp" xml:space="preserve">
+    <value>The password will be stored encrypted.</value>
+  </data>
+  <data name="PD_DataSources_s2" xml:space="preserve">
+    <value>Primary sorting is defined per Web Part (or other Data Source consumer) and may or may not be set interactively by end users depending on said configuration. When a sort is applied, however, this setting lets you specify a secondary sort-by field (use the internal Data Field name instead of its human-readable or localized caption or title). Secondary sorting defaults to ascending, prefix with a - (minus) character for descending. This setting is ignored for Web Parts (or other Data Source consumers) that enforce a randomized sort order.</value>
+  </data>
+  <data name="PD_DataSources_p*" xml:space="preserve">
+    <value>This lets you define a special &lt;b&gt;"{0}"&lt;/b&gt; field, which can then be linked or displayed in a specific manner if so configured at the data source &lt;i&gt;consumer&lt;/i&gt; side (ie. {PROD} Web Part, Lookup Filter, Lookup Column etc.) The source data fields specified here will be probed in the specified order to populate this target special field.&lt;br/&gt;&lt;br/&gt;Each line contains the source field name to probe enclosed by &lt;b&gt;[square brackets]&lt;/b&gt;. You can also combine other static textual content with one or multiple &lt;b&gt;[field names]&lt;/b&gt; in each line. For each record, only the first line to return a non-empty value will be used and all other lines will be ignored.</value>
+  </data>
+  <data name="PD_DataSources_pu" xml:space="preserve">
+    <value>URL for linking Name/Title and/or picture</value>
+  </data>
+  <data name="PD_DataSources_pt" xml:space="preserve">
+    <value>title / name</value>
+  </data>
+  <data name="PD_DataSources_pp" xml:space="preserve">
+    <value>picture / icon image (URL)</value>
+  </data>
+  <data name="PD_DataSources_pm" xml:space="preserve">
+    <value>email address (for IM/OCS Presence indicator)</value>
+  </data>
+  <data name="PD_DataSources_pl" xml:space="preserve">
+    <value>full user logon name / domain account name (domainname\username)</value>
+  </data>
+  <data name="PD_DataSources_pd" xml:space="preserve">
+    <value>*Specify the fields to be shown by default in the Data Source Preview and in newly created, not yet customized consumers of this Data Source (ie. {PROD} Web Parts, Lookup Filters, Lookup Columns etc.)&lt;br/&gt;&lt;br/&gt;Each line contains an internal field name. Fields will then be displayed by Data Source consumers in the same order. Note that this is a default template that can be customized for each consumer.&lt;br/&gt;&lt;br/&gt;To override the display name of a field in the Data Source consumer, enter your own display name in the same line next to the internal name, separated by a colon [:].&lt;br/&gt;&lt;br/&gt;You can only include original fields provided by this Data Source (as listed in the above drop-down) &amp;mdash; any special fields defined below cannot be included here (but the Data Source consumer itself will know how to utilize those depending on its configuration).</value>
+  </data>
+  <data name="ConfigHelp_ReplNew" xml:space="preserve">
+    <value>On the &lt;i&gt;Configuration&lt;/i&gt; page in the &lt;i&gt;{0} Studio&lt;/i&gt;, tick this check box</value>
+  </data>
+  <data name="ConfigHelp_ReplOld" xml:space="preserve">
+    <value>Tick this check box</value>
+  </data>
+  <data name="LicTargetSite" xml:space="preserve">
+    <value>This site collection ('{0}')</value>
+  </data>
+  <data name="LicTargetFarm" xml:space="preserve">
+    <value>All site collections in this SharePoint server farm</value>
+  </data>
+  <data name="LicTargetHtml" xml:space="preserve">
+    <value>Select the scope of your software license.</value>
+  </data>
+  <data name="NavUpdates_Download" xml:space="preserve">
+    <value>Download this update</value>
+  </data>
+  <data name="PD_AuthenticationTypes_None" xml:space="preserve">
+    <value>use basic authentication (simple bind) in the LDAP provider</value>
+  </data>
+  <data name="CfgSettingDesc_EmbedFilters" xml:space="preserve">
+    <value>By default, the Interactive Filters container area of a FilterZen Web Part will be visually embedded inside the {PROD} Web Part it is connected to (if Ajax-based Live Filtering has been enabled for the latter). This usually results in a preferable user experience, but this setting allows you to turn the behaviour off, should you want to.</value>
+  </data>
+  <data name="WssInfoOtherFeature" xml:space="preserve">
+    <value>This feature is</value>
+  </data>
+  <data name="Tool_Transfer_Current" xml:space="preserve">
+    <value>(currently {0})</value>
+  </data>
+  <data name="PC_DataSources_ua_g_s" xml:space="preserve">
+    <value>Site Collection groups</value>
+  </data>
+  <data name="PC_DataSources_ua_g_n" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="PC_DataSources_ua_g_g" xml:space="preserve">
+    <value>Web Site groups</value>
+  </data>
+  <data name="PC_DataSources_ua_u_n" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="PC_DataSources_ua_u_a" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="PC_DataSources_ua_u_s" xml:space="preserve">
+    <value>Site Collection user accounts</value>
+  </data>
+  <data name="PC_DataSources_ua_u_u" xml:space="preserve">
+    <value>Web Site user accounts</value>
+  </data>
+  <data name="PD_DataSources_t_Directory" xml:space="preserve">
+    <value>(or any other LDAP-compatible directory service)</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_WIKI" xml:space="preserve">
+    <value>Wiki</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_BLOG" xml:space="preserve">
+    <value>Blog</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_OSRV" xml:space="preserve">
+    <value>Shared Services Administration</value>
+  </data>
+  <data name="Tool_Localizer_Studio_Desc" xml:space="preserve">
+    <value>{0} Studio user interfaces (Tools, Licensing, Help, Artifacts...) and common resources shared by all installed products</value>
+  </data>
+  <data name="Tool_NoAdmin" xml:space="preserve">
+    <value>To use this tool, switch to the</value>
+  </data>
+  <data name="Tool_ItemEditor_Disabled" xml:space="preserve">
+    <value>This property has been temporarily disabled in the currently installed {0} release and will become available in the next software update shortly.</value>
+  </data>
+  <data name="PD_DataSources_t_ListLocal" xml:space="preserve">
+    <value>in this server farm</value>
+  </data>
+  <data name="CfgSettingCaption__nojquery" xml:space="preserve">
+    <value>jQuery inclusion</value>
+  </data>
+  <data name="PC_ItemEditor_name" xml:space="preserve">
+    <value>Name for this {0}</value>
+  </data>
+  <data name="PC_ItemEditor_webs" xml:space="preserve">
+    <value>This {0} is...</value>
+  </data>
+  <data name="CfgSettingDesc_NoAjax" xml:space="preserve">
+    <value>Certain end-user interactions (such as paging forwards or back, re-sorting, re-grouping or re-filtering) are handled by {PROD} using AJAX, without reloading the entire page. This highly preferable behavior however can break in certain very rare FBA / ISA constellations or other kinds of highly customized enterprise VPN / proxy setups. Tick this check box to disable all AJAX-based interactions and revert to a page-reloading, post-back style of handling user interaction.</value>
+  </data>
+  <data name="Tool_Transfer_Export" xml:space="preserve">
+    <value>Click here to &lt;i&gt;Export&lt;/i&gt; the following:</value>
+  </data>
+  <data name="WssInfoUsed" xml:space="preserve">
+    <value>This Site Column is currently used in the following {0} Lists:</value>
+  </data>
+  <data name="WssInfoType" xml:space="preserve">
+    <value>This Column Type is currently used in the following {0} Lists:</value>
+  </data>
+  <data name="WssInfoNope" xml:space="preserve">
+    <value>(This artifact is not available in this Web Application or Site Collection.)</value>
+  </data>
+  <data name="WssInfoNone" xml:space="preserve">
+    <value>&lt;li&gt;[None]&lt;/li&gt;</value>
+  </data>
+  <data name="CfgSettingCaption_NoDefaultInst" xml:space="preserve">
+    <value>No default instances of {PROD} configurables on the Site Collection level</value>
+  </data>
+  <data name="PC_DataSources_db_sq" xml:space="preserve">
+    <value>ADO.NET data query (required)</value>
+  </data>
+  <data name="PC_DataSources_db_pw" xml:space="preserve">
+    <value>ADO.NET database connection password (if required)</value>
+  </data>
+  <data name="PC_DataSources_db_cs" xml:space="preserve">
+    <value>ADO.NET database connection string (required)</value>
+  </data>
+  <data name="PC_DataSources_db_ac" xml:space="preserve">
+    <value>ADO.NET database connection provider</value>
+  </data>
+  <data name="WssInfoActive" xml:space="preserve">
+    <value>&lt;b style="xcolor: #0A0;"&gt;active&lt;/b&gt;.&lt;br/&gt;&lt;a target="_blank;" href="{0}"&gt;Deactivate...&lt;/a&gt;</value>
+  </data>
+  <data name="PC_DataSources_ds_au" xml:space="preserve">
+    <value>Authentication mode</value>
+  </data>
+  <data name="PC_DataSources_ds_cs" xml:space="preserve">
+    <value>Connection URL (required)</value>
+  </data>
+  <data name="PC_DataSources_ds_pw" xml:space="preserve">
+    <value>Password for directory service authentication (if required)</value>
+  </data>
+  <data name="PC_DataSources_ds_us" xml:space="preserve">
+    <value>User name for directory service authentication (if required)</value>
+  </data>
+  <data name="PC_DataSources_ds_ss" xml:space="preserve">
+    <value>Search scope for directory-side pre-filtering (if required)</value>
+  </data>
+  <data name="PC_DataSources_ds_sq" xml:space="preserve">
+    <value>Search query for directory-side pre-filtering (if required)</value>
+  </data>
+  <data name="SwitchToAdminApp" xml:space="preserve">
+    <value>Before you can do this, you need to first select the Central Administration Web Application at the top of this page.</value>
+  </data>
+  <data name="PD_DataSources_t" xml:space="preserve">
+    <value>Select which type of data connection will be used by this data source. &lt;b&gt;If you change this, all settings in the other tabs need to be reviewed and many will have to be re-configured.&lt;/b&gt;</value>
+  </data>
+  <data name="PD_DataSources_s" xml:space="preserve">
+    <value>Select which security context consumers of this Data Source (such as {PROD} Web Parts, Lookup Columns etc.) should establish to connect to this Data Source.</value>
+  </data>
+  <data name="PD_DataSources_p" xml:space="preserve">
+    <value>Click the &lt;i&gt;Refresh&lt;/i&gt; button above to load a dynamic preview of this Data Source with its current settings (even if not yet saved). You can parameterize the preview with the various options offered above. It only shows the fields specified in your &lt;b&gt;Default data fields&lt;/b&gt; setting (on the &lt;i&gt;Data Fields&lt;/i&gt; tab).&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Important note: this is a &lt;i&gt;data&lt;/i&gt; preview rather than a &lt;i&gt;design&lt;/i&gt; preview.&lt;/b&gt; Depending on loaded out-of-box or custom style sheets, the look and feel of your ultimate Data Source consumers in your content sites will vary from the visual design presented above.</value>
+  </data>
+  <data name="PC_DataSources_t_Ado" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="PC_DataSources_t_Bdc" xml:space="preserve">
+    <value>Business Data</value>
+  </data>
+  <data name="PC_DataSources_title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="LicSerialHtml" xml:space="preserve">
+    <value>If you have a license file, you can upload it here:</value>
+  </data>
+  <data name="Tool_Localizer_Desc" xml:space="preserve">
+    <value>Use this tool to translate select user interface portions of this software into any language of your choice.</value>
+  </data>
+  <data name="Tool_Localizer_Info" xml:space="preserve">
+    <value>Translate select resources below, as many as needed.</value>
+  </data>
+  <data name="Tool_Localizer_Icon" xml:space="preserve">
+    <value>/_layouts/images/addressbook.gif</value>
+  </data>
+  <data name="PC_AuthenticationTypes_Delegation" xml:space="preserve">
+    <value>Delegation</value>
+  </data>
+  <data name="PC_DataSources_t_Hybrid" xml:space="preserve">
+    <value>Roll-up Fusion</value>
+  </data>
+  <data name="CfgSettingDesc_PagingAlign" xml:space="preserve">
+    <value>Your {PROD} Web Parts may show a navigation bar containing paging links [Back | Next], the interactive View switcher [Tiles | List] and/or an animated loading progress indicator. Select where this navigation bar should be placed.</value>
+  </data>
+  <data name="Disp_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="CfgSettingDesc_SkipUnknownProps" xml:space="preserve">
+    <value>By default, the {PROD} Web Part generates an HTML block element (in &lt;i&gt;Tiles&lt;/i&gt; view) for each data field included per its Web Part settings, even when no field value has been set for a particular data record. Tick this check box to never generate any HTML output (in &lt;i&gt;Tiles&lt;/i&gt; view) for empty data fields.</value>
+  </data>
+  <data name="Old_GetFiltersFrom_Other" xml:space="preserve">
+    <value>non-FilterZen Web Parts</value>
+  </data>
+  <data name="HtmlInfo" xml:space="preserve">
+    <value>&lt;div&gt;&lt;a href="/_layouts/roxority_{PROD}/default.aspx?cfg=cfg#cfg_MailPropFormat" target="_blank"&gt;You can customize HTML templates in your {PROD} Studio (for email links etc.)&lt;/a&gt;&lt;/div&gt;&lt;br/&gt;&lt;div&gt;For more appearance options, scroll down to the &lt;i&gt;Miscellaneous&lt;/i&gt; section.&lt;/div&gt;</value>
+  </data>
+  <data name="WssItem_SiteFeature" xml:space="preserve">
+    <value>Site Collection Feature</value>
+  </data>
+  <data name="Tool_ItemEditor_ListSet_ExceptBaseType" xml:space="preserve">
+    <value>...except Lists of the following base type:</value>
+  </data>
+  <data name="__RibbonScript" xml:space="preserve">
+    <value>var {2}Buttons = {0}{1}, {2}Urls = {0}{1}, {2}Commands = {0}{1};
+
+function rox{3}Action(args) {0}
+	var evt, el, prefix = '{3}Action_', id, pos, tmp;
+	try {0} evt = event; {1} catch(err) {0} evt = null; {1}
+	if (evt &amp;&amp; (el = evt.srcElement))
+		while ('a' != el.tagName.toLowerCase())
+			el = el.parentNode;
+	if ((pos = (id = (el ? el.id : args[2].SourceControlId)).indexOf(prefix)) &gt;= 0)
+		id = id.substr(pos + prefix.length);
+	if ((pos = id.lastIndexOf('-')) &gt;= 0)
+		id = id.substr(0, pos);
+	if (tmp = {2}Buttons[id]) {0}
+		jQuery('#' + tmp).click();
+		return true;
+	{1} else if (tmp = {2}Urls[id])
+		location.href = tmp;
+	else if (tmp = {2}Commands[id])
+		setTimeout(tmp, 10);
+{1}</value>
+  </data>
+  <data name="PC_DataSources_t_ListLocal" xml:space="preserve">
+    <value>Local SharePoint List or Document Library</value>
+  </data>
+  <data name="Tool_ItemEditor_DataFields_LabelAdd" xml:space="preserve">
+    <value>Add known field:</value>
+  </data>
+  <data name="CfgFarmHint" xml:space="preserve">
+    <value>To make farm-level changes, switch to the &lt;a href="{0}"&gt;Central Administration&lt;/a&gt; Web Application first.</value>
+  </data>
+  <data name="LicFull" xml:space="preserve">
+    <value>Fully Validated Product License</value>
+  </data>
+  <data name="LicSite" xml:space="preserve">
+    <value>for:</value>
+  </data>
+  <data name="LicLite" xml:space="preserve">
+    <value>Lite Edition</value>
+  </data>
+  <data name="CfgSettingGroup_Disp" xml:space="preserve">
+    <value>Appearance &amp; Rendering Templates</value>
+  </data>
+  <data name="CfgSettingTitle_VcardPropFormat" xml:space="preserve">
+    <value>HTML template for vCard export links</value>
+  </data>
+  <data name="NameMode" xml:space="preserve">
+    <value>Show "Name/Title" special field:</value>
+  </data>
+  <data name="Tool_Localizer_Title" xml:space="preserve">
+    <value>DIY User Interface Localization</value>
+  </data>
+  <data name="CfgSettingDesc_MultiPropJoin" xml:space="preserve">
+    <value>Some data fields (such as for example &lt;i&gt;Skills&lt;/i&gt; or &lt;i&gt;Responsibilities&lt;/i&gt; in Farm User Profiles) can store multiple values. Specify how to join these values together for rendering in the {PROD} Web Part.</value>
+  </data>
+  <data name="NotEnabledPlain" xml:space="preserve">
+    <value>{1} has been successfully installed. Now, before you can start using it, a farm administrator needs to explicitly "enable" it just once, simply by going to {0}</value>
+  </data>
+  <data name="CfgSettingSite" xml:space="preserve">
+    <value>&lt;div class="roxcfghead"&gt;'{0}' site collection:&lt;/div&gt;&lt;div class="roxsubinfo"&gt;(Site collection administrators can make changes)&lt;/div&gt;</value>
+  </data>
+  <data name="CfgSettingFarm" xml:space="preserve">
+    <value>&lt;div class="roxcfghead"&gt;Farm-wide setting:&lt;/div&gt;&lt;div class="roxsubinfo"&gt;(Farm administrators can make changes)&lt;/div&gt;</value>
+  </data>
+  <data name="NotEnabledError" xml:space="preserve">
+    <value>&lt;a href="{0}/_layouts/AccessDenied.aspx?loginasanotheruser=true&amp;Source={1}&amp;ReturnUrl={1}"&gt;Sign in as a farm administrator&lt;/a&gt; to be able to enable {3}.&lt;br/&gt;Using your current credentials, the following error occurred:&lt;br/&gt;&lt;i&gt;{2}&lt;/i&gt;</value>
+  </data>
+  <data name="Tool_Localizer_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Tool_Localizer_Info2" xml:space="preserve">
+    <value>Resources that are visible to end users are prefixed with &lt;i&gt;[UI]&lt;/i&gt; (if any, those are listed at the top before all the others).</value>
+  </data>
+  <data name="Tool_Localizer_Info3" xml:space="preserve">
+    <value>Due to platform limitations, translated resources in &lt;i&gt;this&lt;/i&gt; tab (unlike the other two tabs) need to be sent to support@roxority.com (use the &lt;a href="?cfg=tools&amp;tool=Tool_Transfer"&gt;Transfer Wizard&lt;/a&gt; tool) if you want to eventually use them productively.</value>
+  </data>
+  <data name="Tool_ItemEditor_ActionDel" xml:space="preserve">
+    <value>Delete this item</value>
+  </data>
+  <data name="Tool_DataSources_Title" xml:space="preserve">
+    <value>Data Sources</value>
+  </data>
+  <data name="Tool_ItemEditor_DataPreview_RefreshHint" xml:space="preserve">
+    <value>To preview this Data Source here, click &lt;b&gt;Refresh&lt;/b&gt; above.</value>
+  </data>
+  <data name="PC_AuthenticationTypes_Encryption" xml:space="preserve">
+    <value>Encryption</value>
+  </data>
+  <data name="NoIFilterInstalled" xml:space="preserve">
+    <value>Could not extract the textual content of the specified file because no IFilter is currently installed for {0} files in this server farm. Browse the web (ifilter.org, citeknet.com...) for available IFilters.</value>
+  </data>
+  <data name="Tool_ItemEditor_ValidateJSON2" xml:space="preserve">
+    <value>Click CANCEL to discard your input and reset this setting to its default value.\nClick OK to keep your input and revise it now.</value>
+  </data>
+  <data name="Tool_ItemEditor_ValidateJSON1" xml:space="preserve">
+    <value>There was a problem with your input:</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_TenantAdmin" xml:space="preserve">
+    <value>Tenant Administration</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_ExceptWebName" xml:space="preserve">
+    <value>...or Web Sites with the following titles, URL path fragments or IDs:</value>
+  </data>
+  <data name="CfgSettingTitle_FilterTabThreshold" xml:space="preserve">
+    <value>Threshold before reducing quick-filter tabs</value>
+  </data>
+  <data name="CfgSettingDef_LinkTarget" xml:space="preserve">
+    <value>_popup</value>
+  </data>
+  <data name="GroupInteractive" xml:space="preserve">
+    <value>Allow interactive ad-hoc change of the grouping field selected above</value>
+  </data>
+  <data name="Disp_roxVcardExport" xml:space="preserve">
+    <value>vCard Export</value>
+  </data>
+  <data name="Tool_ItemEditor_ListSet_ExceptViewPersonal" xml:space="preserve">
+    <value>personal Views</value>
+  </data>
+  <data name="LicUsersError" xml:space="preserve">
+    <value>The license originally installed reverted to the &lt;b&gt;Lite&lt;/b&gt; edition in this Site Collection ('&lt;i&gt;{2}&lt;/i&gt;'), because it was issued for no more than {0} Site Collection users and currently, &lt;a href="?cfg=tools&amp;tool=Tool_SiteUsers"&gt;there are {1}&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;You can keep the &lt;b&gt;Lite&lt;/b&gt; edition in this Site Collection if this suffices (or if you don't use the software in this Site Collection) &amp;mdash; otherwise, consider removing users or &lt;a href="#noop" onclick="roxGoLicense();"&gt;ordering additional user packs&lt;/a&gt; (online).</value>
+  </data>
+  <data name="LicNoUpload" xml:space="preserve">
+    <value>Update failed: to successfully validate and save your license, you need to upload the &lt;b&gt;original, unmodified license file&lt;/b&gt; that was sent to you shortly after your purchase.&lt;br/&gt;&lt;br/&gt;If you are certain that the license file has not been modified, then it was probably issued for a different server farm or site collection than the current one, for a different product, or for a maximum number of users that is exceeded in this site collection.&lt;br/&gt;&lt;br/&gt;No changes were written to the license store.</value>
+  </data>
+  <data name="PC_DataSources_t_UserAccounts" xml:space="preserve">
+    <value>Site User Accounts (People and Groups)</value>
+  </data>
+  <data name="Tool_Localizer_Runtime" xml:space="preserve">
+    <value>{0} Runtime</value>
+  </data>
+  <data name="Tool_Transfer_CfgSite" xml:space="preserve">
+    <value>Configuration settings for this Site Collection:</value>
+  </data>
+  <data name="Tool_Transfer_CfgFarm" xml:space="preserve">
+    <value>Farm-level configuration settings:</value>
+  </data>
+  <data name="ImageHeightR" xml:space="preserve">
+    <value>Specify the height (in pixels) of data record icons, or 0 to inherit the current CSS rules (by default, 72 or 24 pixels).</value>
+  </data>
+  <data name="CfgSettingTitle_MultiPropJoin" xml:space="preserve">
+    <value>Separator for multi-valued record fields</value>
+  </data>
+  <data name="Tool_ItemEditor_Untitled" xml:space="preserve">
+    <value>(Unnamed {0} -- ID: {1})</value>
+  </data>
+  <data name="LicTrialHtml" xml:space="preserve">
+    <value>&lt;div style="text-align: center;"&gt;On {0}, your current &lt;b&gt;free &lt;i&gt;Ultimate&lt;/i&gt; edition&lt;/b&gt; evaluation license will&lt;br/&gt;convert to the &lt;b&gt;free &lt;i&gt;Lite&lt;/i&gt; edition&lt;/b&gt; &amp;mdash; which &lt;span style="background: #bfb"&gt;never expires and has no site or user limitations&lt;/span&gt;.&lt;/div&gt;&lt;br/&gt;&lt;div style="text-align: center; font-size: 11px;"&gt;&lt;a href="#noop" onclick="roxGoLicense();"&gt;Compare the editions and explore your free and commercial &lt;b&gt;licensing options&lt;/b&gt; (online)&lt;/a&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_PWS" xml:space="preserve">
+    <value>Project Workspace</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_PWA" xml:space="preserve">
+    <value>Project Web Access</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_SGS" xml:space="preserve">
+    <value>Group Work Site</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_STS" xml:space="preserve">
+    <value>Team Site, Blank Site, Document Workspace</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_BDR" xml:space="preserve">
+    <value>Document Center</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_MPS" xml:space="preserve">
+    <value>Meeting Workspace</value>
+  </data>
+  <data name="PD_DataSources_t_UserAccounts" xml:space="preserve">
+    <value>at the Web Site or Site Collection level</value>
+  </data>
+  <data name="CfgSettingDef_UnknownPropFormat" xml:space="preserve">
+    <value>{0}: &amp;mdash;</value>
+  </data>
+  <data name="PD_DataSources_t_UserProfiles" xml:space="preserve">
+    <value>(SPS 2010: Service Application / MOSS 2007: Shared Service Provider)</value>
+  </data>
+  <data name="WssInfo" xml:space="preserve">
+    <value>The following SharePoint features and artifacts provided by {0} can be used in this server farm.</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Tool_Transfer_Import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="CfgSettingTitle_MenuPerms" xml:space="preserve">
+    <value>Permission context for ribbon buttons / tool-bar menu items</value>
+  </data>
+  <data name="CfgSettingTitle_PagingAlign" xml:space="preserve">
+    <value>Position of Navigation Bar</value>
+  </data>
+  <data name="PC_DataSources_t_UserDatabase" xml:space="preserve">
+    <value>Custom User Database</value>
+  </data>
+  <data name="DataSourceModeDesc" xml:space="preserve">
+    <value>Data source of the information rendered by this Web Part:</value>
+  </data>
+  <data name="CfgUseFarm" xml:space="preserve">
+    <value>Site Collection: use farm setting</value>
+  </data>
+  <data name="Tool_ItemEditor_DataPreview_GroupBy" xml:space="preserve">
+    <value>Grouped by:</value>
+  </data>
+  <data name="PrintAction" xml:space="preserve">
+    <value>Offer the following print-friendly view in the Web Part menu:
+&lt;br/&gt; (to create one, install &lt;a target="_blank" href="http://SharePoint-Tools.net/PrintZen-Download/"&gt;PrintZen&lt;/a&gt;)</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_VISPR" xml:space="preserve">
+    <value>Visio Process Repository</value>
+  </data>
+  <data name="Tool_Localizer_GoogNone" xml:space="preserve">
+    <value>Google Translate is not available (or still loading).</value>
+  </data>
+  <data name="Old_ShowPictures" xml:space="preserve">
+    <value>Show "Picture" special field:</value>
+  </data>
+  <data name="Tool_Transfer_ImportError" xml:space="preserve">
+    <value>The uploaded file could not be recognized as a valid ROXORITY export file.</value>
+  </data>
+  <data name="LicMicroHint" xml:space="preserve">
+    <value>You have a license scope &lt;b&gt;other than&lt;/b&gt; &lt;i&gt;Ultimate&lt;/i&gt; installed, &lt;b&gt;but&lt;/b&gt; all Site Collections with 10 users or less are automatically &lt;i&gt;Ultimate&lt;/i&gt;-scoped. &lt;b&gt;Enjoy!&lt;/b&gt;</value>
+  </data>
+  <data name="Tab_Info" xml:space="preserve">
+    <value>Management</value>
+  </data>
+  <data name="Tab_Help" xml:space="preserve">
+    <value>Help Topics</value>
+  </data>
+  <data name="PC_AuthenticationTypes_Secure" xml:space="preserve">
+    <value>Secure</value>
+  </data>
+  <data name="Old_GetFiltersFrom" xml:space="preserve">
+    <value>Get Filters From</value>
+  </data>
+  <data name="CfgSettingCaption_SkipUnknownProps" xml:space="preserve">
+    <value>Exclude empty record fields in Tiles View</value>
+  </data>
+  <data name="WssFrame" xml:space="preserve">
+    <value>Features &amp;amp; Artifacts</value>
+  </data>
+  <data name="PD_DataSources_t_Dummy" xml:space="preserve">
+    <value>manually defined or semi-randomly generated "dummy" records (for testing purposes)</value>
+  </data>
+  <data name="ZeroRecsR" xml:space="preserve">
+    <value>There are no items to show in this view.</value>
+  </data>
+  <data name="Tool_ItemEditor_DefaultDesc" xml:space="preserve">
+    <value>Default {0} for "{3}" sites. Admins can customize this via Site Settings / {1} Studio / {2}.</value>
+  </data>
+  <data name="Tool_ItemEditor_DefaultName" xml:space="preserve">
+    <value>(Default {0})</value>
+  </data>
+  <data name="WssItem_WebFeatures" xml:space="preserve">
+    <value>Web Site Features</value>
+  </data>
+  <data name="Tool_ItemEditor_DataFields_OptionSel" xml:space="preserve">
+    <value>(Select...)</value>
+  </data>
+  <data name="Tool_ItemEditor_DataFields_OptionRef" xml:space="preserve">
+    <value>(Refresh fields)</value>
+  </data>
+  <data name="Tool_Localizer_StartInfoHint" xml:space="preserve">
+    <value>The &lt;i&gt;source&lt;/i&gt; language for your translation will be English or German as selected on the &lt;a href="{0}"&gt;Configuration&lt;/a&gt; page.</value>
+  </data>
+  <data name="Tool_ItemEditor_ListSet_Sel" xml:space="preserve">
+    <value>Lists</value>
+  </data>
+  <data name="Tool_ItemEditor_ListSet_All" xml:space="preserve">
+    <value>Show in all {0}</value>
+  </data>
+  <data name="WssItem_FieldTypes" xml:space="preserve">
+    <value>Column Types</value>
+  </data>
+  <data name="PD_DataSources_db_pw" xml:space="preserve">
+    <value>If you used the &lt;b&gt;{$ROXPWD$}&lt;/b&gt; placeholder in the setting above, you can specify the password here. This will be stored encrypted.</value>
+  </data>
+  <data name="PD_DataSources_db_sq" xml:space="preserve">
+    <value>Specify, in SQL (or any other query language dialect supported by the selected ADO.NET database connection provider), the query sent to the database to fetch the result set of records to be returned by this Data Source.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Important:&lt;/b&gt; if you have Caching enabled (on the Caching tab) for this ADO.NET Data Source, you &lt;b&gt;&lt;i&gt;need&lt;/i&gt; to ensure consistent sort order of the raw result set at all times&lt;/b&gt; by including an ORDER BY clause or equivalent.</value>
+  </data>
+  <data name="PD_DataSources_db_ac" xml:space="preserve">
+    <value>Select the ADO.NET database connection provider to use for this Data Source. If required, you can restrict or extend the available choices with the &lt;a target="_blank" href="?cfg=cfg#cfg_DataProviders"&gt;ADO.NET Database Connection Providers for SQL Data Access&lt;/a&gt; configuration setting.</value>
+  </data>
+  <data name="PD_DataSources_db_cs" xml:space="preserve">
+    <value>Specify the ADO.NET connection string (including user credentials if applicable) used by this Data Source to connect to the database. If you want to specify a password but hide it (and store it encrypted), enter the placeholder &lt;b&gt;{$ROXPWD$}&lt;/b&gt; in place of the password and then specify the password in the field below instead.</value>
+  </data>
+  <data name="PD_DataSources_ds_au" xml:space="preserve">
+    <value>Select how this Data Source should authenticate itself to the directory service specified above.</value>
+  </data>
+  <data name="PD_DataSources_ds_cs" xml:space="preserve">
+    <value>An LDAP/ADSI connection string that is used by this Data Source to connect to your directory service.</value>
+  </data>
+  <data name="PD_DataSources_ds_us" xml:space="preserve">
+    <value>If you selected &lt;b&gt;Secure&lt;/b&gt; under the &lt;i&gt;Authentication mode&lt;/i&gt; setting above, you can optionally specify a fully-qualified user name for authentication. If you leave this blank, the &lt;i&gt;Secure&lt;/i&gt; authentication mode will use the current security context; otherwise, you also need to specify a password below.</value>
+  </data>
+  <data name="PD_DataSources_ds_pw" xml:space="preserve">
+    <value>If you selected &lt;b&gt;Secure&lt;/b&gt; under the &lt;i&gt;Authentication mode&lt;/i&gt; setting above, you can optionally specify a password for authentication of the above user name. If you leave this blank, the &lt;i&gt;Secure&lt;/i&gt; authentication mode will use the current security context; otherwise, you also need to specify a user name above.</value>
+  </data>
+  <data name="PD_DataSources_ds_sq" xml:space="preserve">
+    <value>An optional LDAP/ADSI query that is used by the directory service to pre-filter the result set send back to this Data Dource. (With a filter query defined here, this Data Source performs a directory service Search operation and yields the result set returned; without, it simply enumerates through all directory entries.)</value>
+  </data>
+  <data name="PD_DataSources_ds_ss" xml:space="preserve">
+    <value>Select the search scope to observe when invoking the directory search specified by the above LDAP search query.</value>
+  </data>
+  <data name="DataSourceNotFound" xml:space="preserve">
+    <value>The Data Source '{0}' specified for this Web Part no longer exists. Please select another Data Source in the settings tool-pane for this Web Part.</value>
+  </data>
+  <data name="CfgSettingDef_DataProviders" xml:space="preserve">
+    <value>SQL Server: System.Data.SqlClient.SqlConnection, System.Data
+Oracle: System.Data.OracleClient.OracleConnection, System.Data.OracleClient
+ODBC: System.Data.Odbc.OdbcConnection, System.Data
+OLE DB: System.Data.OleDb.OleDbConnection, System.Data</value>
+  </data>
+  <data name="PD_DataSources_title" xml:space="preserve">
+    <value>Optionally specify a title for this Data Source.</value>
+  </data>
+  <data name="PD_DataSources_t_Bdc" xml:space="preserve">
+    <value>(SP 2010: BCS Business Connectivity Services / MOSS 2007: BDC Business Data Catalog)</value>
+  </data>
+  <data name="PD_DataSources_t_Ado" xml:space="preserve">
+    <value>(SQL Server, Oracle or any other data source via OLEDB, ODBC or ADO.NET)</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_PUBLISHING" xml:space="preserve">
+    <value>Publishing Site</value>
+  </data>
+  <data name="PD_DataSources_ua_g_s" xml:space="preserve">
+    <value>all groups of the current Site Collection are enumerated</value>
+  </data>
+  <data name="PD_DataSources_ua_g_n" xml:space="preserve">
+    <value>no groups are enumerated</value>
+  </data>
+  <data name="PD_DataSources_ua_g_g" xml:space="preserve">
+    <value>all groups of the current Web Site are enumerated</value>
+  </data>
+  <data name="PD_DataSources_ua_u_n" xml:space="preserve">
+    <value>no user accounts are enumerated</value>
+  </data>
+  <data name="PD_DataSources_ua_u_a" xml:space="preserve">
+    <value>members of the current Web Site and authenticated domain group members who browsed to it</value>
+  </data>
+  <data name="PD_DataSources_ua_u_u" xml:space="preserve">
+    <value>user accounts that are explicitly assigned permissions in the current Web Site</value>
+  </data>
+  <data name="PD_DataSources_ua_u_s" xml:space="preserve">
+    <value>user accounts that belong to the current Site Collection</value>
+  </data>
+  <data name="PL_DataSources_4" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="PL_DataSources_0" xml:space="preserve">
+    <value>up_pd,ua_pd,db_pd,ds_pd,name,p</value>
+  </data>
+  <data name="Tool_Transfer_SiteSchema" xml:space="preserve">
+    <value>Custom-defined elements for this Site Collection:</value>
+  </data>
+  <data name="PC_AuthenticationTypes_Anonymous" xml:space="preserve">
+    <value>Anonymous</value>
+  </data>
+  <data name="CfgSettingDesc_FilterTabThreshold" xml:space="preserve">
+    <value>By default, quick-filter tabs are generated so that all tabs correspond to existing data field values. This is preferable for multi-choice properties (such as for example Skills, Responsibilities etc. for Farm User Profiles) but less usable for potentially vast numbers of values (First Name, Last Name...) &amp;mdash; therefore, beyond a certain number of values quick-filter tabs will be reduced to alphabetic or numeric indices (A, B, C...)&lt;br/&gt;&lt;br/&gt;Use this setting to specify that threshold. If you don't specify a valid integer number between 2 and 50, the default value of 16 will be used.</value>
+  </data>
+  <data name="CfgSettingTitle_KnownPropFormat" xml:space="preserve">
+    <value>HTML template for record field with value</value>
+  </data>
+  <data name="GroupSortAsc" xml:space="preserve">
+    <value>Ascending</value>
+  </data>
+  <data name="Disp___roxRandomizedSort" xml:space="preserve">
+    <value>(Enforce randomized sort order)</value>
+  </data>
+  <data name="PC_AuthenticationTypes_None" xml:space="preserve">
+    <value>Default (or none)</value>
+  </data>
+  <data name="NoServerContextStatus" xml:space="preserve">
+    <value>The User Profiles shared service application is currently unavailable: please try again later. (Status: {0})</value>
+  </data>
+  <data name="Tool_ItemEditor_ListSet_ExceptViewHidden" xml:space="preserve">
+    <value>hidden Views</value>
+  </data>
+  <data name="CfgSettingDef_AltNameCaption" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="WssInfoInactive" xml:space="preserve">
+    <value>&lt;b style="xcolor: #C00;"&gt;not active&lt;/b&gt;.&lt;br/&gt;&lt;a target="_blank" href="{0}"&gt;Activate...&lt;/a&gt;</value>
+  </data>
+  <data name="CfgSettingChoice_EmbedFilters_yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_SRCHCENTERFAST" xml:space="preserve">
+    <value>FAST Search Center</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_SRCHCENTERLITE" xml:space="preserve">
+    <value>Basic Search Center</value>
+  </data>
+  <data name="PreFilterHint" xml:space="preserve">
+    <value>&lt;br/&gt;&lt;div&gt;&lt;a href="/_layouts/roxority_{PROD}/default.aspx?cfg=tools&amp;tool=Tool_DataSources" target="_blank"&gt;Check here whether your currently selected Data Source supports configurable pre-filtering&lt;/a&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="Tool_Transfer_Desc" xml:space="preserve">
+    <value>Use this tool to import or export select configuration settings or user interface localizations.</value>
+  </data>
+  <data name="Tool_Transfer_More" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="Tool_Transfer_Icon" xml:space="preserve">
+    <value>/_layouts/images/icxslt.gif</value>
+  </data>
+  <data name="PC_AuthenticationTypes_SecureSocketsLayer" xml:space="preserve">
+    <value>Secure sockets layer (SSL)</value>
+  </data>
+  <data name="NoLiteConfig_White" xml:space="preserve">
+    <value>This product configuration setting requires a valid software license.</value>
+  </data>
+  <data name="JqueryNone" xml:space="preserve">
+    <value>jQuery is not being embedded &amp;mdash; &lt;a href="#noop" onclick="document.getElementById('rox_pzjq').style.display='block';"&gt;more...&lt;/a&gt;&lt;div id="rox_pzjq" style="display: none;"&gt;You have decided to not have this {PROD} Web Part load the jQuery library into this page. This will break the {PROD} Web Part unless jQuery v1.8.1 or higher is being included by some other Web Part or by your page design. If {PROD} stopped working after you changed your page design or removed some other Web Part, re-include jQuery from the Web Part settings or via the Product Configuration.&lt;/div&gt;</value>
+  </data>
+  <data name="CfgSettingDesc__nojquery" xml:space="preserve">
+    <value>Some {0} end user-facing artifacts require (and load into the respective host pages) the jQuery library, version 1.8.1. Embedding jQuery more than once in a single page can cause JavaScript warnings in Internet Explorer with &lt;i&gt;some few&lt;/i&gt; jQuery plugins (and only if any are used in your farm at all). Tick this check box &lt;i&gt;only&lt;/i&gt; if your master pages, web pages or third-party extensions also already include jQuery globally (not just on some individual pages) and independently of {0} to prevent {0} from loading jQuery too. If you do so, you need to make sure jQuery v1.8.1 or higher is loaded on each page hosting also hosting {0} user interface artifacts, or {0} will appear broken. This is a global default setting that can be optionally overridden locally where applicable.</value>
+  </data>
+  <data name="CfgSettingTitle_MailPropFormat" xml:space="preserve">
+    <value>HTML template for email addresses</value>
+  </data>
+  <data name="ConfigHelp_ItemTab" xml:space="preserve">
+    <value>"{0}" tab:</value>
+  </data>
+  <data name="ConfigHelp_ItemDef" xml:space="preserve">
+    <value>Default value for new {0}:</value>
+  </data>
+  <data name="Tool_Transfer_Import3" xml:space="preserve">
+    <value>You're &lt;span style="background-color: gold; color: #303030;"&gt;&amp;nbsp;almost&amp;nbsp;&lt;/span&gt; done!</value>
+  </data>
+  <data name="Tool_Transfer_Import2" xml:space="preserve">
+    <value>&amp;mdash; then &lt;input type="submit" value="upload" {0} /&gt; it and confirm your import on the next page.</value>
+  </data>
+  <data name="Tool_Transfer_Import1" xml:space="preserve">
+    <value>Select a file that was exported from any {0} installation:</value>
+  </data>
+  <data name="Tool_Transfer_Import4" xml:space="preserve">
+    <value>&lt;b&gt;Please complete your import.&lt;/b&gt; Check the items to be imported, then &lt;input id="importButton" type="submit" disabled="disabled" value="finish this import." /&gt;</value>
+  </data>
+  <data name="WssItem_AppFeatures" xml:space="preserve">
+    <value>Web Application Features</value>
+  </data>
+  <data name="GroupByCounts" xml:space="preserve">
+    <value>...but by counts instead of group values</value>
+  </data>
+  <data name="ZeroRecs" xml:space="preserve">
+    <value>There are no User Profiles to show in this view.</value>
+  </data>
+  <data name="DataSourceChange" xml:space="preserve">
+    <value>This tool pane will now reload to reflect your changed Data Source selection. Review any and all field names / field selections used in any of the below sections, as different Data Source types usually use different field names for the same concepts (for example WorkEmail vs. EMail).</value>
+  </data>
+  <data name="Tool_ItemEditor_Optional" xml:space="preserve">
+    <value>&lt;b&gt;Note&lt;/b&gt; &amp;mdash; all settings in the above tabs are optional (unless stated otherwise).</value>
+  </data>
+  <data name="CfgSettingCaption_FilterTabReverse" xml:space="preserve">
+    <value>Always reverse the sort order of quick-filter tabs</value>
+  </data>
+  <data name="CfgSettingChoice_EmbedFilters_merge" xml:space="preserve">
+    <value>Yes (no top border)</value>
+  </data>
+  <data name="Tool_NoAdminLink" xml:space="preserve">
+    <value>Central Administration Web Application.</value>
+  </data>
+  <data name="WssItem_FarmFeatures" xml:space="preserve">
+    <value>Farm Features</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>Find &lt;b&gt;more settings&lt;/b&gt; and help in your</value>
+  </data>
+  <data name="ConfigHelp_ItemTypeDataPreview" xml:space="preserve">
+    <value>Data source previewer</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_SPSPERS" xml:space="preserve">
+    <value>Personal Space</value>
+  </data>
+  <data name="CfgSettingTitle_LinkTarget" xml:space="preserve">
+    <value>Window target for data record Name/Title links</value>
+  </data>
+  <data name="CfgSettingDesc__lang" xml:space="preserve">
+    <value>{0} has been localized for multiple languages. In addition to English and German, if you have added partial translations in other languages (via Site Settings / {PROD} Studio / DIY User Interface Localization), these languages will be available for selection here. Changing this setting affects all {0} user interfaces except captions and descriptions of Features, List Templates, Column Types, Content Types or Web Part Templates (those are always loaded directly by SharePoint based on the current Web Site locale).</value>
+  </data>
+  <data name="WssItem_ContentTypes" xml:space="preserve">
+    <value>Content Types</value>
+  </data>
+  <data name="IgnoreDay" xml:space="preserve">
+    <value>Ignore day when filtering by date range fields (such as hire date or birthday) for "any date in month X"</value>
+  </data>
+  <data name="Tool_ItemEditor_ActionUp" xml:space="preserve">
+    <value>Move up</value>
+  </data>
+  <data name="Tool_ItemEditor_ActionDn" xml:space="preserve">
+    <value>Move down</value>
+  </data>
+  <data name="Old_GetFiltersFrom_FilterZen" xml:space="preserve">
+    <value>FilterZen Web Parts</value>
+  </data>
+  <data name="PC_SearchScope_Subtree" xml:space="preserve">
+    <value>Subtree (default / recommended)</value>
+  </data>
+  <data name="Tool_ItemEditor_ListSet_ExceptView" xml:space="preserve">
+    <value>...except:</value>
+  </data>
+  <data name="ConfigHelp_ItemTypeLocaleChoice" xml:space="preserve">
+    <value>Culture picker</value>
+  </data>
+  <data name="CfgSettingCaption_AltEnum" xml:space="preserve">
+    <value>Experimental option (MOSS 2007 only; do not use unless so instructed by ROXORITY)</value>
+  </data>
+  <data name="T_Prop5" xml:space="preserve">
+    <value>Filtering</value>
+  </data>
+  <data name="T_Prop4" xml:space="preserve">
+    <value>Paging</value>
+  </data>
+  <data name="CfgSettingDesc_MenuPerms" xml:space="preserve">
+    <value>&lt;b&gt;The default selection is the recommended choice here and we would advise you against changing this unless you have a sound reason to do so.&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Select which permissions must be granted to end users for them to be able to use the ribbon buttons / tool-bar menu items provided by this software.</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_VISPRUS" xml:space="preserve">
+    <value>Visio Process Repository</value>
+  </data>
+  <data name="PC_DataSources_t_ListRemote" xml:space="preserve">
+    <value>Remote SharePoint List or Document Library</value>
+  </data>
+  <data name="Tool_ItemEditor_Info_Farm" xml:space="preserve">
+    <value>{0} defined here are available in &lt;b&gt;all Site Collections across the entire server farm&lt;/b&gt;. (To define &lt;i&gt;Site Collection-specific {0}&lt;/i&gt;, &lt;a href="#noop" onmouseover="roxHintSite(true);" onmouseout="roxHintSite(false);" class="rox-sitehint"&gt;switch to the appropriate Site Collection&lt;/a&gt;.)</value>
+  </data>
+  <data name="Data_AdoConnError" xml:space="preserve">
+    <value>Failed to connect to the specified {0} database -- review your ADO.NET database connection string.</value>
+  </data>
+  <data name="Tool_ItemEditor_DataPreview_Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="ToolsFrame" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="Tool_DataSources_TitleSingular" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="Disp_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="TileWidth2" xml:space="preserve">
+    <value>wide</value>
+  </data>
+  <data name="TileWidth1" xml:space="preserve">
+    <value>, each</value>
+  </data>
+  <data name="CfgSettingChoice_EmbedFilters_no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="CfgSettingDesc_Compare" xml:space="preserve">
+    <value>For filtering that is performed not at the Data Source side but directly by {PROD} at the SharePoint side, you can select the string comparison algorithm used to filter based on textual (rather than numeric or date) data field values.</value>
+  </data>
+  <data name="CfgSettingDesc_MailPropFormat" xml:space="preserve">
+    <value>The HTML to be generated by the {PROD} Web Part for all data record field values that are email addresses. Valid placeholders: {0} for the email address, {1} for { and {2} for }.</value>
+  </data>
+  <data name="Disp_roxUserPublicUrl" xml:space="preserve">
+    <value>Public User Profile Page</value>
+  </data>
+  <data name="NavForum" xml:space="preserve">
+    <value>{0} Feedback Forum</value>
+  </data>
+  <data name="Tool_ItemEditor_Info" xml:space="preserve">
+    <value>{0} defined here are available in specified Web Sites &lt;b&gt;inside the &lt;i&gt;{1}&lt;/i&gt; Site Collection only&lt;/b&gt;. (To define &lt;i&gt;farm-wide {0}&lt;/i&gt; &amp;mdash; &lt;b&gt;currently {2}&lt;/b&gt; &amp;mdash; &lt;a href="#noop" onclick="roxGoSite('{3}');"&gt;switch to the Central Administration Site Collection&lt;/a&gt;.)</value>
+  </data>
+  <data name="Tool_ItemEditor_Save" xml:space="preserve">
+    <value>Save All</value>
+  </data>
+  <data name="CfgSettingTitle__nojquery" xml:space="preserve">
+    <value>By default, no inclusion of jQuery library v1.8.1 (NOT recommended)</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_BLANKINTERNET" xml:space="preserve">
+    <value>Publishing / Press Releases</value>
+  </data>
+  <data name="WssItem_SiteColumns" xml:space="preserve">
+    <value>Site Columns</value>
+  </data>
+  <data name="Tool_ItemEditor_WebSet_Temp_SRCHCEN" xml:space="preserve">
+    <value>Search Center</value>
+  </data>
+  <data name="D_Prop11R" xml:space="preserve">
+    <value>Specify the data fields to show for each record. (Multiple lines of the pattern: 'InternalFieldName: Field Display Name'.)</value>
+  </data>
+  <data name="PD_AuthenticationTypes_SecureSocketsLayer" xml:space="preserve">
+    <value>a cryptographic signature that identifies the sender (requires Certificate Server)</value>
+  </data>
+  <data name="xofy" xml:space="preserve">
+    <value>Page {0} of {1}</value>
+  </data>
+  <data name="Anim" xml:space="preserve">
+    <value>'Loading' animation:</value>
+  </data>
+  <data name="Auto" xml:space="preserve">
+    <value>(Like site, or English)</value>
+  </data>
+  <data name="Misc" xml:space="preserve">
+    <value>Miscellaneous</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>[None]</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Sort by:</value>
+  </data>
+  <data name="Prev" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Disp_PreferredName" xml:space="preserve">
+    <value>Preferred Name</value>
+  </data>
+  <data name="NavUpdates_YourVersion" xml:space="preserve">
+    <value>Installed version: {0}</value>
+  </data>
+  <data name="NoAdminFarm" xml:space="preserve">
+    <value>Only farm administrators can make changes.</value>
+  </data>
+  <data name="Tool_ItemEditor_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="WssItem_SiteColumn" xml:space="preserve">
+    <value>Site Column</value>
+  </data>
+</root>

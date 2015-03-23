@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "roxority_ExportZen", "roxority_ExportZen\roxority_ExportZen.csproj", "{7B2F7419-B4FA-482B-9590-144FE071BFFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "roxority_FilterZen", "roxority_FilterZen\roxority_FilterZen.csproj", "{9FB5E770-3378-4BD8-AB95-622D44BEEAA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPPlus", "EPPlus\EPPlus.csproj", "{7B288026-5502-4A39-BF41-77E086F3E4A3}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs13
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = EPPlus\\EPPlus.csproj
+		SccProjectName1 = EPPlus
+		SccLocalPath1 = EPPlus
+		SccProjectUniqueName2 = roxority_ExportZen\\roxority_ExportZen.csproj
+		SccProjectName2 = roxority_ExportZen
+		SccLocalPath2 = roxority_ExportZen
+		SccProjectUniqueName3 = roxority_FilterZen\\roxority_FilterZen.csproj
+		SccProjectName3 = roxority_FilterZen
+		SccLocalPath3 = roxority_FilterZen
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B2F7419-B4FA-482B-9590-144FE071BFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2F7419-B4FA-482B-9590-144FE071BFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2F7419-B4FA-482B-9590-144FE071BFFE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7B2F7419-B4FA-482B-9590-144FE071BFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2F7419-B4FA-482B-9590-144FE071BFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2F7419-B4FA-482B-9590-144FE071BFFE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9FB5E770-3378-4BD8-AB95-622D44BEEAA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB5E770-3378-4BD8-AB95-622D44BEEAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB5E770-3378-4BD8-AB95-622D44BEEAA1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9FB5E770-3378-4BD8-AB95-622D44BEEAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB5E770-3378-4BD8-AB95-622D44BEEAA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FB5E770-3378-4BD8-AB95-622D44BEEAA1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7B288026-5502-4A39-BF41-77E086F3E4A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B288026-5502-4A39-BF41-77E086F3E4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B288026-5502-4A39-BF41-77E086F3E4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B288026-5502-4A39-BF41-77E086F3E4A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

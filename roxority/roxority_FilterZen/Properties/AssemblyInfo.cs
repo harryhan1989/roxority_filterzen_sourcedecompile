@@ -1,0 +1,15 @@
+﻿// Assembly roxority_FilterZen, Version 1.0.0.0
+
+[assembly: System.Reflection.AssemblyTitle("ROXORITY FilterZen")]
+[assembly: System.Runtime.InteropServices.ComVisible(false)]
+[assembly: System.Reflection.AssemblyVersion("1.0.0.0")]
+[assembly: System.Reflection.AssemblyFileVersion("3.8.0.83")]
+[assembly: System.Reflection.AssemblyConfiguration("")]
+[assembly: System.Reflection.AssemblyProduct("ROXORITY FilterZen")]
+[assembly: System.Reflection.AssemblyCopyright("Copyright \x00a9 2008-2012 ROXORITY Ltd. All rights reserved.")]
+[assembly: System.Reflection.AssemblyTrademark("")]
+[assembly: System.Runtime.InteropServices.Guid("c3cbb6b0-af4c-4d8e-ac07-ce85be0b3dd4")]
+[assembly: System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)]
+[assembly: System.Runtime.CompilerServices.CompilationRelaxations(8)]
+[assembly: System.Reflection.AssemblyCompany("ROXORITY")]
+[assembly: System.Reflection.AssemblyDescription("Apply any filters to any Web Parts, just from your URL parameters.")]

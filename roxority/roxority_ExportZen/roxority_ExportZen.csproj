@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7B2F7419-B4FA-482B-9590-144FE071BFFE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>roxority_ExportZen</RootNamespace>
+    <AssemblyName>roxority_ExportZen</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <ProjectMode>SharePointCustomization</ProjectMode>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint.WorkflowActions, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="NPOI, Version=2.0.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="roxority_ExportZen.resources, Version=1.0.0.0, Culture=de, PublicKeyToken=68349fdcd3484f01, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>de\roxority_ExportZen.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Security" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\roxority_Shared.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>roxority_Shared.resx</DependentUpon>
+    </Compile>
+    <Compile Include="roxority\Data\CachedRecord.cs" />
+    <Compile Include="roxority\Data\DataSource.cs" />
+    <Compile Include="roxority\Data\DataSourceCache.cs" />
+    <Compile Include="roxority\Data\DataSourceConsumer.cs" />
+    <Compile Include="roxority\Data\DataSourceSchemaExtender.cs" />
+    <Compile Include="roxority\Data\Providers\Ado.cs" />
+    <Compile Include="roxority\Data\Providers\Directory.cs" />
+    <Compile Include="roxority\Data\Providers\Dummy.cs" />
+    <Compile Include="roxority\Data\Providers\Hybrid.cs" />
+    <Compile Include="roxority\Data\Providers\ListLocal.cs" />
+    <Compile Include="roxority\Data\Providers\ListRemote.cs" />
+    <Compile Include="roxority\Data\Providers\UserAccounts.cs" />
+    <Compile Include="roxority\Data\Record.cs" />
+    <Compile Include="roxority\Data\RecordProperty.cs" />
+    <Compile Include="roxority\Data\RecordPropertyCollection.cs" />
+    <Compile Include="roxority\Data\RecordPropertyValueCollection.cs" />
+    <Compile Include="roxority\Data\UserDataSource.cs" />
+    <Compile Include="roxority\Shared\Action!2.cs" />
+    <Compile Include="roxority\Shared\Action!3.cs" />
+    <Compile Include="roxority\Shared\Action!4.cs" />
+    <Compile Include="roxority\Shared\Action.cs" />
+    <Compile Include="roxority\Shared\ActionRef!2.cs" />
+    <Compile Include="roxority\Shared\AssortHandler.cs" />
+    <Compile Include="roxority\Shared\CancelEventArgs!1.cs" />
+    <Compile Include="roxority\Shared\CancelEventHandler!1.cs" />
+    <Compile Include="roxority\Shared\CancelledException.cs" />
+    <Compile Include="roxority\Shared\Collections\DisposableDictionaryBase.cs" />
+    <Compile Include="roxority\Shared\Collections\DisposableHashtable.cs" />
+    <Compile Include="roxority\Shared\Collections\HashTree.cs" />
+    <Compile Include="roxority\Shared\Collections\LiveList!1.cs" />
+    <Compile Include="roxority\Shared\ComparisonResult.cs" />
+    <Compile Include="roxority\Shared\ComponentModel\BooleanTypeConverter.cs" />
+    <Compile Include="roxority\Shared\ComponentModel\BooleanTypeEditor.cs" />
+    <Compile Include="roxority\Shared\ComponentModel\CommandManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="roxority\Shared\ComponentModel\CustomPropertyDescriptor.cs" />
+    <Compile Include="roxority\Shared\ComponentModel\CustomPropertyHelper.cs" />
+    <Compile Include="roxority\Shared\ComponentModel\CustomTypeDescriptor.cs" />
+    <Compile Include="roxority\Shared\ComponentModel\EnumTypeConverter.cs" />
+    <Compile Include="roxority\Shared\ComponentModel\FilePathTypeEditor!1.cs" />
+    <Compile Include="roxority\Shared\ComponentModel\FolderPathTypeEditor.cs" />
+    <Compile Include="roxority\Shared\ComponentModel\IPropertyHelper.cs" />
+    <Compile Include="roxority\Shared\ComponentModel\ParameterAttribute.cs" />
+    <Compile Include="roxority\Shared\ComponentModel\SettingManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="roxority\Shared\ComponentModel\SizeTypeConverter.cs" />
+    <Compile Include="roxority\Shared\Context!1.cs" />
+    <Compile Include="roxority\Shared\ConvertibleBase!1.cs" />
+    <Compile Include="roxority\Shared\Design\DisplayNameAttribute.cs" />
+    <Compile Include="roxority\Shared\Design\FontStyleProvider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="roxority\Shared\Design\IImageProvider.cs" />
+    <Compile Include="roxority\Shared\Design\LocalCategoryAttribute.cs" />
+    <Compile Include="roxority\Shared\Design\LocalDescriptionAttribute.cs" />
+    <Compile Include="roxority\Shared\Disposable!1.cs" />
+    <Compile Include="roxority\Shared\Drawing\DrawingUtil.cs" />
+    <Compile Include="roxority\Shared\Drawing\SHGFI.cs" />
+    <Compile Include="roxority\Shared\Drawing\Win32BitmapInfo.cs" />
+    <Compile Include="roxority\Shared\Drawing\Win32DrawThemeOptions.cs" />
+    <Compile Include="roxority\Shared\Drawing\Win32FileInfo.cs" />
+    <Compile Include="roxority\Shared\Drawing\Win32Margins.cs" />
+    <Compile Include="roxority\Shared\Drawing\Win32Point.cs" />
+    <Compile Include="roxority\Shared\Drawing\Win32Rect.cs" />
+    <Compile Include="roxority\Shared\Duo!1.cs" />
+    <Compile Include="roxority\Shared\Duo!2.cs" />
+    <Compile Include="roxority\Shared\DuoList!2.cs" />
+    <Compile Include="roxority\Shared\Enumerator!1.cs" />
+    <Compile Include="roxority\Shared\EventArgs!1.cs" />
+    <Compile Include="roxority\Shared\EventArgs!2.cs" />
+    <Compile Include="roxority\Shared\Exception!1.cs" />
+    <Compile Include="roxority\Shared\Func!1.cs" />
+    <Compile Include="roxority\Shared\Get!1.cs" />
+    <Compile Include="roxority\Shared\Handler.cs" />
+    <Compile Include="roxority\Shared\I!1.cs" />
+    <Compile Include="roxority\Shared\IContext.cs" />
+    <Compile Include="roxority\Shared\IO\FileSize.cs" />
+    <Compile Include="roxority\Shared\IO\IOUtil.cs" />
+    <Compile Include="roxority\Shared\IO\ShellInfo.cs" />
+    <Compile Include="roxority\Shared\ISelfDescriptor.cs" />
+    <Compile Include="roxority\Shared\JSON.cs" />
+    <Compile Include="roxority\Shared\MultipleBase.cs" />
+    <Compile Include="roxority\Shared\Operation!1.cs" />
+    <Compile Include="roxority\Shared\Operation!2.cs" />
+    <Compile Include="roxority\Shared\Operation!3.cs" />
+    <Compile Include="roxority\Shared\Parameterized!2.cs" />
+    <Compile Include="roxority\Shared\Predicate!2.cs" />
+    <Compile Include="roxority\Shared\Predicate.cs" />
+    <Compile Include="roxority\Shared\Reflection\AssemblyUtil.cs" />
+    <Compile Include="roxority\Shared\ResourceBaseNameAttribute.cs" />
+    <Compile Include="roxority\Shared\SharedUtil.cs" />
+    <Compile Include="roxority\Shared\Trio!1.cs" />
+    <Compile Include="roxority\Shared\Trio!3.cs" />
+    <Compile Include="roxority\Shared\TrioList!3.cs" />
+    <Compile Include="roxority\Shared\UndoRedoManager.cs" />
+    <Compile Include="roxority\Shared\WebUtil.cs" />
+    <Compile Include="roxority\Shared\Win32\IniFile.cs" />
+    <Compile Include="roxority\Shared\Win32\RegistryUtil.cs" />
+    <Compile Include="roxority\Shared\Wrap!1.cs" />
+    <Compile Include="roxority\Shared\Xml\XmlUtil.cs" />
+    <Compile Include="roxority\SharePoint\CamlOperator.cs" />
+    <Compile Include="roxority\SharePoint\ConnectionConsumer.cs" />
+    <Compile Include="roxority\SharePoint\ConnectionProvider.cs" />
+    <Compile Include="roxority\SharePoint\FeatureReceiver.cs" />
+    <Compile Include="roxority\SharePoint\Func!1.cs" />
+    <Compile Include="roxority\SharePoint\JsonSchemaManager.cs" />
+    <Compile Include="roxority\SharePoint\JsonSchemaPropertyTypes\ClearCache.cs" />
+    <Compile Include="roxority\SharePoint\JsonSchemaPropertyTypes\DataFields.cs" />
+    <Compile Include="roxority\SharePoint\JsonSchemaPropertyTypes\DataPreview.cs" />
+    <Compile Include="roxority\SharePoint\JsonSchemaPropertyTypes\DataProvider.cs" />
+    <Compile Include="roxority\SharePoint\ProductPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="roxority\SharePoint\Reflector.cs" />
+    <Compile Include="roxority\SharePoint\RollupWebPart.cs" />
+    <Compile Include="roxority\SharePoint\Serializables!1.cs" />
+    <Compile Include="roxority\SharePoint\SPElevator.cs" />
+    <Compile Include="roxority\SharePoint\SPWrap!1.cs" />
+    <Compile Include="roxority\SharePoint\WebPartBase.cs" />
+    <Compile Include="roxority\SharePoint\ZenMenuItem.cs" />
+    <Compile Include="roxority_ExportZen\ExportZenActionsMenu.cs" />
+    <Compile Include="roxority_ExportZen\ExportZenMenuItem.cs" />
+    <Compile Include="roxority_ExportZen\ExportZenPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="roxority_RollupZen\RollupToolPart.cs" />
+    <Compile Include="roxority_RollupZen\RollupWebPart.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AdminLinkAction\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{99dc631e-80f1-4032-ac81-74f44b369406}</SharePointProjectItemId>
+    </None>
+    <None Include="CONTROLTEMPLATES\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b1ee41c5-362c-46c1-b415-074f4ef9f177}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\AdminLinks\AdminLinks.feature">
+      <FeatureId>{02984ee3-1bae-41e3-9bd8-37083869532f}</FeatureId>
+    </None>
+    <None Include="Features\Definitions\Definitions.feature">
+      <FeatureId>{e45b10f9-f572-4ba6-8a8f-7fb8b409fb1e}</FeatureId>
+    </None>
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{10b17e91-c109-426d-8a9a-f0bc632c0f7a}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\roxority_ExportZen\schemas.json" />
+    <None Include="Layouts\roxority_ExportZen\schemas.tl.json" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{10ccf0cf-3bad-4491-8b18-6e7ce8b38ed2}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{023d429f-a5b0-46f8-959b-4965e3c299ce}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Resources\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{649c8083-585b-48ba-92a1-da1507c3e7e8}</SharePointProjectItemId>
+    </None>
+    <None Include="DefinitionsAction\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d091039d-4923-4394-8963-e31b476c545a}</SharePointProjectItemId>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EPPlus\EPPlus.csproj">
+      <Project>{7B288026-5502-4A39-BF41-77E086F3E4A3}</Project>
+      <Name>EPPlus</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\roxority_FilterZen\roxority_FilterZen.csproj">
+      <Project>{9FB5E770-3378-4BD8-AB95-622D44BEEAA1}</Project>
+      <Name>roxority_FilterZen</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CONTROLTEMPLATES\roxority_ExportZen\ItemEditor.tc.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="CONTROLTEMPLATES\roxority_ExportZen\Tool_DataFieldFormats.tc.ascx" />
+    <Content Include="CONTROLTEMPLATES\roxority_ExportZen\Tool_DataSources.tc.ascx" />
+    <Content Include="CONTROLTEMPLATES\roxority_ExportZen\Tool_ExportActions.ascx" />
+    <Content Include="CONTROLTEMPLATES\roxority_ExportZen\Tool_FieldFormats.tc.ascx" />
+    <Content Include="CONTROLTEMPLATES\roxority_ExportZen\Tool_Localizer.tc.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="CONTROLTEMPLATES\roxority_ExportZen\Tool_SiteUsers.tc.ascx" />
+    <Content Include="CONTROLTEMPLATES\roxority_ExportZen\Tool_Transfer.tc.ascx" />
+    <Content Include="de\roxority_ExportZen.resources.dll" />
+    <Content Include="Dll\NPOI.dll" />
+    <Content Include="Features\AdminLinks\AdminLinks.Template.xml">
+      <DependentUpon>AdminLinks.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Definitions\Definitions.Template.xml">
+      <DependentUpon>Definitions.feature</DependentUpon>
+    </Content>
+    <Content Include="Images\roxority_ExportZen\ewr052.gif" />
+    <Content Include="Images\roxority_ExportZen\feature.png" />
+    <Content Include="Images\roxority_ExportZen\icon16.png" />
+    <Content Include="Images\roxority_ExportZen\roxority_ExportZen.png" />
+    <Content Include="Layouts\roxority_ExportZen.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="Layouts\roxority_ExportZen\default.aspx" />
+    <Content Include="Layouts\roxority_ExportZen\expo.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="Layouts\roxority_ExportZen\ExportZen.exe" />
+    <Content Include="Layouts\roxority_ExportZen\help\de\eula.html" />
+    <Content Include="Layouts\roxority_ExportZen\help\de\farm_site_config.html" />
+    <Content Include="Layouts\roxority_ExportZen\help\de\itemref_ExportActions.html" />
+    <Content Include="Layouts\roxority_ExportZen\help\eula.html" />
+    <Content Include="Layouts\roxority_ExportZen\help\farm_site_config.html" />
+    <Content Include="Layouts\roxority_ExportZen\help\intro.html" />
+    <Content Include="Layouts\roxority_ExportZen\help\itemref_ExportActions.html" />
+    <Content Include="Layouts\roxority_ExportZen\help\release_notes.html" />
+    <Content Include="Layouts\roxority_ExportZen\help\res\bgtmp.tlhr.jpg" />
+    <Content Include="Layouts\roxority_ExportZen\help\res\csv-list-export-ribbon.png" />
+    <Content Include="Layouts\roxority_ExportZen\help\res\help.tlhr.css" />
+    <Content Include="Layouts\roxority_ExportZen\help\res\roxlogo.tlhr.png" />
+    <Content Include="Layouts\roxority_ExportZen\help\res\roxority.tlhr.png" />
+    <Content Include="Layouts\roxority_ExportZen\help\res\setup01.png" />
+    <Content Include="Layouts\roxority_ExportZen\help\res\setup02.png" />
+    <Content Include="Layouts\roxority_ExportZen\help\res\setup03.png" />
+    <Content Include="Layouts\roxority_ExportZen\help\res\setup04.png" />
+    <Content Include="Layouts\roxority_ExportZen\help\res\setup05.png" />
+    <Content Include="Layouts\roxority_ExportZen\help\res\setup06.png" />
+    <Content Include="Layouts\roxority_ExportZen\help\res\setup07.png" />
+    <Content Include="Layouts\roxority_ExportZen\help\res\sharepoint-export-12-hive-14.png" />
+    <Content Include="Layouts\roxority_ExportZen\help\res\sharepoint-export-timer-job-task-scheduler.png" />
+    <Content Include="Layouts\roxority_ExportZen\help\res\sharepoint-export-timer-job.png" />
+    <Content Include="Layouts\roxority_ExportZen\help\res\sharepoint-list-data-export-csv-actions.png" />
+    <Content Include="Layouts\roxority_ExportZen\help\res\sharepoint-list-data-export-csv-definition.png" />
+    <Content Include="Layouts\roxority_ExportZen\help\res\sharepoint-list-data-export-csv-download.png" />
+    <Content Include="Layouts\roxority_ExportZen\help\res\sharepoint-list-data-export-csv-menu-item.png" />
+    <Content Include="Layouts\roxority_ExportZen\help\res\sharepoint-list-export-legacy-migration-tool.png" />
+    <Content Include="Layouts\roxority_ExportZen\help\scheduling_sharepoint_list_data_csv_exports.html" />
+    <Content Include="Layouts\roxority_ExportZen\help\setup.html" />
+    <Content Include="Layouts\roxority_ExportZen\ie6.tl.css" />
+    <Content Include="Layouts\roxority_ExportZen\img\bgtmp.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\choicebrowse.gif" />
+    <Content Include="Layouts\roxority_ExportZen\img\completeallwftasks.gif" />
+    <Content Include="Layouts\roxority_ExportZen\img\ContentAreaBackground.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\ContentAreaShadow.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\ewr200l.gif" />
+    <Content Include="Layouts\roxority_ExportZen\img\favicon.ico" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\af.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\ar.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\az.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\be.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\bg.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\ca.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\cs.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\da.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\de.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\dv.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\el.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\en.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\es.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\et.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\eu.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\fa.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\fi.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\fo.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\fr.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\gl.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\gu.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\he.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\hi.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\hr.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\hu.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\hy.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\id.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\is.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\it.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\ja.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\ka.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\kk.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\kn.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\ko.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\kok.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\ky.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\lt.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\lv.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\mk.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\mn.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\mr.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\ms.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\nl.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\no.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\pa.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\pl.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\pt.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\ro.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\ru.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\sa.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\sk.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\sl.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\sq.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\sr.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\sv.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\sw.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\syr.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\ta.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\te.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\th.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\tr.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\tt.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\uk.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\ur.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\uz.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\flag\vi.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\FooterBackground.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\HeaderBackground.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\ie6.gif" />
+    <Content Include="Layouts\roxority_ExportZen\img\LSTPEND.GIF" />
+    <Content Include="Layouts\roxority_ExportZen\img\PageTitleBackground.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\ProdNavGrad.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\RightNavActive.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\RightNavBackground.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\RightNavBottomShadow.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\RightNavSection.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\RightNavTopShadow.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\star.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\TabBackground.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\TabHoverBackground.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\TopNavActive.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\TopNavHover.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\top_up\dashboard\bottom_left.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\top_up\dashboard\bottom_middle.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\top_up\dashboard\bottom_right.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\top_up\dashboard\close_link.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\top_up\dashboard\controls.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\top_up\dashboard\middle.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\top_up\dashboard\middle_left.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\top_up\dashboard\middle_right.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\top_up\dashboard\next.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\top_up\dashboard\previous.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\top_up\dashboard\resize_link.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\top_up\dashboard\sprite.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\top_up\dashboard\top_left.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\top_up\dashboard\top_middle.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\top_up\dashboard\top_right.png" />
+    <Content Include="Layouts\roxority_ExportZen\img\top_up\jquery\fxc-clip.js" />
+    <Content Include="Layouts\roxority_ExportZen\img\top_up\jquery\fxc-clip.uic-resizable.js" />
+    <Content Include="Layouts\roxority_ExportZen\img\top_up\jquery\uic-resizable.fxc-clip.js" />
+    <Content Include="Layouts\roxority_ExportZen\img\top_up\jquery\uic-resizable.js" />
+    <Content Include="Layouts\roxority_ExportZen\img\top_up\loader.gif" />
+    <Content Include="Layouts\roxority_ExportZen\img\top_up\top_up-min.js" />
+    <Content Include="Layouts\roxority_ExportZen\img\VerticalShadow.png" />
+    <Content Include="Layouts\roxority_ExportZen\jQuery.js" />
+    <Content Include="Layouts\roxority_ExportZen\jsapi.tl.js" />
+    <Content Include="Layouts\roxority_ExportZen\json2.tl.js" />
+    <Content Include="Layouts\roxority_ExportZen\mash.tl.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="Layouts\roxority_ExportZen\OldDefaultTemplates.txt" />
+    <Content Include="Layouts\roxority_ExportZen\RollupZen.tl.css" />
+    <Content Include="Layouts\roxority_ExportZen\RollupZen.tl.js" />
+    <Content Include="Layouts\roxority_ExportZen\roxority.tl.css" />
+    <Content Include="Layouts\roxority_ExportZen\roxority.tl.js" />
+    <Content Include="Layouts\roxority_ExportZen\roxority_ExportZen.js" />
+    <Content Include="Layouts\roxority_ExportZen\roxsite.tl.css" />
+    <Content Include="manifest.xml" />
+    <Content Include="DefinitionsAction\Element.xml" />
+    <Content Include="AdminLinkAction\SiteAdminLinks.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\roxority_ExportZen.de-AT.resx" />
+    <Content Include="Resources\roxority_ExportZen.de-CH.resx" />
+    <Content Include="Resources\roxority_ExportZen.de-DE.resx" />
+    <Content Include="Resources\roxority_ExportZen.de.resx" />
+    <Content Include="Resources\roxority_ExportZen.en-US.resx" />
+    <Content Include="Resources\roxority_ExportZen.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\roxority_Shared.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>roxority_Shared.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Layouts\roxority_ExportZen\Template\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="false" />
+</Project>

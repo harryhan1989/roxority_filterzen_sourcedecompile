@@ -1,0 +1,1592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="WizardName" xml:space="preserve">
+    <value>Internal Column name: &lt;b&gt;{0}&lt;/b&gt; &lt;a href="#noop" onclick="editorUse();"&gt;(Use as filter name)&lt;/a&gt;</value>
+  </data>
+  <data name="WizardList" xml:space="preserve">
+    <value>[List or Library — select to see Default View URL]</value>
+  </data>
+  <data name="WizardLink" xml:space="preserve">
+    <value>Filtering List Data?</value>
+  </data>
+  <data name="WizardInfo" xml:space="preserve">
+    <value>When filtering Lists, you need to use the &lt;b&gt;internal Column names&lt;/b&gt;, which often differ from the Column &lt;i&gt;titles&lt;/i&gt;.</value>
+  </data>
+  <data name="FilterDesc_RequestParameter" xml:space="preserve">
+    <value>Obtains a filter value automatically from posted form data or the current page URL.</value>
+  </data>
+  <data name="Prop_IsInteractive" xml:space="preserve">
+    <value>Allow users to enter a filter value</value>
+  </data>
+  <data name="Prop_ItemSorting" xml:space="preserve">
+    <value>&lt;b&gt;Sort&lt;/b&gt; the available choices:</value>
+  </data>
+  <data name="WizardTitle" xml:space="preserve">
+    <value>Use this tool to find them:</value>
+  </data>
+  <data name="WizardField" xml:space="preserve">
+    <value>[Column — select to see internal name]</value>
+  </data>
+  <data name="WizardLabel" xml:space="preserve">
+    <value>To display a List Default View URL, paste the target web site URL above, click 'OK' and select the target List. To display an internal Column name, select the Column you want to filter.</value>
+  </data>
+  <data name="WizardInfo2" xml:space="preserve">
+    <value>(This tool only finds default List View URLs and internal Column names, and does &lt;i&gt;not&lt;/i&gt; connect the Web Part to the specified List. To connect it to the target Web Part, use 'Connections' in the Web Part menu.)</value>
+  </data>
+  <data name="ToolButton_FilterDown" xml:space="preserve">
+    <value>Move the selected filter down</value>
+  </data>
+  <data name="Prop_DateFormat" xml:space="preserve">
+    <value>Optionally specify the &lt;b&gt;format for date values&lt;/b&gt; sent. If blank, the default value 'yyyy-MM-dd' will be used. Never include time specifiers such as 'hh:mm:ss'. This setting only affects the &lt;i&gt;ordering&lt;/i&gt; of the date parts; always use dashes (-) as delimiters &amp;mdash; the delimiter that will be effectively used is controlled by the above locale setting (or that of your site).</value>
+  </data>
+  <data name="HelpTopic_how_tos" xml:space="preserve">
+    <value>"How do I...?" Recipes</value>
+  </data>
+  <data name="CfgSettingTitle_ExcludeViews" xml:space="preserve">
+    <value>Never offer the following pages in List View Pickers</value>
+  </data>
+  <data name="CfgSettingTitle_AutoInfo" xml:space="preserve">
+    <value>End-user instructions for Text Filters' List-based AutoSuggest drop-downs</value>
+  </data>
+  <data name="Prop_SendNull" xml:space="preserve">
+    <value>Use the Empty filter value if missing</value>
+  </data>
+  <data name="Prop_BeginGroup" xml:space="preserve">
+    <value>Optionally prepend the following extra header, e.g. for groupings:</value>
+  </data>
+  <data name="HelpTopic_ref_url_settings" xml:space="preserve">
+    <value>Reference: URL Setting Parameters</value>
+  </data>
+  <data name="BdcItem" xml:space="preserve">
+    <value>Selected Item</value>
+  </data>
+  <data name="Prop_BdcInstanceID" xml:space="preserve">
+    <value>Pick the &lt;b&gt;default filter value&lt;/b&gt;:</value>
+  </data>
+  <data name="Prop_CheckStyle" xml:space="preserve">
+    <value>Use check boxes instead of drop-down (for &amp;lt;10 values)</value>
+  </data>
+  <data name="FieldCat_ListOther" xml:space="preserve">
+    <value>List fields</value>
+  </data>
+  <data name="CamlOp_BeginsWith" xml:space="preserve">
+    <value>begins with</value>
+  </data>
+  <data name="Prop_AdoConnectionString" xml:space="preserve">
+    <value>Specify the &lt;b&gt;ADO.NET connection string&lt;/b&gt; (including user credentials if applicable) used by this filter to connect to the data source.</value>
+  </data>
+  <data name="HelpTopic_date_filters" xml:space="preserve">
+    <value>Date Filters</value>
+  </data>
+  <data name="Prop_DefaultValueLower" xml:space="preserve">
+    <value>Optionally specify a &lt;b&gt;default starting value&lt;/b&gt;:</value>
+  </data>
+  <data name="CfgSettingTitle_IndentHint" xml:space="preserve">
+    <value>Delimiter for indenting nested pickable List Lookup filter choices</value>
+  </data>
+  <data name="ReasonDisabled" xml:space="preserve">
+    <value>You have disabled this filter.</value>
+  </data>
+  <data name="Prop_DefaultValueUpper" xml:space="preserve">
+    <value>Optionally specify a &lt;b&gt;default ending value&lt;/b&gt;:</value>
+  </data>
+  <data name="Ajax14Focus" xml:space="preserve">
+    <value>only when a FilterZen Web Part has the focus</value>
+  </data>
+  <data name="WebPartConnected" xml:space="preserve">
+    <value>Connected and sending values from {0} filter(s) to:&lt;ul style="margin: 0px;"&gt;&lt;li&gt;{1}&lt;/li&gt;&lt;/ul&gt;{2}</value>
+  </data>
+  <data name="EmptyNone" xml:space="preserve">
+    <value>(None)</value>
+  </data>
+  <data name="Prop_AllowAutoComplete" xml:space="preserve">
+    <value>Allow free-form text entry in single-selection drop-down</value>
+  </data>
+  <data name="Ajax14" xml:space="preserve">
+    <value>For all AJAX-enabled SharePoint 2010 List Views on the current page:</value>
+  </data>
+  <data name="FolderScope_Default" xml:space="preserve">
+    <value>Show files/items and direct sub-folders of current folder</value>
+  </data>
+  <data name="FiltersNotSent" xml:space="preserve">
+    <value>&lt;a onclick="jQuery('.rox-notsent').slideToggle();" href="#noop"&gt;Some filters did not send any values in this request.&lt;/a&gt;&lt;ul style="margin: 0px; display: none;" class="rox-notsent"&gt;&lt;li&gt;{0}&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="BrokenConnection" xml:space="preserve">
+    <value>Encountered broken Web Part Connection on this page: {0}</value>
+  </data>
+  <data name="CfgSettingDesc_Anim" xml:space="preserve">
+    <value>When filters are applied or cleared, FilterZen by default shows a SharePoint-typical animation (the green spinner) to indicate that an operation is in progress. If desired for design customization or branding purposes, you can enter an alternative picture URL to use for this animation. This can be an absolute or a server-relative URL such as /_layouts/images/roxority_FilterZen/k.gif for example.</value>
+  </data>
+  <data name="CamlOp_Member" xml:space="preserve">
+    <value>is member of Site Collection user group</value>
+  </data>
+  <data name="CfgSettingDesc_Auto1Begins" xml:space="preserve">
+    <value>When connected to List View Web Parts, Text Filters can be set up to offer end users a &lt;b&gt;"List-based AutoSuggest drop-down, if possible"&lt;/b&gt;, providing find-as-you-type suggestions for assisted input completion. This drop-down (always limited to the maximum number of entries configured below) invokes an AJAX search against the connected List for the Column targeted by the Text Filter, and returns values containing the current text box input. For huge datasets, it might be more desirable to only match values that start with (rather than contain) the currently typed in letter as long as only a single one has been typed, so that entering B shows all values starting with B. The drawback to this might be end user confusion because the AutoSuggest drop-down will revert to "contains" logic as soon as more letters are typed. (Note: when the Text Filter has its own filter operator set to &lt;i&gt;Begins with&lt;/i&gt;, the AutoSuggest will always use begins-with instead of contains logic.) Tick this check box to use begins-with rather than contains for single-letter inputs.</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Filter Groups</value>
+  </data>
+  <data name="RespectFilters" xml:space="preserve">
+    <value>...but always merge their URL-supplied filter values together with your Zen filters into the dynamically generated overall view query (recommended)</value>
+  </data>
+  <data name="ItemSort_5" xml:space="preserve">
+    <value>by value column, ascending (A..Z)</value>
+  </data>
+  <data name="ItemSort_4" xml:space="preserve">
+    <value>by display frequency, descending (n..1)</value>
+  </data>
+  <data name="ItemSort_7" xml:space="preserve">
+    <value>by value frequency, ascending (1..n)</value>
+  </data>
+  <data name="ItemSort_6" xml:space="preserve">
+    <value>by value column, descending (Z..A)</value>
+  </data>
+  <data name="ItemSort_1" xml:space="preserve">
+    <value>by display column, ascending (A..Z)</value>
+  </data>
+  <data name="ItemSort_0" xml:space="preserve">
+    <value>as specified by List View or CAML</value>
+  </data>
+  <data name="ItemSort_3" xml:space="preserve">
+    <value>by display frequency, ascending (1..n)</value>
+  </data>
+  <data name="ItemSort_2" xml:space="preserve">
+    <value>by display column, descending (Z..A)</value>
+  </data>
+  <data name="ItemSort_8" xml:space="preserve">
+    <value>by value frequency, descending (n..1)</value>
+  </data>
+  <data name="ShowClearButtons" xml:space="preserve">
+    <value>Also show a Reset icon next to each interactive filter *</value>
+  </data>
+  <data name="CfgSettingDesc_Datasheet" xml:space="preserve">
+    <value>Datasheet Views don't support Web Part Connections and instead of simply ignoring these, unfortunately they usually just fail to display. As a result, when a user clicks 'Edit in Datasheet' in your FilterZen-connected List View, an error message is displayed in place of the data. You can resolve this by either ticking the &lt;b&gt;On pages with nothing but a single List View, automatically filter it connectionless&lt;/b&gt; check-box option in the &lt;i&gt;Advanced Filtering Settings&lt;/i&gt; section of the FilterZen Web Part's settings tool-pane (SharePoint 2010 only) &amp;mdash; or alternatively, if you manually add a new, separate, dedicated (public) &lt;i&gt;Datasheet View&lt;/i&gt; to the List, then FilterZen can automatically redirect your users to this separate Datasheet View page when they select 'Edit in Datasheet' in any View.&lt;br/&gt;&lt;br/&gt;Select the 'Auto-redirect' choice to allow this kind of redirection of users to your dedicated Datasheet View when they click 'Edit in Datasheet' on a non-Datasheet View. If you select 'Ignore', then 'Edit in Datasheet' on a connected List View page may result in the error message: &lt;i&gt;&amp;quot;There is no valid configuration for these connected parts to run in.&amp;quot;&lt;/i&gt; (Note: SharePoint 2010 also lets you disable datasheet views on a per-List basis via List Settings / Advanced Settings.)</value>
+  </data>
+  <data name="FilterType_PageField" xml:space="preserve">
+    <value>Page Column Filter</value>
+  </data>
+  <data name="MultiFilterHint" xml:space="preserve">
+    <value>&lt;a href="#noop" onclick="jQuery('#roxmultivalues').slideToggle();"&gt;Some of your filters are sending &lt;b&gt;multiple values&lt;/b&gt;.&lt;/a&gt;&lt;div id="roxmultivalues" style="display: none"&gt;In most cases this usually only works with the &amp;quot;CAML Direct filtering mode&amp;quot; enabled and specific connection types IF you're targeting a List View, Data Form, BCS/BDC List / Related List or XSL / Data View or PeopleZen Web Part. (Click &lt;i&gt;edit&lt;/i&gt; &amp;rarr; &lt;i&gt;Modify Web Part&lt;/i&gt; and make sure the &lt;b&gt;CAML Direct filtering mode&lt;/b&gt; is enabled under &lt;i&gt;Filtering Mode&lt;/i&gt;.) If you're connected to other types of Web Parts, the CAML Direct filtering mode will probably be ignored by the target Web Part and support for multiple filter values depends entirely on the developers of the target Web Part.&lt;/div&gt;</value>
+  </data>
+  <data name="FilterDesc_BdcFilter" xml:space="preserve">
+    <value>[Only if is BCS/BDC installed] Specify a Business Data Catalog (BCS/BDC) lookup to obtain a filter value automatically or to let users pick one.</value>
+  </data>
+  <data name="FilterType_CamlSource" xml:space="preserve">
+    <value>CAML Source Code Interpreter</value>
+  </data>
+  <data name="Prop_FilterCaml" xml:space="preserve">
+    <value>(Advanced) The available choices are pre-filtered and initialized from the underlying List View. You can override the &lt;i&gt;SPQuery.Query&lt;/i&gt; with your &lt;b&gt;optional custom CAML query&lt;/b&gt;:</value>
+  </data>
+  <data name="JqueryWarning" xml:space="preserve">
+    <value>Your interactive multi-selection filters could not be initialized properly, presumably because the jQuery library has been included in this page both by FilterZen and some external Web Part or by your current page design. You can try fixing this under the 'Advanced Filtering Settings' for this Web Part: select 'No, never' under 'Include jQuery library'. If your Filter Web Part does not break and your multi-selection filters now display properly after leaving Edit Mode, then this resolved the issue &amp;mdash; if not, please revert these changes.</value>
+  </data>
+  <data name="Prop_SubParameterName" xml:space="preserve">
+    <value>Optionally specify the name of the &lt;b&gt;sub-parameter&lt;/b&gt; providing the filter value, if the request parameter specified above bundles multiple sub-parameters:</value>
+  </data>
+  <data name="JsFilter" xml:space="preserve">
+    <value>filter</value>
+  </data>
+  <data name="ReasonGroup" xml:space="preserve">
+    <value>Filter does not belong to current filter group.</value>
+  </data>
+  <data name="ReasonEmpty" xml:space="preserve">
+    <value>This filter was set to not send empty values. (Note in most cases this is a reasonable, recommended default behaviour and likely not a problem.)</value>
+  </data>
+  <data name="Advanced" xml:space="preserve">
+    <value>Advanced Filtering Settings</value>
+  </data>
+  <data name="Prop_RelativeOffset" xml:space="preserve">
+    <value>Always &lt;b&gt;add &lt;/b&gt;{0}&lt;b&gt; days&lt;/b&gt; to the date filter value. (To subtract, enter a negative number.)</value>
+  </data>
+  <data name="Transformed" xml:space="preserve">
+    <value>Transformable '{0}' Values</value>
+  </data>
+  <data name="Prop_MultiValueSeparator" xml:space="preserve">
+    <value>(Advanced) Post-processing: &lt;b&gt;send multiple values for the specified filter name&lt;/b&gt; taken from the resulting filter name-value pair(s), separating the value(s) with:</value>
+  </data>
+  <data name="FilterFly1" xml:space="preserve">
+    <value>...for '{0}'</value>
+  </data>
+  <data name="FilterMode" xml:space="preserve">
+    <value>As you're using the CAML Direct filtering mode, FilterZen does not send any values over its Web Part Connections and will instead filter all connected compatible Web Parts (List Views, Data Views, BCS/BDC Lists, PeopleZen) directly.</value>
+  </data>
+  <data name="FilterNone" xml:space="preserve">
+    <value>(Automatic - currently: {0})</value>
+  </data>
+  <data name="ItemID" xml:space="preserve">
+    <value>(This Web Part Page item, or Empty)</value>
+  </data>
+  <data name="FilterDesc_PageField" xml:space="preserve">
+    <value>Obtains a filter value automatically from Column values associated with this Web Part Page in its parent Page Library.</value>
+  </data>
+  <data name="JsColumn" xml:space="preserve">
+    <value>column</value>
+  </data>
+  <data name="HelpTopic_user_filters" xml:space="preserve">
+    <value>User Filters</value>
+  </data>
+  <data name="LogReceived" xml:space="preserve">
+    <value>&lt;li&gt;Received &lt;i&gt;{0}&lt;/i&gt;: &lt;b&gt;{1}&lt;/b&gt;&lt;/li&gt;</value>
+  </data>
+  <data name="FilterDesc_CamlViewSwitch" xml:space="preserve">
+    <value>Provides a drop-down menu that lets end users switch to another List View without leaving the current page (requires CAML Direct filtering mode). Keep its name _roxListView to apply the List View returned by this filter.</value>
+  </data>
+  <data name="HtmlPre" xml:space="preserve">
+    <value>To render a user interface control for manual re-filtering,</value>
+  </data>
+  <data name="Prop_ListFieldNames" xml:space="preserve">
+    <value>Regardless of the above choices, always allow selection of the following fields (use CTRL or SHIFT keys for multi-selections)...</value>
+  </data>
+  <data name="HelpTopic_url_query_string_filters" xml:space="preserve">
+    <value>URL / Page Request Filters</value>
+  </data>
+  <data name="InvalidFilterTypeName" xml:space="preserve">
+    <value>&lt;b&gt;{0}&lt;/b&gt; &amp;mdash; this external filter type could not be loaded or does not implement the roxority_FilterZen.FilterBase class. Fix or remove this entry from the Configuration page in the FilterZen Studio; or make sure the specified Assembly can be accessed.</value>
+  </data>
+  <data name="RecollapseGroups" xml:space="preserve">
+    <value>...emulate 'collapsed groups' where applicable (affects all List View Web Parts on page)</value>
+  </data>
+  <data name="Prop_AllowAnyAllOps" xml:space="preserve">
+    <value>For 'any field', offer the full set of CAML operators instead of the 'safe sub-set' (just equals and not-equal)</value>
+  </data>
+  <data name="ItemUser" xml:space="preserve">
+    <value>(The current user, or Empty)</value>
+  </data>
+  <data name="CfgSettingCaption_RememberByNameOnly" xml:space="preserve">
+    <value>When remembering filter values, store by name only (and share across FilterZen Web Parts)</value>
+  </data>
+  <data name="DebugModeOff" xml:space="preserve">
+    <value>Only display them in Web Part edit mode</value>
+  </data>
+  <data name="FilterType_Favorites" xml:space="preserve">
+    <value>Filter Favorites</value>
+  </data>
+  <data name="JsName" xml:space="preserve">
+    <value>name</value>
+  </data>
+  <data name="Prop_BdcEntity" xml:space="preserve">
+    <value>Specify the &lt;b&gt;External Content Type&lt;/b&gt; to look up:</value>
+  </data>
+  <data name="HelpTopic_sql_data_lookup_filters" xml:space="preserve">
+    <value>SQL Data Filters</value>
+  </data>
+  <data name="_HelpTopics" xml:space="preserve">
+    <value>intro,setup,webpart,general,text_filters,choice_filters,date_filters,list_lookup_filters,user_filters,page_field_filters,url_query_string_filters,sql_data_lookup_filters,bcs_bdc_business_data_catalog_filters,advanced,how_tos,bcs_bdc_business_data_item_builder_web_part,farm_site_config,ref_url_settings,ref_css,release_notes,eula</value>
+  </data>
+  <data name="FieldCat_ListSystem" xml:space="preserve">
+    <value>System fields</value>
+  </data>
+  <data name="Section_Interactive" xml:space="preserve">
+    <value>Interactive Filters</value>
+  </data>
+  <data name="HelpTopic_farm_site_config" xml:space="preserve">
+    <value>Configuration Settings</value>
+  </data>
+  <data name="CfgSettingChoice_Datasheet_redirect" xml:space="preserve">
+    <value>Auto-redirect if dedicated separate Datasheet View exists</value>
+  </data>
+  <data name="Prop_ListUrl" xml:space="preserve">
+    <value>Specify the (absolute, web-relative or site-relative) &lt;b&gt;View URL of the lookup List&lt;/b&gt; (you can find out the Default one with &lt;a href="#" onclick="toggleListWizard();"&gt;this tool&lt;/a&gt;). Leave empty to use the Default View URL of the Library containing this Web Part Page, if any.</value>
+  </data>
+  <data name="Prop_SuppressMultiValues" xml:space="preserve">
+    <value>(Advanced) Post-processing: To &lt;b&gt;allow multiple values&lt;/b&gt; for this filter, leave this field blank. Enter '[1]' to only let the first value through, '[-1]' to only let the last value through, '[n]' to only let the n&lt;sup&gt;th&lt;/sup&gt; value through, or any other value to combine all values into one with. (Ignored for multiple values resulting from the post-processing options below.)</value>
+  </data>
+  <data name="SelectedGroup" xml:space="preserve">
+    <value>Current filter group: &lt;b&gt;'{0}'&lt;/b&gt;</value>
+  </data>
+  <data name="Prop_ContextObject" xml:space="preserve">
+    <value>Select a &lt;b&gt;context object&lt;/b&gt; and property:</value>
+  </data>
+  <data name="Prop_SuppressIfParam" xml:space="preserve">
+    <value>Suppress this filter's value(s) if the following URL parameters exist:</value>
+  </data>
+  <data name="AcSecFields" xml:space="preserve">
+    <value>Additional (secondary) fields to show in List-based AutoSuggest drop-downs (if available), one per line:</value>
+  </data>
+  <data name="CamlOp_Contains" xml:space="preserve">
+    <value>contains</value>
+  </data>
+  <data name="Prop_StripID" xml:space="preserve">
+    <value>Strip internal &lt;i&gt;ID;#&lt;/i&gt; prefixes from filter values (not recommended for multi-choice Columns)</value>
+  </data>
+  <data name="Prop_MultiFilterSeparator" xml:space="preserve">
+    <value>(Advanced) Post-processing: ignore the filter name and &lt;b&gt;send multiple filter name-value pairs&lt;/b&gt; taken from the resulting filter name-value pair(s), separating the names from values with the above token and pairs with:</value>
+  </data>
+  <data name="ToolPrompt_RemoveFilter" xml:space="preserve">
+    <value>Are you sure you want to remove the selected filter?</value>
+  </data>
+  <data name="CfgSettingDesc_AllowCells" xml:space="preserve">
+    <value>When this option is selected, FilterZen Filter Web Parts will act not only as 'filter providers' and 'data row providers' but also as 'data cell providers'. This is usually not necessary because row providers can always also be used as cell providers and provide a better user experience for the Web Part Page designer. If unsure, &lt;i&gt;don't&lt;/i&gt; select this option.</value>
+  </data>
+  <data name="GetIDFrom" xml:space="preserve">
+    <value>Get BCS/BDC Entity Instance ID From</value>
+  </data>
+  <data name="CfgSettingTitle_AutoLimit" xml:space="preserve">
+    <value>Maximum number of choices in Text filters' List-based AutoSuggest drop-downs</value>
+  </data>
+  <data name="_ProductID" xml:space="preserve">
+    <value>6, 2, 0, 0, 0, 164, 0, 0, 82, 83, 65, 49, 0, 4, 0, 0, 1, 0, 1, 0, 141, 83, 245, 77, 131, 72, 129, 28, 245, 74, 166, 33, 208, 26, 38, 91, 7, 121, 99, 83, 194, 119, 235, 187, 41, 53, 41, 8, 33, 31, 117, 54, 37, 226, 255, 85, 121, 160, 51, 25, 95, 119, 175, 126, 22, 148, 144, 242, 26, 55, 72, 211, 254, 176, 64, 179, 159, 245, 2, 5, 81, 182, 118, 229, 135, 126, 192, 0, 249, 190, 184, 139, 110, 225, 68, 95, 93, 40, 226, 23, 253, 129, 145, 179, 173, 247, 158, 149, 118, 107, 19, 32, 204, 181, 1, 112, 74, 57, 235, 10, 205, 82, 210, 78, 17, 128, 211, 244, 185, 208, 24, 0, 47, 245, 66, 224, 241, 45, 117, 163, 102, 216, 180, 116, 123, 250, 238, 155</value>
+  </data>
+  <data name="Prop_ItemIDUpper" xml:space="preserve">
+    <value>Pick the &lt;b&gt;default ending value&lt;/b&gt;. (Made changes? &lt;a onclick="roxRefreshFilters();" href="#"&gt;Refresh&lt;/a&gt;)</value>
+  </data>
+  <data name="Prop_ItemIDLower" xml:space="preserve">
+    <value>Pick the &lt;b&gt;default starting value&lt;/b&gt;. (Made changes? &lt;a onclick="roxRefreshFilters();" href="#"&gt;Refresh&lt;/a&gt;)</value>
+  </data>
+  <data name="FilterDesc_CamlSource" xml:space="preserve">
+    <value>Requires CAML Direct filtering mode (see below). Works like a Text Filter (so can be hidden or end-user interactive) but the filter value is always parsed, interpreted and applied as a CAML condition (any XML that can be inside &lt;Query&gt;&lt;Where&gt; but excluding these outer nodes).</value>
+  </data>
+  <data name="_WhiteLabelAddress" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LookupFailed" xml:space="preserve">
+    <value>The specified List ('{0}'), View ('{1}'), value Column ('{2}') or display Column ('{3}') could not be accessed. Double-check all these settings for this filter.</value>
+  </data>
+  <data name="Prop_BdcDisplayField" xml:space="preserve">
+    <value>Specify the &lt;b&gt;display field&lt;/b&gt; &amp;mdash; the Business Data field displaying the filter value. (Leave blank to use the above value field.)</value>
+  </data>
+  <data name="Prop_SendEmpty" xml:space="preserve">
+    <value>Send filter value even if empty</value>
+  </data>
+  <data name="ItemIDLast" xml:space="preserve">
+    <value>(The last item after pre-filtering and sorting)</value>
+  </data>
+  <data name="UserFilterColumnsLink" xml:space="preserve">
+    <value>Customize user columns (advanced)</value>
+  </data>
+  <data name="Prop_BdcInstanceIDLower" xml:space="preserve">
+    <value>Pick the &lt;b&gt;starting filter value&lt;/b&gt;:</value>
+  </data>
+  <data name="ErrorModeDesc" xml:space="preserve">
+    <value>(To see warnings and error messages, also make sure this Web Part is not minimized or hidden.)</value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>reason</value>
+  </data>
+  <data name="AdvancedDesc" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Prop_SqlChoiceLower" xml:space="preserve">
+    <value>Pick the &lt;b&gt;starting filter value&lt;/b&gt;:</value>
+  </data>
+  <data name="Prop_BdcInstanceIDUpper" xml:space="preserve">
+    <value>Pick the &lt;b&gt;ending filter value&lt;/b&gt;:</value>
+  </data>
+  <data name="JsonOperandTypes" xml:space="preserve">
+    <value>Both {0} operands need to be a filter name or a new operator clause.</value>
+  </data>
+  <data name="Prop_SqlChoiceUpper" xml:space="preserve">
+    <value>Pick the &lt;b&gt;ending filter value&lt;/b&gt;:</value>
+  </data>
+  <data name="_LogoImageUrl" xml:space="preserve">
+    <value>/_layouts/images/menufilter.gif</value>
+  </data>
+  <data name="Prop_DisplayFieldName" xml:space="preserve">
+    <value>Optionally specify the &lt;b&gt;display Column&lt;/b&gt; &amp;mdash; the internal name (you can find it out with &lt;a href="#noop" onclick="toggleListWizard();"&gt;this tool&lt;/a&gt;) of the Column displaying the filter value. (Leave blank to use the value Column above.)</value>
+  </data>
+  <data name="_WhiteLabelTitle" xml:space="preserve">
+    <value>ROXORITY Ltd.</value>
+  </data>
+  <data name="ValidNamesFormat" xml:space="preserve">
+    <value>for &lt;i&gt;{0}&lt;/i&gt;, use: &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="WizardUrl" xml:space="preserve">
+    <value>Default View URL for this List:&lt;br/&gt;&lt;span class="urlspan"&gt;{0}&lt;/span&gt;</value>
+  </data>
+  <data name="FieldCat_ListInherited" xml:space="preserve">
+    <value>Related fields</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>As 'Parameter Values'</value>
+  </data>
+  <data name="Edit_NoName" xml:space="preserve">
+    <value>(no filter)</value>
+  </data>
+  <data name="_WhiteLabelEmail" xml:space="preserve">
+    <value>support@roxority.com</value>
+  </data>
+  <data name="_WhiteLabel" xml:space="preserve">
+    <value>roxority_</value>
+  </data>
+  <data name="Prop_DefaultChoice" xml:space="preserve">
+    <value>Optionally pick the &lt;b&gt;default filter value&lt;/b&gt;:</value>
+  </data>
+  <data name="CamlViewSwitch" xml:space="preserve">
+    <value>View:</value>
+  </data>
+  <data name="Prop_SuppressValues" xml:space="preserve">
+    <value>Enter the filter values to be suppressed or allowed (as selected above), one per line:</value>
+  </data>
+  <data name="CfgSettingDef_BlockedParams" xml:space="preserve">
+    <value>ContentTypeId
+DisplayMode
+FolderCTID
+InitialTabId
+IsDlg
+Paged
+PageView
+PageFirstRow
+RootFolder
+SortDir
+SortField
+Source
+View
+VisibilityContext
+p_ID
+p_FSObjType
+p_FileLeafRef
+p_Title
+FilterField1
+FilterValue1
+FilterField2
+FilterValue2
+FilterField3
+FilterValue3
+FilterField4
+FilterValue4
+FilterField5
+FilterValue5
+FilterField6
+FilterValue6</value>
+  </data>
+  <data name="_WssItems" xml:space="preserve">
+    <value>SiteFeature:98582ab6-8087-45e0-87ab-873aa8c16a62;SiteFeature:33ad3ecc-ff60-4953-8859-a217da7a00e2;SiteFeature:33ad3ecc-ff60-4953-8859-a217da7a00e3</value>
+  </data>
+  <data name="Prop_BoolValue" xml:space="preserve">
+    <value>Specify the &lt;b&gt;default filter value&lt;/b&gt; &amp;mdash; this should be one of the two values specified above, i.e. either your False or your True filter value.</value>
+  </data>
+  <data name="CamlFilters" xml:space="preserve">
+    <value>Select your preferred FilterZen filtering mode. If you need to send multiple values or use value-range filtering, logical or comparison operators, then in most cases you'll need the CAML Direct filtering mode.</value>
+  </data>
+  <data name="ItemsFailed" xml:space="preserve">
+    <value>Error during List traversal: '{0}' (Check your custom CAML query for this filter, if any.)</value>
+  </data>
+  <data name="ValidNamesNone" xml:space="preserve">
+    <value>None of the currently connected Web Parts provides information about 'known' filter / column names. To find out names that work with the currently connected Web Parts, experiment with internal List column names used by the currently connected Web Parts, or consult the developer or documentation of the currently connected Web Parts.</value>
+  </data>
+  <data name="Cascaded" xml:space="preserve">
+    <value>Cascading pre-filtering: limit pickable choices of all drop-down filters to existing values still available after filtering (only with CAML Direct filtering mode enabled, see below) *</value>
+  </data>
+  <data name="FilterDesc_Boolean" xml:space="preserve">
+    <value>Specify a Boolean (yes-no / true-false / other binary) filter value directly, or let users tick a check box.</value>
+  </data>
+  <data name="Prop_TrueValue" xml:space="preserve">
+    <value>Specify the &lt;b&gt;True filter value&lt;/b&gt; to be sent (use 1 for Yes/No List Columns).</value>
+  </data>
+  <data name="FieldCat_ListView" xml:space="preserve">
+    <value>View fields</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Preview:</value>
+  </data>
+  <data name="FilterFly" xml:space="preserve">
+    <value>...for '{0}' ({1})</value>
+  </data>
+  <data name="CfgSettingChoice_RememberStorage_cookies" xml:space="preserve">
+    <value>Client-side browser cookies</value>
+  </data>
+  <data name="Prop_AllowAnyField" xml:space="preserve">
+    <value>Allow selection of 'any field' for filter operands (not supported when this Web Part contains other pre-defined filters too)</value>
+  </data>
+  <data name="Edit_T_Enabled" xml:space="preserve">
+    <value>This filter is enabled.</value>
+  </data>
+  <data name="Prop_DefaultValue" xml:space="preserve">
+    <value>Optionally specify a &lt;b&gt;default filter value&lt;/b&gt;:</value>
+  </data>
+  <data name="_ProductName" xml:space="preserve">
+    <value>roxority_FilterZen</value>
+  </data>
+  <data name="HelpTopic_page_field_filters" xml:space="preserve">
+    <value>Page Column Filters</value>
+  </data>
+  <data name="_Tools" xml:space="preserve">
+    <value>Tool_SiteUsers,Tool_Localizer,Tool_Transfer</value>
+  </data>
+  <data name="AutoConnected" xml:space="preserve">
+    <value>Currently targeting a List View without a real Web Part Connection. If that List View requires &lt;b&gt;functional paging&lt;/b&gt;, you'll need to establish a full Web Part Connection (using either SharePoint Designer or the &lt;i&gt;Connections&lt;/i&gt; option in the menu for this FilterZen Web Part) and also disable the &lt;i&gt;automatically filter connectionless&lt;/i&gt; option in the &lt;i&gt;Advanced Filtering Settings&lt;/i&gt; section.</value>
+  </data>
+  <data name="FieldCat_Any" xml:space="preserve">
+    <value>(Any field)</value>
+  </data>
+  <data name="FieldCat_All" xml:space="preserve">
+    <value>(All)</value>
+  </data>
+  <data name="ContextObject6" xml:space="preserve">
+    <value>Document / File</value>
+  </data>
+  <data name="ContextObject5" xml:space="preserve">
+    <value>Library or List Item</value>
+  </data>
+  <data name="ContextObject4" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="ContextObject3" xml:space="preserve">
+    <value>Document Library or List</value>
+  </data>
+  <data name="ContextObject2" xml:space="preserve">
+    <value>Web Site</value>
+  </data>
+  <data name="ContextObject1" xml:space="preserve">
+    <value>Site Collection</value>
+  </data>
+  <data name="ContextObject0" xml:space="preserve">
+    <value>Web Application</value>
+  </data>
+  <data name="Prop_AllowAllInheritedFields" xml:space="preserve">
+    <value>Allow selection of &lt;i&gt;all 'related' fields&lt;/i&gt; (Columns from content types, the List definition or base template)</value>
+  </data>
+  <data name="Prop_RequestMode" xml:space="preserve">
+    <value>Look for the specified parameter in:</value>
+  </data>
+  <data name="ReasonHasParam" xml:space="preserve">
+    <value>Filter was set to suppress its value(s) if certain URL parameters exist</value>
+  </data>
+  <data name="Prop_EmbedFilters" xml:space="preserve">
+    <value>Embed interactive filters underneath their corresponding Column Headers inside the connected List View Web Part * (experimental! Also disable Asynchronous Load for the List View.)</value>
+  </data>
+  <data name="TransformedAlt" xml:space="preserve">
+    <value>'{0}' [Not for PeopleZen!]</value>
+  </data>
+  <data name="CfgSettingTitle_FilterTypes" xml:space="preserve">
+    <value>External Filter Types</value>
+  </data>
+  <data name="JsonSyntax" xml:space="preserve">
+    <value>Have you used valid JSON syntax?</value>
+  </data>
+  <data name="TransformDesc" xml:space="preserve">
+    <value>[Note: often "Send Filter Values" is the better choice!]</value>
+  </data>
+  <data name="CfgSettingDef_AutoLimit" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="NoRowConnection" xml:space="preserve">
+    <value>No values were sent over your 'Send Values As Data Row' connection(s) because you enabled the CAML Direct filtering mode for this FilterZen Filter Web Part.</value>
+  </data>
+  <data name="Prop_Label" xml:space="preserve">
+    <value>Optionally specify a &lt;b&gt;filter caption label&lt;/b&gt;:</value>
+  </data>
+  <data name="Prop_Query" xml:space="preserve">
+    <value>Specify, in SQL (or any other query language dialect supported by your data source provider), the &lt;b&gt;query&lt;/b&gt; sent to the data source to fetch a result set of filter values.</value>
+  </data>
+  <data name="HelpTopic_bcs_bdc_business_data_item_builder_web_part" xml:space="preserve">
+    <value>FilterZen BCS/BDC Item Builder Web Part</value>
+  </data>
+  <data name="CfgSettingDesc_ExcludeViews" xml:space="preserve">
+    <value>The "List View Picker" filter type lets end users select a different List View to apply to the connected List View Web Part. View pages whose URL paths contain any one of the values specified here (one per line) will NOT be offered for end user selection by this filter type.&lt;br/&gt;&lt;br/&gt;combine.aspx refers to the built-in Merge Documents view, repair.aspx to the built-in Relink Documents view, webfldr.aspx to the 2007 Explorer view. These are generally not desirable in a List View Picker context.</value>
+  </data>
+  <data name="CamlOp_Geq" xml:space="preserve">
+    <value>is greater than or equals</value>
+  </data>
+  <data name="CamlOp_Neq" xml:space="preserve">
+    <value>is not equal to</value>
+  </data>
+  <data name="CamlOp_And" xml:space="preserve">
+    <value> and </value>
+  </data>
+  <data name="CamlOp_Leq" xml:space="preserve">
+    <value>is less than or equals</value>
+  </data>
+  <data name="CfgSettingTitle_RememberStorage" xml:space="preserve">
+    <value>Storage location for 'Remembered filter values last used'</value>
+  </data>
+  <data name="CfgSettingDesc_IndentHint" xml:space="preserve">
+    <value>If you (think you) need this feature, please read or join the &lt;a href="http://roxority.com/filterzen-forum/post/1221588"&gt;related support forum thread&lt;/a&gt;.</value>
+  </data>
+  <data name="ApplyToolStylings" xml:space="preserve">
+    <value>Apply SharePoint 2007 toolbar styles ('blue theme')</value>
+  </data>
+  <data name="Ajax14Hide" xml:space="preserve">
+    <value>hide their &lt;i&gt;Manual Refresh&lt;/i&gt; buttons</value>
+  </data>
+  <data name="FilterType_Choice" xml:space="preserve">
+    <value>Choice Filter</value>
+  </data>
+  <data name="CfgSettingTitle_BlockedParams" xml:space="preserve">
+    <value>No-Filter Parameter Names (URL / Page Request Filters)</value>
+  </data>
+  <data name="CamlAnd" xml:space="preserve">
+    <value>In the CAML Direct filtering mode, different filter names are AND-combined but multiple values for a single filter name are OR-combined. Specify the filter names (one per line) whose multiple values should be AND-combined instead, if any:</value>
+  </data>
+  <data name="Prop_ValueColumnName" xml:space="preserve">
+    <value>Specify the &lt;b&gt;value column&lt;/b&gt; &amp;mdash; the name of the result set column providing the filter value (each value should be unique in the set).</value>
+  </data>
+  <data name="Prop_SuppressIfInactive" xml:space="preserve">
+    <value>Suppress this filter's value(s) UNLESS end user has interactively applied this Filter Web Part.</value>
+  </data>
+  <data name="CfgSettingTitle_NoFoldersAlt" xml:space="preserve">
+    <value>In CAML Direct filtering mode, override List View Web Part folder display only when filters are active (only limited support for this feature in SharePoint 2010)</value>
+  </data>
+  <data name="MaxFiltersPerRow" xml:space="preserve">
+    <value>Specify a maximum number of interactive filtering controls per row, or '0' to auto-break depending on the Web Part width:</value>
+  </data>
+  <data name="Edit_T_Name" xml:space="preserve">
+    <value>Column / filter &lt;a onclick="jQuery('#roxvalidnames').slideToggle();" href="#noop"&gt;name&lt;/a&gt;</value>
+  </data>
+  <data name="DataFormNoCaml" xml:space="preserve">
+    <value>CAML Direct filtering could not be applied to the '{0}' Data Form Web Part since it is not bound to a SharePoint List. Disable the CAML Direct filtering mode for this Filter Web Part to be able to send filters to this Data Form Web Part.</value>
+  </data>
+  <data name="Prop_DefaultIfEmpty" xml:space="preserve">
+    <value>Use default value if user input empty</value>
+  </data>
+  <data name="FilterDesc_Choice" xml:space="preserve">
+    <value>Specify a set of filter values to let users pick one from.</value>
+  </data>
+  <data name="WizardGo" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="HelpTopic_bcs_bdc_business_data_catalog_filters" xml:space="preserve">
+    <value>Business Data Connectivity (BCS/BDC) Filters</value>
+  </data>
+  <data name="CfgSettingTitle_RemoveParams" xml:space="preserve">
+    <value>Remove Parameters from URL</value>
+  </data>
+  <data name="FilterDesc_Lookup" xml:space="preserve">
+    <value>Specify a List lookup to obtain a filter value automatically or to let users pick one.</value>
+  </data>
+  <data name="Prop_IsInteractivePicker" xml:space="preserve">
+    <value>Allow users to pick a filter value</value>
+  </data>
+  <data name="HtmlTemp0" xml:space="preserve">
+    <value>&lt;a class="rox-filter-button rox-filter-button-filter" onclick="roxRefreshFilters('{0}');" href="#noop"&gt;Filter&lt;/a&gt;</value>
+  </data>
+  <data name="HtmlTemp1" xml:space="preserve">
+    <value>&lt;button class="rox-filter-button rox-filter-button-filter" onclick="roxRefreshFilters('{0}');" type="button"&gt;Filter&lt;/button&gt;</value>
+  </data>
+  <data name="HtmlTemp2" xml:space="preserve">
+    <value>&lt;a class="rox-filter-button rox-filter-button-filter" href="#noop" onclick="roxRefreshFilters('{0}');"&gt;Filter&lt;/a&gt; &lt;a class="rox-filter-button rox-filter-button-clear" href="#noop" onclick="roxClearFilters('{0}');"&gt;Clear&lt;/a&gt;</value>
+  </data>
+  <data name="HtmlTemp3" xml:space="preserve">
+    <value>&lt;button class="rox-filter-button rox-filter-button-filter" onclick="roxRefreshFilters('{0}');" type="button"&gt;Filter&lt;/button&gt; &lt;button class="rox-filter-button rox-filter-button-clear" onclick="roxClearFilters('{0}');" type="button"&gt;Clear&lt;/button&gt;</value>
+  </data>
+  <data name="CfgSettingChoice_RememberStorage_spweb" xml:space="preserve">
+    <value>Server-side content database</value>
+  </data>
+  <data name="CfgSettingGroup_Filters" xml:space="preserve">
+    <value>Specific Filter Types</value>
+  </data>
+  <data name="AutoNoList" xml:space="preserve">
+    <value>List not found: {0}</value>
+  </data>
+  <data name="BdcNotAvailable" xml:space="preserve">
+    <value>Business Data Connectivity (BCS/BDC) is not available in the current context.</value>
+  </data>
+  <data name="JsonIssues" xml:space="preserve">
+    <value>Issues while parsing your logical AND/OR hierarchy:</value>
+  </data>
+  <data name="InvalidAdoProviderFormat" xml:space="preserve">
+    <value>Invalid format for the specified ADO.NET data source provider: '{0}'.</value>
+  </data>
+  <data name="Prop_DefaultChoiceLower" xml:space="preserve">
+    <value>Optionally pick the &lt;b&gt;default starting value&lt;/b&gt;:</value>
+  </data>
+  <data name="Prop_DefaultChoiceUpper" xml:space="preserve">
+    <value>Optionally pick the &lt;b&gt;default ending value&lt;/b&gt;:</value>
+  </data>
+  <data name="MultiChecked" xml:space="preserve">
+    <value>(checked)</value>
+  </data>
+  <data name="DebugModeDesc" xml:space="preserve">
+    <value>(To see its debug output, also make sure this Web Part is not minimized or hidden.)</value>
+  </data>
+  <data name="CfgSettingDef_AutoInfo" xml:space="preserve">
+    <value>(Showing max. 40 results)</value>
+  </data>
+  <data name="SelectedGroupNoConn" xml:space="preserve">
+    <value>&amp;mdash; to change the current filter group, choose any provider Web part from the &lt;i&gt;edit&lt;/i&gt; &amp;rarr; &lt;i&gt;Connections&lt;/i&gt; &amp;rarr; &lt;i&gt;Get Current Filter Group From&lt;/i&gt; menu for this Filter Web Part.</value>
+  </data>
+  <data name="CfgSettingDesc_RemoveParams" xml:space="preserve">
+    <value>Enter the URL Parameters that FilterZen should remove from the URL when in use (if the Web Part's &lt;i&gt;Override Web Part settings from URL parameters&lt;/i&gt; check-box option is ticked), one per line.</value>
+  </data>
+  <data name="FilterAdvancedProps" xml:space="preserve">
+    <value>Advanced Filter Properties</value>
+  </data>
+  <data name="FilterType_CamlViewSwitch" xml:space="preserve">
+    <value>List View Picker</value>
+  </data>
+  <data name="FieldCat_Custom" xml:space="preserve">
+    <value>Other fields</value>
+  </data>
+  <data name="_Copyright" xml:space="preserve">
+    <value>Copyright &amp;copy; 2008-2012 ROXORITY Ltd. All rights reserved.</value>
+  </data>
+  <data name="_ProductTitle" xml:space="preserve">
+    <value>FilterZen</value>
+  </data>
+  <data name="FilterDesc_None" xml:space="preserve">
+    <value>Select a filter type in the drop-down list above to display its description.</value>
+  </data>
+  <data name="FilterDesc_Date" xml:space="preserve">
+    <value>Specify an absolute or relative date filter value or let users enter or pick one.</value>
+  </data>
+  <data name="FilterDesc_Text" xml:space="preserve">
+    <value>Specify a text filter value directly or let users enter one.</value>
+  </data>
+  <data name="FilterDesc_User" xml:space="preserve">
+    <value>Specify a user filter value directly or let users pick one (from the Site Collection's User Information List at _catalogs/users).</value>
+  </data>
+  <data name="CfgSettingTitle_Auto1Begins" xml:space="preserve">
+    <value>In Text filters' List-based AutoSuggest drop-downs, 1-character entries use BeginsWith instead of Contains</value>
+  </data>
+  <data name="HelpTopic_ref_css" xml:space="preserve">
+    <value>Reference: CSS Classes</value>
+  </data>
+  <data name="NoCanRun" xml:space="preserve">
+    <value>The FilterZen Filter Web Part is not available in this context. To test this Web Part, open its parent Web Part Page in a web browser and to then modify it, select &lt;i&gt;Edit Page&lt;/i&gt; from the &lt;i&gt;Site Actions&lt;/i&gt; menu.</value>
+  </data>
+  <data name="NoListFolders" xml:space="preserve">
+    <value>...attempt to override the default display of folders:</value>
+  </data>
+  <data name="Prop_ValueFieldName" xml:space="preserve">
+    <value>Specify the &lt;b&gt;value Column&lt;/b&gt; &amp;mdash; the internal name (you can find it out with &lt;a href="#noop" onclick="toggleListWizard();"&gt;this tool&lt;/a&gt;) of the Column providing the filter value. (Leave blank to use the &lt;i&gt;Title&lt;/i&gt; column.)</value>
+  </data>
+  <data name="SendRowToAlt" xml:space="preserve">
+    <value>[Not For PeopleZen!] Send Row Data</value>
+  </data>
+  <data name="JsonOperator" xml:space="preserve">
+    <value>Invalid operator '{0}': use AND or OR.</value>
+  </data>
+  <data name="JsonOperands" xml:space="preserve">
+    <value>{0} operands need to be a comma-separated pair inside [square brackets].</value>
+  </data>
+  <data name="FilterType_Boolean" xml:space="preserve">
+    <value>Yes-No Toggle Filter</value>
+  </data>
+  <data name="SendsRowDesc" xml:space="preserve">
+    <value>[Note: often "Send Filter Values" is the better choice!] Provides all values as a data row to connected Web Parts based on the filters configured for this Web Part</value>
+  </data>
+  <data name="DynamicInteractiveFilters" xml:space="preserve">
+    <value>{0} dynamically generated, temporary, enabled interactive filters for all 'known' &lt;a href="#noop" onclick="jQuery('#roxvalidnames').slideToggle();"&gt;filter names&lt;/a&gt;, if possible</value>
+  </data>
+  <data name="_HomeHelpTopics" xml:space="preserve">
+    <value>intro,webpart,general,advanced,how_tos</value>
+  </data>
+  <data name="FilterDesc_ZenLookup" xml:space="preserve">
+    <value>Look up the filter value, or let users pick one, from a SharePoint List, Gallery or Document Library, an SQL or ADO.NET data source, a user profile or the Business Data Catalog (BCS/BDC).</value>
+  </data>
+  <data name="Datasheet" xml:space="preserve">
+    <value>Datasheet views don't support Web Part Connections and instead of simply ignoring these, unfortunately they usually just fail to display. You can resolve this by ticking the &lt;b&gt;On pages with nothing but a single List View, automatically filter it connectionless&lt;/b&gt; check-box option in the &lt;i&gt;Advanced Filtering Settings&lt;/i&gt; section of this FilterZen Web Part's settings tool-pane (SharePoint 2010 only) &amp;mdash; or alternatively, if you &lt;a href="{0}/_layouts/ViewNew.aspx?List={1}&amp;Grid=True"&gt;add a new, separate, dedicated (public) &lt;i&gt;Datasheet View&lt;/i&gt; to this List&lt;/a&gt; and select the appropriate &lt;a href="/_layouts/roxority_FilterZen/default.aspx?cfg=cfg#cfg_Datasheet" target="_blank"&gt;How to deal with 'Edit in Datasheet'&lt;/a&gt; configuration option, then FilterZen will automatically redirect your users to this separate Datasheet View page when they select 'Edit in Datasheet'.</value>
+  </data>
+  <data name="Prop_PostFilterFieldName" xml:space="preserve">
+    <value>Specify the internal name (you can find it out with &lt;a href="#" onclick="toggleListWizard();"&gt;this tool&lt;/a&gt;) of the &lt;b&gt;Column to test&lt;/b&gt; for existence of pickable filter values. (Leave blank to use the &lt;i&gt;Title&lt;/i&gt; Column.)</value>
+  </data>
+  <data name="SendCellTo" xml:space="preserve">
+    <value>Send Single Data Value To</value>
+  </data>
+  <data name="CfgSettingTitle_PickerLimit" xml:space="preserve">
+    <value>Hard limit for pickable choices in drop-down filters</value>
+  </data>
+  <data name="Prop_CatchAll" xml:space="preserve">
+    <value>Advanced: treat the 'Column / filter name' of this filter (specified at the top) as the name of a &lt;b&gt;bundling parameter, and catch-all&lt;/b&gt; (and send) the column names and filter values specified by all its sub-parameters dynamically. (Use '?' to catch-all request parameters without sub-parameter handling.)</value>
+  </data>
+  <data name="ValidNames" xml:space="preserve">
+    <value>Based on the currently available connection information, you can safely use &lt;a href="#noop" onclick="jQuery('#roxvalidnames').slideToggle();"&gt;these known filter names&lt;/a&gt;.&lt;ul style="margin: 0px; display: none;" id="roxvalidnames"&gt;&lt;li&gt;{0}&lt;/li&gt;&lt;li&gt;(However, most Web Parts do not report &lt;i&gt;all&lt;/i&gt; the column / filter names that can be effectively used. To find out additional names that work with the currently connected Web Parts, experiment with internal column names of Lists used by the currently connected Web Parts, or consult the developer or documentation of the currently connected Web Parts.)&lt;/li&gt;&lt;li&gt;If the above filter names start with '@' and don't work, try them without the prefix (column names are sometimes reported that way by XSL / Data View Web Parts).&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Highlight" xml:space="preserve">
+    <value>Emulate Search behavior by: &lt;span id="roxhilite"&gt;highlighting&lt;/span&gt; partial matches in connected consumer List Views *</value>
+  </data>
+  <data name="CfgSettingDesc_AutoInfo" xml:space="preserve">
+    <value>If desired, use this setting to compose an explanatory note for end users, to be displayed at the bottom of all Text Filters' List-based AutoSuggest drop-downs.</value>
+  </data>
+  <data name="HtmlTempCount" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Ajax14Interval" xml:space="preserve">
+    <value>to emulate &lt;i&gt;Asynchronous Automatic Refresh&lt;/i&gt;, auto-invoke their &lt;i&gt;Manual Refresh&lt;/i&gt; buttons every</value>
+  </data>
+  <data name="SelectedGroupConn" xml:space="preserve">
+    <value>&amp;mdash; if the &lt;a href="#noop" onclick="jQuery('#roxlog_{1}').slideToggle();"&gt;Order of connection events&lt;/a&gt; below indicates that &lt;i&gt;Sent&lt;/i&gt; events occurred before any &lt;i&gt;Received&lt;/i&gt; events, try to recreate all your connections in the desired order, or choose a different provider Web part from the &lt;i&gt;edit&lt;/i&gt; &amp;rarr; &lt;i&gt;Connections&lt;/i&gt; &amp;rarr; &lt;i&gt;Get Current Filter Group From&lt;/i&gt; menu for this Filter Web Part. The current filter group must have been &lt;i&gt;received&lt;/i&gt; before the first values are being &lt;i&gt;sent&lt;/i&gt;.</value>
+  </data>
+  <data name="CfgSettingCaption_AllowCells" xml:space="preserve">
+    <value>'Data Cell' Connection Type</value>
+  </data>
+  <data name="CfgSettingDesc_AutoLimit" xml:space="preserve">
+    <value>In an AutoSuggest drop-down, when more than say 20-30 items are displayed, users are much more likely to further refine their text input rather than scan hundreds of choices, and a low limit drastically improves performance of List-based auto-completion drop-downs in Text filters. To customize this, enter an integer number higher than 1, otherwise the default value of 40 will be used as the limit.</value>
+  </data>
+  <data name="_Settings" xml:space="preserve">
+    <value>PickerLimit:string;Datasheet:[none|redirect];NoFoldersAlt:bool;Anim:string;Auto1Begins:bool;AutoLimit:string;AutoInfo:text;BlockedParams:text;DataProviders:text;IndentHint:string;ExcludeViews:text;FilterTypes:text;RememberByNameOnly:bool;RememberStorage:[both|spweb|cookies];RemoveParams:text;AllowCells:bool</value>
+  </data>
+  <data name="DisableFiltersNone" xml:space="preserve">
+    <value>none of the</value>
+  </data>
+  <data name="DisableFiltersSome" xml:space="preserve">
+    <value>applicable</value>
+  </data>
+  <data name="JsFilterValue" xml:space="preserve">
+    <value>filtervalue</value>
+  </data>
+  <data name="SuppressUnknownFilters" xml:space="preserve">
+    <value>Suppress (never send) 'unknown' &lt;a href="#mainContent" onclick="jQuery('#roxvalidnames').slideToggle();"&gt;filter names&lt;/a&gt;</value>
+  </data>
+  <data name="CfgSettingDesc_FilterTypes" xml:space="preserve">
+    <value>Specify the additional or third-party FilterZen filter types to make available to FilterZen Filter Web Parts in this Farm (one per line, using the pattern "full roxority_FilterZen.FilterBase inheritor class type name, full assembly name"). CAUTION: uninstalling an external filter type assembly will break all Filter Web Parts that still use a filter of that type.</value>
+  </data>
+  <data name="DisableFiltersAll" xml:space="preserve">
+    <value>all</value>
+  </data>
+  <data name="Prop_CustomFieldNames" xml:space="preserve">
+    <value>Regardless of the above choices, always allow selection of the following additional fields (one per line)...</value>
+  </data>
+  <data name="FilterType_Lookup" xml:space="preserve">
+    <value>List Lookup Filter</value>
+  </data>
+  <data name="FilterType_WssContext" xml:space="preserve">
+    <value>SharePoint Context Filter</value>
+  </data>
+  <data name="FilterType_CamlDistinct" xml:space="preserve">
+    <value>Unique Constraint ('Distinct' emulation)</value>
+  </data>
+  <data name="CfgSettingDesc_BlockedParams" xml:space="preserve">
+    <value>When using catch-all URL / Page Request  Filters, optionally specify the request parameter names (one per line) that should never be sent as filters. Including the SharePoint-typical URL parameters in this setting's default value is recommended.</value>
+  </data>
+  <data name="SendsCellDesc" xml:space="preserve">
+    <value>Provides a single value to connected Web Parts based on the filters configured for this Web Part</value>
+  </data>
+  <data name="Prop_CamlOperator" xml:space="preserve">
+    <value>Select the &lt;b&gt;filter operator&lt;/b&gt; to use for &lt;i&gt;CAML Direct&lt;/i&gt;-compatible Web Parts:</value>
+  </data>
+  <data name="FilterType_ZenLookup" xml:space="preserve">
+    <value>Lookup Filter</value>
+  </data>
+  <data name="ReasonNoName" xml:space="preserve">
+    <value>Filter does not have a name.</value>
+  </data>
+  <data name="FilterNoneNone" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="Empty" xml:space="preserve">
+    <value>(Empty)</value>
+  </data>
+  <data name="Prop_AllowMultiEnter" xml:space="preserve">
+    <value>Allow selection of &lt;b&gt;multiple values&lt;/b&gt;</value>
+  </data>
+  <data name="BdcID" xml:space="preserve">
+    <value>BCS/BDC Entity Instance ID</value>
+  </data>
+  <data name="Prop_AllowMultiCombo" xml:space="preserve">
+    <value>Allow interactive end user composition of &lt;b&gt;multiple filters&lt;/b&gt; (with and/or; recommended)</value>
+  </data>
+  <data name="FolderScope_Recursive" xml:space="preserve">
+    <value>Show files/items only, across all folders and sub-folders</value>
+  </data>
+  <data name="DebugModeOn" xml:space="preserve">
+    <value>Always display the currently sent filter values</value>
+  </data>
+  <data name="Html0" xml:space="preserve">
+    <value>don't embed...</value>
+  </data>
+  <data name="Html1" xml:space="preserve">
+    <value>prepend to interactive filter controls...</value>
+  </data>
+  <data name="Html2" xml:space="preserve">
+    <value>append to interactive filter controls...</value>
+  </data>
+  <data name="CamlListView" xml:space="preserve">
+    <value>When connected to List View Web Parts with &lt;i&gt;CAML Direct&lt;/i&gt; filtering mode enabled...</value>
+  </data>
+  <data name="CfgSettingChoice_RememberStorage_both" xml:space="preserve">
+    <value>Both (recommended)</value>
+  </data>
+  <data name="SectionDesc_FilterEditor" xml:space="preserve">
+    <value>Click 'Apply' or 'Discard' below to return to the Web Part tool pane.</value>
+  </data>
+  <data name="RememberFilterValues" xml:space="preserve">
+    <value>Remember filter values last used for each user *</value>
+  </data>
+  <data name="RowLabel" xml:space="preserve">
+    <value>&lt;a href="#noop" onclick="jQuery('#rmv_{1}').slideToggle();"&gt;Limited Filter Web Part and Filter editability due to active 'Send Values As Data Row' Connection.&lt;/a&gt;&lt;div id="rmv_{1}" style="display: none;"&gt;This Filter Web Part currently sends one or more filter values as a data row to connected Web Parts. You can mostly edit this Web Part and its Filters freely, but before you can disable, rename or remove Filters, you first need to: close the Web Part tool pane, temporarily remove the 'Send Values As Data Row' Connections set up for this Web Part, and re-create them after you have saved your Web Part and Filter modifications.&lt;/div&gt;</value>
+  </data>
+  <data name="ReasonLocked" xml:space="preserve">
+    <value>Value suppressed per filter setting.</value>
+  </data>
+  <data name="ItemIDFirst" xml:space="preserve">
+    <value>(The first item after pre-filtering and sorting)</value>
+  </data>
+  <data name="SectionDesc_Filters" xml:space="preserve">
+    <value>This Web Part sends the following filters (unless disabled) to all connected Web Parts.</value>
+  </data>
+  <data name="_hasjquery" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="FilterType_Date" xml:space="preserve">
+    <value>Date Filter</value>
+  </data>
+  <data name="FilterType_None" xml:space="preserve">
+    <value>(Add new filter...)</value>
+  </data>
+  <data name="FilterType_User" xml:space="preserve">
+    <value>User Filter</value>
+  </data>
+  <data name="FilterType_Text" xml:space="preserve">
+    <value>Text Filter</value>
+  </data>
+  <data name="NameSelector" xml:space="preserve">
+    <value>(Pick from 'known' names...)</value>
+  </data>
+  <data name="UrlParams" xml:space="preserve">
+    <value>For your custom code integration: upon end-user filter actions, each interactive filter sets its own URL parameter (write-only)</value>
+  </data>
+  <data name="Prop_SendAllAsMultiValuesIfEmpty" xml:space="preserve">
+    <value>Explicitly &lt;i&gt;send all&lt;/i&gt; pickable choices as &lt;b&gt;multiple values&lt;/b&gt; if selection is '(Empty)' / '(All)' (usually &lt;b&gt;not&lt;/b&gt; recommended)</value>
+  </data>
+  <data name="MultiFilters" xml:space="preserve">
+    <value>Multiple filters per FilterZen Web Part</value>
+  </data>
+  <data name="HelpTopic_webpart" xml:space="preserve">
+    <value>Walkthrough: using FilterZen</value>
+  </data>
+  <data name="BtnDiscard" xml:space="preserve">
+    <value>Discard</value>
+  </data>
+  <data name="GetValuesFromRow" xml:space="preserve">
+    <value>Get Row Data from</value>
+  </data>
+  <data name="ReasonBlocked" xml:space="preserve">
+    <value>Skipped as 'No-Filter Parameter' per farm-wide configuration setting</value>
+  </data>
+  <data name="CfgSettingDef_ExcludeViews" xml:space="preserve">
+    <value>/forms/combine.aspx
+/forms/repair.aspx
+/forms/webfldr.aspx</value>
+  </data>
+  <data name="FilterType_RequestParameter" xml:space="preserve">
+    <value>URL / Page Request Filter</value>
+  </data>
+  <data name="CfgSettingTitle_AllowCells" xml:space="preserve">
+    <value>Enable Web Part Connections menu option 'Send single data value to'</value>
+  </data>
+  <data name="Prop_Groups" xml:space="preserve">
+    <value>Select all groups this filter belongs to:</value>
+  </data>
+  <data name="CamlDataFormConnected" xml:space="preserve">
+    <value>&lt;b&gt;Connected to unrecognized Web Parts.&lt;/b&gt; The CAML Direct filtering mode is currently enabled. This works only with List View, PeopleZen and Data View Web Parts that are listed as &lt;i&gt;recognized&lt;/i&gt; above (under 'Connected and sending values'). If your List View or Data View Web Part is not listed as &lt;i&gt;recognized&lt;/i&gt; above, but only implicitly mentioned as &lt;i&gt;'one or more unrecognized Web Parts'&lt;/i&gt;, try switching to a different connection type.</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>[disabled] </value>
+  </data>
+  <data name="JsonOne" xml:space="preserve">
+    <value>Multiple adjacent operators defined. Group your operators in sub-structures instead.</value>
+  </data>
+  <data name="DebugOutput" xml:space="preserve">
+    <value>Current filter values:&lt;ul style="margin: 0px;"&gt;&lt;li&gt;{0}&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="JsValue" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="MultiValueFilter" xml:space="preserve">
+    <value>Primary filter for the 'Send Transformable Values' Connection type:</value>
+  </data>
+  <data name="HelpTopic_intro" xml:space="preserve">
+    <value>Introduction</value>
+  </data>
+  <data name="Prop_AllowAllListFields" xml:space="preserve">
+    <value>Allow selection of &lt;i&gt;all List fields&lt;/i&gt; (custom line-of-business Columns manually added to this List)</value>
+  </data>
+  <data name="HelpTopic_text_filters" xml:space="preserve">
+    <value>Text Filters</value>
+  </data>
+  <data name="HelpTopic_setup" xml:space="preserve">
+    <value>Solution Installation and Feature Activation</value>
+  </data>
+  <data name="FolderScope_FilesOnly" xml:space="preserve">
+    <value>Show files/items in the current folder only (no sub-folders)</value>
+  </data>
+  <data name="ToolButton_RemoveFilter" xml:space="preserve">
+    <value>Remove the selected filter</value>
+  </data>
+  <data name="FilterWebPart_Desc" xml:space="preserve">
+    <value>Choose from a comprehensive range of filter types to filter connected Web Parts automatically or interactively.</value>
+  </data>
+  <data name="CfgSettingDesc_NoFoldersAlt" xml:space="preserve">
+    <value>The CAML Direct filtering mode allows you to &lt;i&gt;&amp;quot;override the default display of folders&amp;quot;&lt;/i&gt; when connected to List View Web Parts. Tick this check box to only attempt this override when active filter values have been sent, instead of always.</value>
+  </data>
+  <data name="Prop_SuppressMode" xml:space="preserve">
+    <value>&lt;b&gt;Always suppress&lt;/b&gt; certain filter values?</value>
+  </data>
+  <data name="Prop_NumberFormat" xml:space="preserve">
+    <value>Specify the &lt;b&gt;format string for numeric values&lt;/b&gt; sent or displayed. If blank, this filter will not test for numericality; otherwise, this filter will first attempt to convert its value to a number, and if successful convert it back to a text value using the locale specified next (if any) and the following &lt;a href="http://msdn.microsoft.com/en-us/library/dwhawy9k.aspx#table" target="_blank"&gt;format string&lt;/a&gt;:</value>
+  </data>
+  <data name="HelpTopic_release_notes" xml:space="preserve">
+    <value>Release Notes</value>
+  </data>
+  <data name="JsonUnknown" xml:space="preserve">
+    <value>Unknown filter name: </value>
+  </data>
+  <data name="RequestMode3" xml:space="preserve">
+    <value>URL path fragment</value>
+  </data>
+  <data name="RequestMode2" xml:space="preserve">
+    <value>Both, plus cookies and server variables</value>
+  </data>
+  <data name="RequestMode1" xml:space="preserve">
+    <value>Posted form data</value>
+  </data>
+  <data name="RequestMode0" xml:space="preserve">
+    <value>URL query string</value>
+  </data>
+  <data name="FilterDesc_Favorites" xml:space="preserve">
+    <value>Lets end users manage various filter value presets for this FilterZen Web Part. End users can save their current filter values in a list of favorites, and select them later to be instantly applied. (Site administrators can also manage and add shared presets available to all users.) The name for this "filter" does not matter but DO give it some name just to stay organized.</value>
+  </data>
+  <data name="_MappingKey" xml:space="preserve">
+    <value>FormControls</value>
+  </data>
+  <data name="CfgSettingTitle_Datasheet" xml:space="preserve">
+    <value>How to deal with 'Edit in Datasheet'</value>
+  </data>
+  <data name="FilterDesc_WssContext" xml:space="preserve">
+    <value>Obtains the filter value automatically from the current SharePoint Web Application, Site Collection, Web Site, Library, List, View, Item or Document context.</value>
+  </data>
+  <data name="SuppressSpacing" xml:space="preserve">
+    <value>Suppress all horizontal Web Part spacings (in vertical zones; only recommended on full Library / List View pages)</value>
+  </data>
+  <data name="CamlFiltersYes" xml:space="preserve">
+    <value>&lt;b&gt;&lt;i&gt;CAML Direct&lt;/i&gt; filtering mode&lt;/b&gt; &amp;mdash; limited compatibility (List Views, Data Views, PeopleZen) but maximum capabilities</value>
+  </data>
+  <data name="FilteringMode" xml:space="preserve">
+    <value>Filtering Mode</value>
+  </data>
+  <data name="BdcFailed" xml:space="preserve">
+    <value>The BCS/BDC object (model / system / application, external content type / entity type, view, field, external data record or entity instance) '{0}' could not be accessed. Review your BCS/BDC configuration and/or the BCS/BDC Filter settings.</value>
+  </data>
+  <data name="Prop_Choices" xml:space="preserve">
+    <value>Specify the &lt;b&gt;valid choices&lt;/b&gt;, one per line.</value>
+  </data>
+  <data name="FolderScope_RecursiveAll" xml:space="preserve">
+    <value>Show files/items and sub-folders across all folders</value>
+  </data>
+  <data name="Prop_PostFilterListViewUrl" xml:space="preserve">
+    <value>Specify the (absolute, web-relative or site-relative) &lt;b&gt;View URL of the List&lt;/b&gt; (you can find out the Default one with &lt;a onclick="toggleListWizard();" href="#noop"&gt;this tool&lt;/a&gt;) to test for existence of pickable filter values. (Leave empty to use the Default View URL of the Library containing this Web Part page, if any.)</value>
+  </data>
+  <data name="CfgSettingGroup_Advanced" xml:space="preserve">
+    <value>Advanced Settings</value>
+  </data>
+  <data name="Cap_ApplyChanges" xml:space="preserve">
+    <value>Applying Web Part Modifications</value>
+  </data>
+  <data name="_WhiteLabelUrlContact" xml:space="preserve">
+    <value>contact#down</value>
+  </data>
+  <data name="FilterWebPart_Title" xml:space="preserve">
+    <value>FilterZen Filter Web Part [ROXORITY™]</value>
+  </data>
+  <data name="Prop_Indent" xml:space="preserve">
+    <value>Show multiple filters indented to indicate which logical precedences will apply (recommended)</value>
+  </data>
+  <data name="HelpTopic_choice_filters" xml:space="preserve">
+    <value>Choice Filters</value>
+  </data>
+  <data name="Prop_ItemID" xml:space="preserve">
+    <value>Pick the &lt;b&gt;default filter value&lt;/b&gt;. (Made changes? &lt;a onclick="roxRefreshFilters();" href="#"&gt;Refresh&lt;/a&gt;)</value>
+  </data>
+  <data name="CfgSettingTitle_Anim" xml:space="preserve">
+    <value>Custom image URL for "Loading..." spinner animation</value>
+  </data>
+  <data name="Prop_RemoveDuplicateTitles" xml:space="preserve">
+    <value>Remove display duplicates</value>
+  </data>
+  <data name="SuppressMode4" xml:space="preserve">
+    <value>Suppress (don't send) all except:</value>
+  </data>
+  <data name="SuppressMode3" xml:space="preserve">
+    <value>Suppress (send Empty) all except:</value>
+  </data>
+  <data name="SuppressMode2" xml:space="preserve">
+    <value>Suppress (don't send) none except:</value>
+  </data>
+  <data name="SuppressMode1" xml:space="preserve">
+    <value>Suppress (send Empty) none except:</value>
+  </data>
+  <data name="SuppressMode0" xml:space="preserve">
+    <value>Don't suppress any filter values</value>
+  </data>
+  <data name="InfoFilterPreview" xml:space="preserve">
+    <value>&lt;b&gt;Live preview:&lt;/b&gt; while editing a particular filter, filter values sent and interactive filter controls will for the most part temporarily reflect your modifications without having to apply or save those changes first. &lt;a onclick="roxRefreshFilters();" href="#noop"&gt;&lt;b&gt;Refresh Preview&lt;/b&gt;&lt;/a&gt;&lt;br/&gt;(Live preview only applies to you, not other visitors to this page, and only to filter settings, not other Web Part settings.)</value>
+  </data>
+  <data name="ErrorModeOn" xml:space="preserve">
+    <value>Always display errors and warnings</value>
+  </data>
+  <data name="HelpTopic_advanced" xml:space="preserve">
+    <value>FilterZen Web Part Settings</value>
+  </data>
+  <data name="DebugMode" xml:space="preserve">
+    <value>Debug Mode</value>
+  </data>
+  <data name="Prop_RemoveDuplicateValues" xml:space="preserve">
+    <value>Remove duplicate values</value>
+  </data>
+  <data name="GetGroupFrom" xml:space="preserve">
+    <value>Get Current Filter Group From</value>
+  </data>
+  <data name="Prop_SqlChoice" xml:space="preserve">
+    <value>Pick the &lt;b&gt;default filter value&lt;/b&gt;:</value>
+  </data>
+  <data name="FilterType_SqlData" xml:space="preserve">
+    <value>SQL Lookup Filter</value>
+  </data>
+  <data name="HtmlTemp" xml:space="preserve">
+    <value>Start from an HTML template:</value>
+  </data>
+  <data name="Prop_AllowAllOtherFields" xml:space="preserve">
+    <value>Allow &lt;i&gt;all other fields&lt;/i&gt; (system and hidden Columns such as ID)</value>
+  </data>
+  <data name="FilterType_BdcFilter" xml:space="preserve">
+    <value>BCS/BDC External Lookup Filter</value>
+  </data>
+  <data name="ErrorMode" xml:space="preserve">
+    <value>Errors and Warnings</value>
+  </data>
+  <data name="FieldCat_None" xml:space="preserve">
+    <value>(None)</value>
+  </data>
+  <data name="Ampersand" xml:space="preserve">
+    <value>A value ('{1}') for filter '{0}' contained an ampersand (&amp;). If you're filtering a List View this filter value will not be supported by SharePoint unless and until you switch to CAML Direct filtering mode for this FilterZen Web Part.</value>
+  </data>
+  <data name="Prop_AutoSuggest" xml:space="preserve">
+    <value>List-based AutoSuggest drop-down, if possible</value>
+  </data>
+  <data name="CfgSettingGroup_Ux" xml:space="preserve">
+    <value>User Experience</value>
+  </data>
+  <data name="_AdminHelpTopics" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NoPageLibrary" xml:space="preserve">
+    <value>This filter will not work on this Web Part Page because the latter is not stored in a Document Library. (Page Column Filters determine the filter value from a Column value associated with the Web Part Page. Only Web Part Pages stored in Document Libraries can have Column values associated with them.)</value>
+  </data>
+  <data name="CamlDataFormFail" xml:space="preserve">
+    <value>The &lt;i&gt;CAML Direct&lt;/i&gt; filtering mode may not work for the &lt;i&gt;{0}&lt;/i&gt; Data View Web Part until you un-check its &amp;quot;&lt;i&gt;Send first row to connected Web Parts when page loads&lt;/i&gt;&amp;quot; option (in the &lt;i&gt;Miscellaneous&lt;/i&gt; section).</value>
+  </data>
+  <data name="BdcWebPart_Desc" xml:space="preserve">
+    <value>[REQUIRES SharePoint Server and BCS/BDC] Obtains a Business Data Connectivity (BCS/BDC) external data record / entity instance ID from a connected provider Web Part (instead of the 'ID' URL parameter), and sends the BCS/BDC entity instance to all connected BCS/BDC Web Parts (and any other type of consumer).</value>
+  </data>
+  <data name="DisableFilters" xml:space="preserve">
+    <value>...disable the built-in column header filter menus</value>
+  </data>
+  <data name="Prop_PostFilter" xml:space="preserve">
+    <value>Pre-filtering &amp;mdash; only offer pickable choices that also exist in a List column:</value>
+  </data>
+  <data name="CfgSettingDesc_RememberStorage" xml:space="preserve">
+    <value>FilterZen Web Parts can be set to &lt;b&gt;'Remember filter values last used for each user'&lt;/b&gt;. By default these values are stored both in the user agent (browser) and in the SharePoint content database, but this configuration settings lets you override that default hybrid storage model. Client-side cookies may be cleared by users or blocked due to corporate security policies. Server-side storage may in rare configurations fail silently due to administrative access restrictions even for elevated code, or with large user bases may inflate the content database over time.</value>
+  </data>
+  <data name="Prop_Preview" xml:space="preserve">
+    <value>Matching URL format example:</value>
+  </data>
+  <data name="FilterDesc_CamlDistinct" xml:space="preserve">
+    <value>Filters out duplicate Column values (if CAML Direct filtering mode is enabled) and only shows a single record per unique value.</value>
+  </data>
+  <data name="HtmlTitle0" xml:space="preserve">
+    <value>Filter link</value>
+  </data>
+  <data name="HtmlTitle1" xml:space="preserve">
+    <value>Filter button</value>
+  </data>
+  <data name="HtmlTitle2" xml:space="preserve">
+    <value>Filter and Clear All links</value>
+  </data>
+  <data name="HtmlTitle3" xml:space="preserve">
+    <value>Filter and Clear All buttons</value>
+  </data>
+  <data name="HelpTopic_general" xml:space="preserve">
+    <value>General Filter Settings</value>
+  </data>
+  <data name="_Editions" xml:space="preserve">
+    <value>Lite,Basic,Ultimate</value>
+  </data>
+  <data name="Ajax14Interval2" xml:space="preserve">
+    <value>seconds (0 to disable; remember to turn off their &lt;i&gt;Asynchronous Automatic Refresh&lt;/i&gt; option and turn on their &lt;i&gt;Manual Refresh Button&lt;/i&gt; option yourself!)</value>
+  </data>
+  <data name="CqwpCaml" xml:space="preserve">
+    <value>For this connection to the FilterZen Content-by-Query Web Part, the CAML Direct filtering mode needs to be enabled.</value>
+  </data>
+  <data name="Prop_ParameterName" xml:space="preserve">
+    <value>Optionally specify the name of the &lt;b&gt;request (eg. form or URL) parameter&lt;/b&gt; providing the filter value. (Leave blank to use the above filter name.)</value>
+  </data>
+  <data name="SendsDesc" xml:space="preserve">
+    <value>Filters connected Web Parts based on the filters configured for this Web Part</value>
+  </data>
+  <data name="Prop_AbsoluteDateTime" xml:space="preserve">
+    <value>Optionally specify the &lt;b&gt;default date filter value(s)&lt;/b&gt;. Enter 'Today' for the filter to always use the current date.</value>
+  </data>
+  <data name="AutoConnect" xml:space="preserve">
+    <value>On pages with nothing but a single List View, automatically filter it connectionless (uses CAML Direct filtering mode)</value>
+  </data>
+  <data name="Prop_FallbackValue" xml:space="preserve">
+    <value>If empty, always &lt;b&gt;fall back&lt;/b&gt; to this filter value:</value>
+  </data>
+  <data name="NotConnected" xml:space="preserve">
+    <value>(Not connected: to connect this Web Part, select 'Connections' in the Web Part menu.)</value>
+  </data>
+  <data name="Prop_AllowAllViewFields" xml:space="preserve">
+    <value>Allow selection of &lt;i&gt;all View fields&lt;/i&gt; (Columns included in the currently connected View)</value>
+  </data>
+  <data name="Prop_DateCulture" xml:space="preserve">
+    <value>To enforce a specific &lt;b&gt;locale for date values&lt;/b&gt; sent, optionally specify its short name (eg. en-us) or numeric locale ID (eg. 1033). See &lt;a target="_blank" href="/_layouts/roxority_FilterZen/default.aspx?doc=date_filters#s0"&gt;product documentation&lt;/a&gt; for a complete list of valid settings.</value>
+  </data>
+  <data name="SendRowTo" xml:space="preserve">
+    <value>Send Values As Row Data To</value>
+  </data>
+  <data name="SectionDesc_Interactive" xml:space="preserve">
+    <value>This Web Part currently contains enabled 'interactive' filters. These filters render a visible user interface control into the Web Part Page to allow end-user filtering, because you have set them to 'Allow users to enter / pick a filter value'. You can customize the behaviour and appearance of this visible and interactive Web Part area:
+&lt;br/&gt;&lt;br/&gt;(* options marked with * are not available for &lt;i&gt;Dynamic Ad-Hoc Filters&lt;/i&gt;)</value>
+  </data>
+  <data name="_SettingGroups" xml:space="preserve">
+    <value>Ux:PickerLimit|Filters:Auto1Begins|Advanced:RememberByNameOnly</value>
+  </data>
+  <data name="FilterDesc_Multi" xml:space="preserve">
+    <value>Lets end users arrange their own filters (fields, values and operators) interactively, directly inside the Web Part (instead of imposing a static arrangement of pre-defined filters). The name for this filter does not directly matter since users add their own filters on the fly, but DO give it a valid field, column or filter name (such as Title) as usual!</value>
+  </data>
+  <data name="CfgSettingChoice_Datasheet_none" xml:space="preserve">
+    <value>Ignore problem (displays Microsoft error message)</value>
+  </data>
+  <data name="CamlOp_RangeGtLe" xml:space="preserve">
+    <value>range: &gt; x and &lt;= y</value>
+  </data>
+  <data name="CamlOp_RangeGtLt" xml:space="preserve">
+    <value>range: &gt; x and &lt; y</value>
+  </data>
+  <data name="CamlOp_RangeGeLt" xml:space="preserve">
+    <value>range: &gt;= x and &lt; y</value>
+  </data>
+  <data name="CamlOp_RangeGeLe" xml:space="preserve">
+    <value>range: &gt;= x and &lt;= y</value>
+  </data>
+  <data name="CfgSettingDesc_RememberByNameOnly" xml:space="preserve">
+    <value>FilterZen Web Parts can be set to &lt;b&gt;'Remember filter values last used for each user'&lt;/b&gt;. By default these stored values are unique to the user, the filter name and the FilterZen Web Part storing them. Tick this check box to store and restore values only based on the user and filter name instead, which lets you share filter values of the same name between multiple individual FilterZen Web Parts.</value>
+  </data>
+  <data name="FilterType_Multi" xml:space="preserve">
+    <value>Dynamic Ad-Hoc Filters (Adv. Search UI)</value>
+  </data>
+  <data name="HelpTopic_eula" xml:space="preserve">
+    <value>End-User License Agreement (EULA)</value>
+  </data>
+  <data name="PostFilterFailed" xml:space="preserve">
+    <value>The specified List ('{0}'), View ('{1}'), or Column ('{2}') could not be accessed. Double-check these pre-filtering settings for this filter.</value>
+  </data>
+  <data name="LogCaml" xml:space="preserve">
+    <value>&lt;li&gt;CAML Direct filtering: &lt;b&gt;{0}&lt;/b&gt; &lt;a href="#noop" onclick="jQuery('.roxcamlquery').toggle();" style="display: {2}; color: InfoBackground !important;"&gt;show generated query...&lt;/a&gt;&lt;div class="roxcamlquery" style="display: none;"&gt;&lt;br/&gt;&lt;b&gt;CAML&lt;/b&gt; &amp;mdash; {1}&lt;br/&gt;&lt;br/&gt;&lt;b&gt;JSON&lt;/b&gt; &amp;mdash; {3}&lt;/div&gt;&lt;/li&gt;</value>
+  </data>
+  <data name="LogHtml" xml:space="preserve">
+    <value>&lt;a href="#noop" onclick="jQuery('#roxlog_{1}').slideToggle();"&gt;Order of connection events&lt;/a&gt;: &lt;ul style="margin: 0px; display: none;" id="roxlog_{1}"&gt;{0}&lt;/ul&gt;</value>
+  </data>
+  <data name="LogSent" xml:space="preserve">
+    <value>&lt;li&gt;Value(s) sent via: &lt;b&gt;{0}&lt;/b&gt;&lt;/li&gt;</value>
+  </data>
+  <data name="ReasonSuppressed" xml:space="preserve">
+    <value>'Unknown' filter name, suppressed per Filter Web Part setting</value>
+  </data>
+  <data name="SendUrlFilterTo" xml:space="preserve">
+    <value>Send Filter Values To</value>
+  </data>
+  <data name="CamlOp_NotMe" xml:space="preserve">
+    <value>not me</value>
+  </data>
+  <data name="CfgSettingDesc_PickerLimit" xml:space="preserve">
+    <value>Interactive drop-down filters (such as Choice, List Lookup, SQL, User and BCS/BDC Filters) use this threshold to limit the number of visibly pickable choices. This is recommended both for usability and performance reasons. To disable the limit (not recommended), set this setting to 0. If you don't specify a valid integer number, the default value of 150 will be used.</value>
+  </data>
+  <data name="CfgSettingChoice_Datasheet_disable" xml:space="preserve">
+    <value>Disable or hide the 'Edit in Datasheet' command</value>
+  </data>
+  <data name="ErrorModeOff" xml:space="preserve">
+    <value>Only display them in Web Part edit mode</value>
+  </data>
+  <data name="DataFormConnected" xml:space="preserve">
+    <value>&lt;b&gt;Filtering a Data Form, Data View, BCS/BDC List or other XSLT Web Part?&lt;/b&gt; Be aware that those Web Parts may &lt;i&gt;not visually reflect&lt;/i&gt; FilterZen Web Part or connection changes &lt;i&gt;at once&lt;/i&gt; while you stay on this page, although they &lt;i&gt;do&lt;/i&gt; take effect immediately for other page visitors as soon as you save any changes.</value>
+  </data>
+  <data name="FilterFlyDesc" xml:space="preserve">
+    <value>Creates a new {0} for this 'known' filter name, pre-initialized from available Column meta data.</value>
+  </data>
+  <data name="CamlFiltersNo" xml:space="preserve">
+    <value>&lt;b&gt;&lt;i&gt;Classical&lt;/i&gt; filtering mode&lt;/b&gt; &amp;mdash; maximum compatibility (all connectable Web Parts) but limited capabilities</value>
+  </data>
+  <data name="BdcWebPart_Title" xml:space="preserve">
+    <value>FilterZen BCS/BDC Business Data Item Builder [ROXORITY™]</value>
+  </data>
+  <data name="WebPartConnectedUnknown" xml:space="preserve">
+    <value>one or more &lt;i&gt;unrecognized&lt;/i&gt; Web Parts</value>
+  </data>
+  <data name="CfgSettingTitle_RememberByNameOnly" xml:space="preserve">
+    <value>When remembering filter values, store by name only (and share across FilterZen Web Parts)</value>
+  </data>
+  <data name="CfgSettingDef_PickerLimit" xml:space="preserve">
+    <value>150</value>
+  </data>
+  <data name="JsonFilters" xml:space="preserve">
+    <value>Advanced: to create a logical precedence hierarchy of AND/OR combinations, specify the desired structures &lt;a target="_blank" href="http://roxority.com/sharepoint-zen/filtering-sharepoint-lists-using-nested-and-or-operator-prec.html"&gt;using JSON syntax&lt;/a&gt; below (usually not necessary).</value>
+  </data>
+  <data name="FolderScope_" xml:space="preserve">
+    <value>(Do not modify original View setting)</value>
+  </data>
+  <data name="CamlOp_Gt" xml:space="preserve">
+    <value>is greater than</value>
+  </data>
+  <data name="CamlOp_Eq" xml:space="preserve">
+    <value>equals</value>
+  </data>
+  <data name="CamlOp_Or" xml:space="preserve">
+    <value> or </value>
+  </data>
+  <data name="CamlOp_Me" xml:space="preserve">
+    <value>me</value>
+  </data>
+  <data name="CamlOp_Lt" xml:space="preserve">
+    <value>is less than</value>
+  </data>
+  <data name="BtnApply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="JsonError" xml:space="preserve">
+    <value>Error parsing your logical AND/OR hierarchy: </value>
+  </data>
+  <data name="JsonCraze" xml:space="preserve">
+    <value>Your JSON logical precedence hierarchy is unsupported since it includes '{0}'. Place '{1}' at the last position of any one of your [tuples].</value>
+  </data>
+  <data name="ParametersAlt" xml:space="preserve">
+    <value>'Parameters' [Not for PeopleZen!]</value>
+  </data>
+  <data name="ToolButton_EditFilter" xml:space="preserve">
+    <value>Modify the selected filter</value>
+  </data>
+  <data name="DisableFilters2" xml:space="preserve">
+    <value>built-in column header filter menus</value>
+  </data>
+  <data name="DisableFilters1" xml:space="preserve">
+    <value>...disable</value>
+  </data>
+  <data name="ToolButton_AddFilter" xml:space="preserve">
+    <value>Add this new filter</value>
+  </data>
+  <data name="Ampersand12" xml:space="preserve">
+    <value>The ampersand has been removed from the value since it appears you're connected to a List or Data View and this would otherwise have broken the page.</value>
+  </data>
+  <data name="_WhiteLabelUrl" xml:space="preserve">
+    <value>http://roxority.com/</value>
+  </data>
+  <data name="EmptyCur" xml:space="preserve">
+    <value>(Default)</value>
+  </data>
+  <data name="EmptyAll" xml:space="preserve">
+    <value>(All)</value>
+  </data>
+  <data name="Prop_AnyIsAll" xml:space="preserve">
+    <value>'Any field' applies to absolutely all known consumer fields rather than the end user-selectable sub-set defined above</value>
+  </data>
+  <data name="JqueryNone" xml:space="preserve">
+    <value>jQuery is not being embedded &amp;mdash; &lt;a href="#noop" onclick="document.getElementById('rox_fzjq').style.display='block';"&gt;more...&lt;/a&gt;&lt;div class="rox_fzjq" style="display: none;"&gt;You have decided to not have this FilterZen Filter Web Part load the jQuery library into this page. This will break the Filter Web Part unless jQuery v1.4.4 or higher is being included by some other Web Part or by your page design. If FilterZen stopped working after you changed your page design or removed some other Web Part, re-include jQuery from the Web Part settings or via the Product Configuration.&lt;/div&gt;</value>
+  </data>
+  <data name="Prop_GroupFields" xml:space="preserve">
+    <value>Show fields grouped in the filter operand drop-downs</value>
+  </data>
+  <data name="Prop_FalseValue" xml:space="preserve">
+    <value>Specify the &lt;b&gt;False filter value&lt;/b&gt; to be sent (for Yes/No List Columns: leave blank and tick the 'Send filter value even if empty' check box below).</value>
+  </data>
+  <data name="Prop_AllowEmpty" xml:space="preserve">
+    <value>Allow picking the empty filter value</value>
+  </data>
+  <data name="CfgSettingCaption_NoFoldersAlt" xml:space="preserve">
+    <value>Override display of folders only when filters are active</value>
+  </data>
+  <data name="ColumnFailed" xml:space="preserve">
+    <value>Review the correctness of the specified column name '{0}'.</value>
+  </data>
+  <data name="Prop_RelativeOffsetForDefaultOnly" xml:space="preserve">
+    <value>Only do this when the filter value was initialized from the specified default date filter value, and never for a user-selected current filter value</value>
+  </data>
+  <data name="ReasonNull" xml:space="preserve">
+    <value>This filter did not return any filter pairs.</value>
+  </data>
+  <data name="Prop_NumberCulture" xml:space="preserve">
+    <value>Optionally specify the &lt;b&gt;locale for numeric values&lt;/b&gt; when using the above format string: either the locale's short name (eg. en-us) or its numeric locale ID (eg. 1033). See &lt;a target="_blank" href="/_layouts/roxority_FilterZen/default.aspx?doc=date_filters#s0"&gt;product documentation&lt;/a&gt; for a complete list of valid settings.</value>
+  </data>
+  <data name="SearchBehavior" xml:space="preserve">
+    <value>Emulate Search behavior by: showing &lt;i&gt;no&lt;/i&gt; results in the consumer Web Part until filters are explicitly applied by the user (do not use &lt;i&gt;Remember filter values&lt;/i&gt; with this option)</value>
+  </data>
+  <data name="CfgSettingCaption_Auto1Begins" xml:space="preserve">
+    <value>In Text filters' List-based AutoSuggest drop-downs, 1-character entries use BeginsWith instead of Contains</value>
+  </data>
+  <data name="AutoNoField" xml:space="preserve">
+    <value>Unknown column: {0}</value>
+  </data>
+  <data name="GetValuesFrom" xml:space="preserve">
+    <value>Get Filter Values from</value>
+  </data>
+  <data name="GroupsDesc" xml:space="preserve">
+    <value>You can create multiple filter groups &lt;a onclick="jQuery('#roxgroupinfo').slideToggle();" href="#noop"&gt;(more...)&lt;/a&gt; below (one per line). &lt;div style="display: none;" id="roxgroupinfo"&gt;As soon and as long as you have more than one filter group defined, you can select for each of your filters all the groups it belongs to and only filters belonging to the 'currently selected filter group' will ever be used. By default, the first group will be initially selected. To switch between groups, create an additional Web Part (any kind) on this Web Part page that sends via a Web Part Connection the currently selected filter group to this Filter Web Part.&lt;/div&gt;</value>
+  </data>
+  <data name="Prop_RepostOnChange" xml:space="preserve">
+    <value>Immediate automatic re-filtering upon user input *</value>
+  </data>
+  <data name="Section_Filters" xml:space="preserve">
+    <value>All Filters</value>
+  </data>
+  <data name="ResultFirst" xml:space="preserve">
+    <value>(The first row in the result set)</value>
+  </data>
+  <data name="FilterDesc_SqlData" xml:space="preserve">
+    <value>Specify an ADO.NET or SQL data source query to obtain a filter value automatically or to let users pick one.</value>
+  </data>
+  <data name="ReasonNonActive" xml:space="preserve">
+    <value>Filter was set to suppress its value(s) UNLESS end user has interactively applied this Filter Web Part.</value>
+  </data>
+  <data name="MultiLabel" xml:space="preserve">
+    <value>&lt;a onclick="jQuery('#mv_{1}').slideToggle();" href="#noop"&gt;Limited Filter Web Part and '{0}' Filter editability due to active 'Send Transformable Values' Connection.&lt;/a&gt;&lt;div id="mv_{1}" style="display: none;"&gt;This Filter Web Part currently sends transformable '{0}' filter values to connected Web Parts. You can mostly edit this Web Part and its Filters freely, but before you can disable, rename or remove the '{0}' Filter or change the 'Send Transformable Values' Connection to another Filter from this Filter Web Part, you first need to: close the Web Part tool pane, temporarily remove the 'Send Transformable Values' Connection, and re-create it after you have saved your Web Part and Filter modifications.&lt;/div&gt;</value>
+  </data>
+  <data name="MultiCount" xml:space="preserve">
+    <value>This Filter Web Part contains more than one enabled '{0}'. This is not supported and may lead to unexpected results. Remove the other filters of this type.</value>
+  </data>
+  <data name="Prop_AdoDataProvider" xml:space="preserve">
+    <value>Specify the &lt;b&gt;ADO.NET data source provider&lt;/b&gt; used by this filter to connect to the data source. (Data source providers can be configured in the FilterZen Studio.)</value>
+  </data>
+  <data name="HelpTopic_list_lookup_filters" xml:space="preserve">
+    <value>List Lookup Filters</value>
+  </data>
+  <data name="Prop_DisplayColumnName" xml:space="preserve">
+    <value>Optionally specify the &lt;b&gt;display column&lt;/b&gt; &amp;mdash; the name of the column displaying the filter value. (Leave blank to use the above value column.)</value>
+  </data>
+  <data name="Prop_BdcValueField" xml:space="preserve">
+    <value>Specify the &lt;b&gt;value field&lt;/b&gt; &amp;mdash; the Business Data field providing the filter value:</value>
+  </data>
+  <data name="ResultLast" xml:space="preserve">
+    <value>(The last row in the result set)</value>
+  </data>
+  <data name="DefaultToOr" xml:space="preserve">
+    <value>...combine different filter names with OR (instead of AND) by default</value>
+  </data>
+  <data name="ToolButton_FilterUp" xml:space="preserve">
+    <value>Move the selected filter up</value>
+  </data>
+  <data name="CamlDistinct" xml:space="preserve">
+    <value>This filter requires the &lt;i&gt;CAML Direct&lt;/i&gt; filtering mode to be enabled and may degrade performance for large Lists (a few hundred records or more).</value>
+  </data>
+  <data name="FilterProps" xml:space="preserve">
+    <value>{0} Properties</value>
+  </data>
+  <data name="Dyn2" xml:space="preserve">
+    <value>Append to the above filters</value>
+  </data>
+  <data name="Dyn0" xml:space="preserve">
+    <value>Don't add</value>
+  </data>
+  <data name="Dyn1" xml:space="preserve">
+    <value>Prepend to the above filters</value>
+  </data>
+  <data name="Html" xml:space="preserve">
+    <value>...the following HTML mark-up code:</value>
+  </data>
+</root>

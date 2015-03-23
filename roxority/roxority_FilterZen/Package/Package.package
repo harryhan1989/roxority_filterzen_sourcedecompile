@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="0cecf157-3770-46d5-8fa5-26db3f82d3c1" solutionId="0cecf157-3770-46d5-8fa5-26db3f82d3c1" resetWebServer="false" sharePointProductVersion="15.0" name="roxority_FilterZen_xii" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="zh-CN\roxority_FilterZen.resources.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="bin\Debug\zh-CN\roxority_FilterZen.resources.dll" />
+    <customAssembly location="PanGu.dll" deploymentTarget="WebApplication" sourcePath="Dll\PanGu.dll">
+      <safeControls>
+        <safeControl assemblyName="PanGu, Version=2.3.3.0, Culture=neutral, PublicKeyToken=a2103dd0c3e898e1" namespaceName="PanGu" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </customAssembly>
+  </assemblies>
+  <features>
+    <featureReference itemId="b7bf4f14-ed5b-40ce-b8fc-a8dfe3ab1879" />
+    <featureReference itemId="175e3142-faae-4619-b2ad-cbf929c9a16d" />
+    <featureReference itemId="686541e7-ca90-40e1-9d61-fca4341a2d0d" />
+    <featureReference itemId="d513b268-362a-4c27-a297-bb5c1dff89a5" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="ae655f92-2503-425f-a51a-7bb0f3337495" />
+    <projectItemReference itemId="192a149a-3718-4cbc-b3db-f83eecd1dfd4" />
+    <projectItemReference itemId="2f48c71b-471d-431f-8a79-e05da7815787" />
+    <projectItemReference itemId="507bd360-52f7-4c10-bacb-cd534946a1e7" />
+  </projectItems>
+</package>

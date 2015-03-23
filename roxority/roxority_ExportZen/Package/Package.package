@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="023d429f-a5b0-46f8-959b-4965e3c299ce" solutionId="023d429f-a5b0-46f8-959b-4965e3c299ce" resetWebServer="false" sharePointProductVersion="15.0" name="roxority_ExportZen_xii" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="de\roxority_ExportZen.resources.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="de\roxority_ExportZen.resources.dll" />
+    <customAssembly location="NPOI.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="Dll\NPOI.dll" />
+    <projectOutputAssembly location="EPPlus.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\EPPlus\EPPlus.csproj" />
+  </assemblies>
+  <features>
+    <featureReference itemId="02984ee3-1bae-41e3-9bd8-37083869532f" />
+    <featureReference itemId="e45b10f9-f572-4ba6-8a8f-7fb8b409fb1e" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="10ccf0cf-3bad-4491-8b18-6e7ce8b38ed2" />
+    <projectItemReference itemId="10b17e91-c109-426d-8a9a-f0bc632c0f7a" />
+    <projectItemReference itemId="b1ee41c5-362c-46c1-b415-074f4ef9f177" />
+    <projectItemReference itemId="649c8083-585b-48ba-92a1-da1507c3e7e8" />
+  </projectItems>
+</package>
