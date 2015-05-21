@@ -16,9 +16,9 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
-    <IISExpressAnonymousAuthentication />
-    <IISExpressWindowsAuthentication />
-    <IISExpressUseClassicPipelineMode />
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
     <SccProjectName>SAK</SccProjectName>
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
@@ -61,6 +61,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Graph\SocialNetwork\Force.htm" />
+    <Content Include="Graph\SocialNetwork\Force_files\d3.v3.min.js" />
+    <Content Include="Graph\SocialNetwork\SocialNetwork.html" />
+    <Content Include="Graph\SocialNetwork\Social_files\analytics.js" />
+    <Content Include="Graph\SocialNetwork\Social_files\vis.css" />
+    <Content Include="Graph\SocialNetwork\Social_files\vis.js" />
     <Content Include="Slideshow\1\demo.html" />
     <Content Include="Slideshow\1\images\bg_shadow.gif" />
     <Content Include="Slideshow\1\images\bg_thickbox.gif" />
@@ -86,6 +92,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Graph\SocialNetwork\relation.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -106,9 +113,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>28163</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:5071/</IISUrl>
+          <IISUrl>http://localhost:5072/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
